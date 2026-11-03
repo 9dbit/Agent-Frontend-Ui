@@ -93,6 +93,26 @@ test('bonus and promotion claims cannot be repeated through the UI',async t=>{
   assert.equal(state().balance,1280000);assert.equal(get('[data-action="claim-promo"]').disabled,true);
 });
 
+test('promotion listings use source posters while hero-only promotions keep working',async t=>{
+  const {navigate,get,d,click}=await mount(t);
+  const assets=JSON.parse(read('docs/reference/asset-copy-manifest.json')).assets;
+  const posters=new Set(assets.filter(a=>a.url.includes('/promotions/thumbnail')).map(a=>a.localPath));
+  for(const route of ['/','/promotions/all','/promotions/all?category=slots','/promotions/all?category=sports']){
+    navigate(route);
+    const images=[...d.querySelectorAll('.promo-grid img')];
+    assert.ok(images.length>0,route);
+    for(const img of images)assert.ok(posters.has(img.getAttribute('src')),'A promotion card must use a source poster');
+  }
+  navigate('/promotions/all');
+  assert.equal(d.querySelectorAll('.promo-grid img').length,posters.size);
+  click('.promo-grid a');assert.ok(get('[data-action="claim-promo"]'));
+  for(const promo of data.promotions.filter(p=>!p.coverImage)){
+    navigate('/promotions/all/'+promo.id);
+    assert.equal(get('.promo-detail img').getAttribute('src'),promo.banner);
+    assert.equal(get('[data-action="claim-promo"]').dataset.id,promo.id);
+  }
+});
+
 test('logout, login validation, registration and profile use local demo data',async t=>{
   const {navigate,click,get,fill,submit,state,w}=await mount(t);
   navigate('/user');click('[data-action="logout"]');navigate('/deposit');assert.match(get('main').textContent,/belum masuk/);
