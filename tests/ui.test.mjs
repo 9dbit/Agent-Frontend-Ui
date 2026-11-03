@@ -93,24 +93,39 @@ test('bonus and promotion claims cannot be repeated through the UI',async t=>{
   assert.equal(state().balance,1280000);assert.equal(get('[data-action="claim-promo"]').disabled,true);
 });
 
-test('promotion listings use source posters while hero-only promotions keep working',async t=>{
+test('landscape promotion covers preserve every listing, filter and detail destination',async t=>{
   const {navigate,get,d,click}=await mount(t);
-  const assets=JSON.parse(read('docs/reference/asset-copy-manifest.json')).assets;
-  const posters=new Set(assets.filter(a=>a.url.includes('/promotions/thumbnail')).map(a=>a.localPath));
   for(const route of ['/','/promotions/all','/promotions/all?category=slots','/promotions/all?category=sports']){
     navigate(route);
-    const images=[...d.querySelectorAll('.promo-grid img')];
-    assert.ok(images.length>0,route);
-    for(const img of images)assert.ok(posters.has(img.getAttribute('src')),'A promotion card must use a source poster');
+    const category=new URL(route,'https://test.local').searchParams.get('category');
+    const expected=data.promotions.filter(p=>p.coverImage&&(!category||p.category===category));
+    const covers=[...d.querySelectorAll('.promotion-cover')];
+    assert.equal(covers.length,expected.length,route);
+    for(const promo of expected){
+      const cover=get('.promotion-cover[href="/promotions/all/'+promo.id+'"]');
+      assert.equal(cover.querySelector('img').getAttribute('src'),promo.banner||promo.coverImage);
+      assert.equal(Boolean(cover.querySelector('.promotion-composite')),!promo.banner,'Portrait-only artwork must be composed into a landscape cover, not stretched');
+    }
   }
-  navigate('/promotions/all');
-  assert.equal(d.querySelectorAll('.promo-grid img').length,posters.size);
-  click('.promo-grid a');assert.ok(get('[data-action="claim-promo"]'));
+  navigate('/promotions/all');click('.promotion-cover');assert.ok(get('[data-action="claim-promo"]'));
   for(const promo of data.promotions.filter(p=>!p.coverImage)){
     navigate('/promotions/all/'+promo.id);
     assert.equal(get('.promo-detail img').getAttribute('src'),promo.banner);
     assert.equal(get('[data-action="claim-promo"]').dataset.id,promo.id);
   }
+});
+
+test('homepage refresh retains category access and footer while removing retired home sections',async t=>{
+  const {get,d,click,w,navigate}=await mount(t);
+  assert.deepEqual([...get('main').children].slice(0,3).map(e=>e.className),['hero-layout','ticker','main-nav']);
+  assert.deepEqual([...d.querySelectorAll('main .section-title span')].map(e=>e.textContent),['Hot Slots','Sports+','Promosi']);
+  const destinations=[...d.querySelectorAll('.main-nav a')].map(a=>a.getAttribute('href'));
+  assert.equal(destinations.length,10);
+  assert.equal(d.querySelectorAll('.main-nav .category-icon').length,10);
+  assert.equal(d.querySelectorAll('.payment-logos img').length,data.payments.length);
+  assert.equal(d.querySelectorAll('.partners a').length,data.providers.length);
+  assert.ok(get('.footer-about').textContent.includes('GOBI88'));
+  for(const href of destinations){navigate('/');click('.main-nav a[href="'+href+'"]');assert.equal(w.location.pathname,href);assert.ok(!get('main').textContent.includes('Halaman tidak ditemukan'));}
 });
 
 test('logout, login validation, registration and profile use local demo data',async t=>{
