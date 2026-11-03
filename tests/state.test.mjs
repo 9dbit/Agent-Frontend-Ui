@@ -11,3 +11,8 @@ test('guest writes rejected',()=>{const s={...initialState(),signedIn:false};ass
 test('one-time bonus',()=>{const b=initialState(),s=claimBonus(b,'welcome',10000);assert.equal(s.balance,b.balance+10000);assert.throws(()=>claimBonus(s,'welcome',10000));assert.throws(()=>claimBonus(b,'bad',-1));});
 test('favorites toggle',()=>{const b=initialState(),s=toggleFavorite(b,'123');assert.deepEqual(s.favorites,['123']);assert.deepEqual(toggleFavorite(s,'123').favorites,[]);assert.equal(s.balance,b.balance);});
 test('persistence roundtrip and malformed input',()=>{const s=make(initialState());assert.deepEqual(hydrateState(JSON.parse(JSON.stringify(s))),s);assert.equal(hydrateState({version:0}).version,1);assert.equal(hydrateState({version:1,balance:-1}).balance,1250000);});
+
+test('malformed last played data cannot restore a game card',()=>{
+ for(const lastPlayed of [null,[],{},'bad',{gameId:'../bad',playedAt:'2026-11-04'},{gameId:'valid',playedAt:'invalid'}])assert.equal(hydrateState({version:1,lastPlayed}).lastPlayed,null);
+ assert.deepEqual(hydrateState({version:1,lastPlayed:{gameId:'soft-tech-uno-luck',playedAt:'2026-11-04T00:00:00Z',dismissed:true}}).lastPlayed,{gameId:'soft-tech-uno-luck',playedAt:'2026-11-04T00:00:00Z',dismissed:true});
+});

@@ -1,12 +1,19 @@
 export const KEY = 'playground.frontend.v1';
 export function initialState() {
-  return {version:1, user:{name:'playground_demo',email:'demo@example.test',phone:''},signedIn:true,balance:1250000,favorites:[],transactions:[],activity:[],claimed:[],locale:'id',messages:[{id:'welcome',title:'Selamat datang di Playground',text:'Template frontend Anda siap dijelajahi. Semua saldo, transaksi dan bonus di sini adalah data demo.',read:false},{id:'preview',title:'Pratinjau frontend aktif',text:'Katalog, navigasi dan workflow member dapat dicoba. Koneksi ke admin Playground akan ditambahkan pada tahap integrasi.',read:false}]};
+  return {version:1, user:{name:'playground_demo',email:'demo@example.test',phone:''},signedIn:true,balance:1250000,favorites:[],transactions:[],activity:[],claimed:[],lastPlayed:null,locale:'id',messages:[{id:'welcome',title:'Selamat datang di Playground',text:'Template frontend Anda siap dijelajahi. Semua saldo, transaksi dan bonus di sini adalah data demo.',read:false},{id:'preview',title:'Pratinjau frontend aktif',text:'Katalog, navigasi dan workflow member dapat dicoba. Koneksi ke admin Playground akan ditambahkan pada tahap integrasi.',read:false}]};
 }
 export function hydrateState(value) {
   const base=initialState();
   if(!value || value.version!==1) return base;
-  return {...base,...value,balance:Number.isSafeInteger(value.balance)&&value.balance>=0?value.balance:base.balance,favorites:Array.isArray(value.favorites)?value.favorites:[],transactions:Array.isArray(value.transactions)?value.transactions:[],activity:Array.isArray(value.activity)?value.activity:[],claimed:Array.isArray(value.claimed)?value.claimed:[],messages:Array.isArray(value.messages)?value.messages:base.messages};
+  const last=value.lastPlayed;
+  const lastPlayed=last&&typeof last.gameId==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(last.gameId)&&typeof last.playedAt==='string'&&Number.isFinite(Date.parse(last.playedAt))?{gameId:last.gameId,playedAt:last.playedAt,dismissed:last.dismissed===true}:null;
+  return {...base,...value,lastPlayed,balance:Number.isSafeInteger(value.balance)&&value.balance>=0?value.balance:base.balance,favorites:Array.isArray(value.favorites)?value.favorites:[],transactions:Array.isArray(value.transactions)?value.transactions:[],activity:Array.isArray(value.activity)?value.activity:[],claimed:Array.isArray(value.claimed)?value.claimed:[],messages:Array.isArray(value.messages)?value.messages:base.messages};
 }
+export function rememberGame(state,gameId,playedAt){
+  if(typeof gameId!=='string'||!/^[a-zA-Z0-9_-]{1,100}$/.test(gameId)||!Number.isFinite(Date.parse(playedAt)))return state;
+  return {...state,lastPlayed:{gameId,playedAt,dismissed:false}};
+}
+export function dismissLastGame(state){return state.lastPlayed?{...state,lastPlayed:{...state.lastPlayed,dismissed:true}}:state;}
 export function amountValue(raw){
   const value=Number(raw);
   if(!Number.isSafeInteger(value)||value<10000||value>10000000) throw new Error('Nominal harus Rp 10.000–Rp 10.000.000, tanpa desimal.');

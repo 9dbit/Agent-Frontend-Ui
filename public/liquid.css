@@ -161,3 +161,44 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 .main-nav .category-icon-wrap{width:48px;height:44px}.main-nav .artwork-icon{width:44px;height:44px}
 .drawer-categories .artwork-icon{width:36px;height:36px}
 @media(max-width:599px){.main-nav .category-icon-wrap{width:40px;height:38px}.main-nav .artwork-icon{width:38px;height:38px}}
+
+/* Full-width heroes, visible category grid and restored rounded section cards. */
+.brand-wordmark>span{-webkit-text-stroke:.7px currentColor;paint-order:stroke fill}
+#app>.hero-layout{width:100%;max-width:none;margin:0}
+#app>.hero-layout .carousel{border:0;border-radius:0;box-shadow:none}
+#app>.hero-layout .hero-slide{aspect-ratio:3/1;max-height:none}
+#app>.hero-layout .hero-original img{object-fit:contain}
+#app>.hero-layout .hero-promotion img{object-fit:cover;object-position:center}
+.main-nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));height:auto;overflow:visible;gap:8px 5px;padding:12px 8px;scroll-snap-type:none}
+.main-nav .nav-item,.home-page .main-nav .nav-item{min-width:0;min-height:0;max-width:100%;padding:2px;gap:5px;white-space:normal;font-size:12px}
+.main-nav .nav-item>span:last-child{display:flex;align-items:center;justify-content:center;min-height:2.2em;line-height:1.1;text-align:center}
+.main-nav .category-icon-wrap,.main-nav .artwork-icon{width:48.4px;height:48.4px}
+.home-page>.section{background:linear-gradient(130deg,#35203fde,#151329df);border-radius:24px;box-shadow:0 8px 26px #07011120;margin:16px 0;overflow:hidden;padding:0 16px 16px}
+.home-page .section-head{padding:16px 0}.home-promotions .section-head{padding-top:16px}
+.home-hot-slots .game-grid,.home-promotions .promotion-list{padding:0}
+.ticker-info{flex:none;display:grid;place-items:center;width:19px;height:19px;margin:0 9px;border:1.5px solid #ff405d;border-radius:50%;font-family:Georgia,serif;font-style:normal;font-size:14px;font-weight:700;line-height:1;color:#ff405d}
+.account-sidebar .account-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;overflow:visible;white-space:normal}
+.account-sidebar .account-links a{display:flex;flex-direction:column;justify-content:center;gap:6px;min-width:0;min-height:66px;text-align:center;white-space:normal;line-height:1.2;font-size:11px;padding:9px 4px;background:#ffffff07;border-radius:14px}
+.account-sidebar .account-links a.active{background:#d72a4140}.account-sidebar .account-links .icon{width:20px;height:20px;flex:none}
+@media(max-width:850px){.account-sidebar .account-links{grid-template-columns:repeat(4,minmax(0,1fr));margin:0}.account-sidebar{padding:10px}}
+@media(max-width:599px){
+ .main-nav{gap:6px 2px;padding:9px 5px}.main-nav .nav-item,.home-page .main-nav .nav-item{font-size:clamp(8px,2.15vw,10px);gap:3px;padding:1px 0}
+ .main-nav .category-icon-wrap,.main-nav .artwork-icon{width:41.8px;height:41.8px}
+ .home-page>.section{border-radius:20px;padding:0 12px 12px;margin:12px 0}.home-page .section-head{padding:13px 0}
+ .account-sidebar .account-links{gap:5px}.account-sidebar .account-links a{font-size:10px;min-height:64px;padding:7px 3px}
+}
+
+/* Last launched game, positioned above the floating navigation. */
+:root{--dock-height:88px;--dock-bottom:calc(18px + env(safe-area-inset-bottom));--continue-width:min(620px,calc(100% - 32px))}
+.continue-card{position:fixed;z-index:34;left:50%;bottom:calc(var(--dock-bottom) + var(--dock-height) + 12px);transform:translateX(-50%);width:var(--continue-width);aspect-ratio:3/1;display:grid;grid-template-columns:24% minmax(0,1fr) 52px;align-items:center;gap:16px;padding:16px 18px;border-radius:24px;background:linear-gradient(115deg,#46203feF,#151b38f5);box-shadow:inset 0 1px 0 #ffffff38,0 12px 38px #04010c88;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+.continue-thumbnail{width:100%;aspect-ratio:1;object-fit:cover;border-radius:18%}
+.continue-copy{display:flex;flex-direction:column;gap:7px;min-width:0}.continue-eyebrow{font-size:10px;font-weight:700;letter-spacing:1.3px;color:#e4b6dc}.continue-copy strong{font-size:21px;line-height:1.15;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.continue-provider{font-size:13px;color:#c3bbd8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.continue-play{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:linear-gradient(#ff4458,#ec0025);color:#fff;box-shadow:0 4px 18px #ff003044}.continue-play .icon{width:23px;height:23px;color:#fff}
+.continue-close{position:absolute;top:8px;right:9px;width:28px;height:28px;display:grid;place-items:center;background:transparent;color:#ddd;border-radius:50%}.continue-close .icon{width:15px;height:15px;color:inherit}
+.has-continue-playing .footer{padding-bottom:calc(var(--dock-height) + var(--dock-bottom) + 36px + min(620px / 3,(100vw - 32px) / 3))}
+.has-continue-playing .float-help{display:none}.modal-open .continue-card{visibility:hidden}
+@media(max-width:599px){
+ :root{--dock-height:70px;--dock-bottom:calc(12px + env(safe-area-inset-bottom));--continue-width:calc(100% - 24px)}
+ .continue-card{max-width:440px;gap:10px;padding:12px;grid-template-columns:24% minmax(0,1fr) 40px;border-radius:20px;bottom:calc(var(--dock-bottom) + var(--dock-height) + 10px)}
+ .continue-copy{gap:4px}.continue-eyebrow{font-size:8px;letter-spacing:.6px}.continue-copy strong{font-size:14px}.continue-provider{font-size:10px}.continue-play{width:40px;height:40px}.continue-play .icon{width:19px;height:19px}.continue-close{top:3px;right:4px;width:26px;height:26px}
+}

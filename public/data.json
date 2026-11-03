@@ -1500,7 +1500,7 @@
       "family": "originals",
       "provider": "soft-tech",
       "providerName": "Soft Tech",
-      "image": "/assets/soft-tech/uno-luck-icon-v2.webp",
+      "image": "/assets/soft-tech/uno-luck-red-dragon-v3.webp",
       "hero": "/assets/soft-tech/uno-luck-hero-v1.webp",
       "tags": [
         "original",
@@ -1541,6 +1541,12 @@
     }
   ],
   "banners": [
+    {
+      "image": "/assets/soft-tech/soft-tech-originals-hero-v1.webp",
+      "title": "Soft Tech · Original Games",
+      "path": "/search?q=Soft%20Tech",
+      "id": "soft-tech-brand"
+    },
     {
       "image": "/assets/soft-tech/uno-luck-hero-v1.webp",
       "title": "Uno Luck · Soft Tech Original",

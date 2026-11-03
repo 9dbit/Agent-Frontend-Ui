@@ -14,6 +14,7 @@ async function mount(t,initial){
   w.fetch=async url=>{assert.equal(url,'/data.json');return {ok:true,json:async()=>structuredClone(data)}};
   w.scrollTo=()=>{};w.matchMedia=()=>({matches:true});
   if(initial)w.localStorage.setItem('playground.frontend.v1',initial);
+  t.after(()=>{dom.window.close();assert.deepEqual(errors,[])});
   await w.eval('(async()=>{'+script+'\n})()');
   const get=selector=>{const e=d.querySelector(selector);assert.ok(e,'Missing element: '+selector);return e};
   const click=selector=>get(selector).click();
@@ -21,7 +22,6 @@ async function mount(t,initial){
   const fill=(selector,value)=>{get(selector).value=value};
   const submit=selector=>get(selector).dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
   const state=()=>JSON.parse(w.localStorage.getItem('playground.frontend.v1'));
-  t.after(()=>{dom.window.close();assert.deepEqual(errors,[])});
   return {w,d,get,click,navigate,fill,submit,state};
 }
 
@@ -117,7 +117,7 @@ test('landscape promotion covers preserve every listing, filter and detail desti
 
 test('homepage refresh retains category access and footer while removing retired home sections',async t=>{
   const {get,d,click,w,navigate}=await mount(t);
-  assert.deepEqual([...get('main').children].slice(0,3).map(e=>e.className),['hero-layout','ticker','main-nav']);
+  assert.deepEqual([...get('main').children].slice(0,3).map(e=>e.className),['ticker','main-nav','section home-soft-tech']);
   assert.deepEqual([...d.querySelectorAll('main .section-title span')].map(e=>e.textContent),['Soft Tech','Hot Slots','Promosi']);
   const destinations=[...d.querySelectorAll('.main-nav a')].map(a=>a.getAttribute('href'));
   assert.equal(destinations.length,12);
@@ -199,4 +199,54 @@ test('Soft Tech originals share working hero, search and detail routes with sour
   navigate('/search?q='+encodeURIComponent(g.title));
   assert.ok(get('.game-card a[href="/play/originals/'+g.id+'"]'));
  }
+});
+
+test('continue playing tracks launches, survives reload, resumes and persists dismissal',async t=>{
+ const ui=await mount(t),game=data.games[0],next=data.games[1];
+ assert.equal(ui.d.querySelector('.continue-card'),null);
+ ui.navigate('/play/'+game.family+'/'+game.id);
+ assert.equal(ui.d.querySelector('.continue-card'),null,'Opening details is not a play event');
+ ui.click('[data-action="launch-demo"]');ui.click('[data-action="close"]');ui.navigate('/');
+ assert.equal(ui.state().lastPlayed.gameId,game.id);
+ assert.equal(ui.get('.continue-copy strong').textContent,game.title);
+ const reload=await mount(t,ui.w.localStorage.getItem('playground.frontend.v1'));
+ assert.equal(reload.get('.continue-provider').textContent,game.providerName);
+ reload.click('[data-action="resume-game"]');assert.match(reload.get('[role="dialog"]').textContent,/Sesi preview siap/);
+ reload.click('[data-action="close"]');reload.click('[data-action="dismiss-continue"]');
+ assert.equal(reload.d.querySelector('.continue-card'),null);
+ const dismissed=await mount(t,reload.w.localStorage.getItem('playground.frontend.v1'));
+ assert.equal(dismissed.d.querySelector('.continue-card'),null);
+ dismissed.navigate('/play/'+next.family+'/'+next.id);dismissed.click('[data-action="launch-demo"]');
+ assert.equal(dismissed.get('.continue-copy strong').textContent,next.title);
+ assert.equal(dismissed.state().lastPlayed.dismissed,false);
+});
+
+test('original game launch remembers the correct game and preserves its external resume target',async t=>{
+ const ui=await mount(t),game=data.games.find(g=>g.id==='soft-tech-uno-luck');
+ ui.navigate('/play/originals/'+game.id);
+ ui.click('.original-copy [data-original-play]');
+ assert.equal(ui.state().lastPlayed.gameId,game.id);
+ const play=ui.get('.continue-play');assert.equal(play.href,game.launchUrl);assert.equal(play.target,'_blank');
+ ui.click('.continue-play');assert.equal(ui.get('.continue-play'),play,'Keep the activated external link connected for native navigation');
+ ui.navigate('/');assert.equal(ui.get('.continue-copy strong').textContent,game.title);
+ ui.click('[data-action="dismiss-continue"]');ui.navigate('/play/originals/'+game.id);ui.click('[data-original-play]');
+ assert.ok(ui.get('.continue-card'));
+});
+
+test('unknown remembered games are hidden and account pages expose every destination without duplicate breadcrumbs',async t=>{
+ const ui=await mount(t,JSON.stringify({version:1,lastPlayed:{gameId:'removed-game',playedAt:'2026-11-04T00:00:00Z',dismissed:false}}));
+ assert.equal(ui.d.querySelector('.continue-card'),null);
+ for(const url of ['/','/search','/deposit','/user','/promotions/all']){
+  ui.navigate(url);assert.equal(ui.d.querySelector('.breadcrumbs'),null);assert.equal(ui.d.querySelector('.header-profile'),null);
+  if(['/deposit','/user'].includes(url))assert.equal(ui.d.querySelectorAll('.account-sidebar .account-links a').length,8);
+ }
+});
+
+test('existing play history restores its last known game without overriding a dismissal',async t=>{
+ const malformed=await mount(t,JSON.stringify({version:1,activity:[null,{},0]}));assert.equal(malformed.d.querySelector('.continue-card'),null);
+ const game=data.games[0];
+ const legacy={version:1,activity:[{id:'previous',text:'Preview game: '+game.title,time:'2026-11-04T00:00:00Z'}]};
+ const ui=await mount(t,JSON.stringify(legacy));assert.equal(ui.get('.continue-copy strong').textContent,game.title);
+ ui.click('[data-action="dismiss-continue"]');
+ const reload=await mount(t,ui.w.localStorage.getItem('playground.frontend.v1'));assert.equal(reload.d.querySelector('.continue-card'),null);
 });
