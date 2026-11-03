@@ -1,5 +1,7 @@
 # Playground Agent Frontend
 
+Active working frontend based on **[OXPLAY Template v1.0.0](https://github.com/9dbit/OXPLAY-Template)**. The reusable template and visual asset archive live in that separate repository. This repository is used for project UI changes and future integration with [Playground](https://github.com/9dbit/Playground), and retains its existing Railway deployment. See `template-origin.json` and [the integration guide](docs/OXPLAY_TEMPLATE_GUIDE.md).
+
 Responsive GOBI88 reference template for Playground, with 238 copied local images and browser-local demo workflows. No live payment, betting session, authentication backend, source-site API, tracker or third-party chat is connected.
 
 ## Run
@@ -44,6 +46,6 @@ public/state.js implements the pure demo state adapter. Replace local persistenc
 
 Reference-site native-mobile rendering and some deep states were unavailable during audit. Responsive layout is implemented for 360–1920px. Fishing lobby, live provider sessions, APK downloads, streaming and live results display explicit preview or unavailable states until connected. This is a frontend template, not a live betting platform.
 
-23 automated tests cover HTTP serving, the 131 discovered route views, DOM interactions, persistence and wallet state transitions. DOM tests do not render pixels or validate responsive geometry. See docs/DEPLOYMENT_QA_2026-11-03.md and docs/RESPONSIVE_QA_2026-11-03.md for deployment checks, the observed carousel loading fix and outstanding visual verification.
+24 automated tests cover HTTP serving, the 131 discovered route views, DOM interactions, persistence and wallet state transitions. DOM tests do not render pixels or validate responsive geometry. See docs/DEPLOYMENT_QA_2026-11-03.md and docs/RESPONSIVE_QA_2026-11-03.md for deployment checks, the observed carousel loading fix and the historical visual-verification notes. Subsequent live Chromium checks passed all eight account tabs at 360, 393, 768 and 1440 px without horizontal document overflow; Casino, Promotion and Exclusive covers render portrait. Native iPhone Safari remains untested.
 
 To restore captured assets, run `python3 scripts/restore-assets.py`. Each download must match its recorded SHA-256 hash; assets are committed to Git and served locally without runtime hotlinks.

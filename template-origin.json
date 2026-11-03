@@ -1,0 +1,12 @@
+{
+  "templateId": "oxplay",
+  "templateName": "OXPLAY Template",
+  "templateVersion": "1.0.0",
+  "templateRepository": "https://github.com/9dbit/OXPLAY-Template",
+  "templateTag": "v1.0.0",
+  "templateCommit": "b99d9ade22ad5661577a5049d93a0c0d72a095c5",
+  "sharedFrontendBaseline": "3513a9181f049815cc04dcc7fbcb001752a1aad0",
+  "role": "working-frontend",
+  "engineRepository": "https://github.com/9dbit/Playground",
+  "backendIntegrated": false
+}
