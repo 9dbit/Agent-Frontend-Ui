@@ -4,15 +4,18 @@ Responsive GOBI88 reference template for Playground, with 238 copied local image
 
 ## Run
 
-Node 22+; no runtime dependencies.
+Node 24 recommended; no runtime dependencies. jsdom is used only by development tests.
 
 ```sh
+npm ci
 npm run build
 npm test
 npm start
 ```
 
 Open localhost:3000. Railway uses PORT and /health. Discovered page URLs support direct loading and refresh.
+
+Live preview: https://playground-agent-frontend-production.up.railway.app
 
 ## Demo access
 
@@ -37,3 +40,7 @@ public/state.js implements the pure demo state adapter. Replace local persistenc
 ## Coverage
 
 Reference-site native-mobile rendering and some deep states were unavailable during audit. Responsive layout is implemented for 360–1920px. Fishing lobby, live provider sessions, APK downloads, streaming and live results display explicit preview or unavailable states until connected. This is a frontend template, not a live betting platform.
+
+21 automated tests cover HTTP serving, the 131 discovered route views, DOM interactions, persistence and wallet state transitions. DOM tests do not render pixels or validate responsive geometry. See docs/DEPLOYMENT_QA_2026-11-03.md for the deployment checks and outstanding visual verification.
+
+To restore captured assets, run `python3 scripts/restore-assets.py`. Each download must match its recorded SHA-256 hash; assets are committed to Git and served locally without runtime hotlinks.
