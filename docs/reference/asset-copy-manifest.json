@@ -1,0 +1,3414 @@
+{
+  "source": "https://gobi88.com/",
+  "capturedAt": "2026-11-03",
+  "assets": [
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/logo/logo.png",
+      "alt": "GOBI88",
+      "width": 400,
+      "height": 107,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a7dc2846753035fb.png",
+      "bytes": 39912,
+      "sha256": "d32d9f55b01b703155964ec0a36c97077a980a5596504fd909e2bd47870c229f"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/exclusive.295d34a.svg",
+      "alt": "Eksklusif",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/fd954835f8abba37.svg",
+      "bytes": 3461,
+      "sha256": "3fa7670c60945833f30852058a56a316a56c9b39feceb0645c885c56321fafcd"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/sports.5ee04bd.svg",
+      "alt": "Sports+",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8fc4e1eca39dc6d4.svg",
+      "bytes": 13947,
+      "sha256": "96e1c83ec6ef98775f03fbc3a05f5a83c43edbc0be575a9252640f4ca0f8415e"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/slots.bd48cc2.svg",
+      "alt": "Slots",
+      "width": 152,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3f85618b9227a468.svg",
+      "bytes": 4415,
+      "sha256": "7e05d87615e5f93c0a940aab25f97658f14f6ca914e6d2a5e02cf5d5d3648aba"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/casino.bf1eeb3.svg",
+      "alt": "Casino",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d1ad6ea3ac9fca7b.svg",
+      "bytes": 4624,
+      "sha256": "584e8834683fe18d79d7e0a318fc40545892ac32f5e06c70d03346f4c71b4b13"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/poker.c123dfa.svg",
+      "alt": "Poker",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3ae000702c2d64bb.svg",
+      "bytes": 5025,
+      "sha256": "a999bc0ddf0e46f2e58985b2d04e1604d8e3348faefd92d0c975f2390e4445a8"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/lotto.e598bd7.svg",
+      "alt": "Lotto",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c33653c244e3a128.svg",
+      "bytes": 9411,
+      "sha256": "b6e640d50882fe536308f7ec8aa25aa040d48ace009e7b4c548184da70ca5117"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/arcade.a879845.svg",
+      "alt": "Arcade",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f172b2743a13a280.svg",
+      "bytes": 1931,
+      "sha256": "22bcfc08b6861d22fa9730944c21a32dbdf88d25d7935d4cd41c22a91a1ba244"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/fishing.1283e71.svg",
+      "alt": "Fishing",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/1740fc4110c2070c.svg",
+      "bytes": 4759,
+      "sha256": "4bdf875238460dd72945db641ce1c92e690671c783eb244f0b83f4d66c7c5644"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/promo.2e2a022.svg",
+      "alt": "Promosi",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/16617f4450c728d2.svg",
+      "bytes": 3607,
+      "sha256": "814ed1d222e113f26c4747640b92eb927e92a8b3c138d0329b0cad51df9b1ba2"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/leaderboard.0a01497.svg",
+      "alt": "Leaderboard",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/eaf51373b380743a.svg",
+      "bytes": 7746,
+      "sha256": "0def36f97f2086f547e661e3a2bdf9e356e780ce822f1314c95979b3e4daf9eb"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/referral.18ddb79.svg",
+      "alt": "Referral",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/54aec394576f7e8c.svg",
+      "bytes": 1448,
+      "sha256": "77c9b3425189f7e86691579b65438a3d429d0176ad0b058578e51a0cf56f9822"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/chat.969bcea.svg",
+      "alt": "Kontak",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/80292222aaba85b5.svg",
+      "bytes": 2808,
+      "sha256": "67743fc45e1bb501f58157cbbe8e165afd9688784bdfec51a467307c65f743b7"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_721_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/18144c5f9d3bb644.webp",
+      "bytes": 45030,
+      "sha256": "09886c618700b1fe64158167f9390b6b3588ee00f728b0ff0c66a04283d5ddcd"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/content/19518_6a15830649dc31.25379805.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/4e7959246c246e40.webp",
+      "bytes": 52464,
+      "sha256": "8619cb2053ee2673b8f238f000520607aae7cc6afd6763df88c69a5e0edab81c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/content/19518_6a158314e0f2c6.97251324.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ca590c01e6b2571c.webp",
+      "bytes": 57308,
+      "sha256": "2d6dffa99585b3fe7756c7450c08ea21de7d1426b7fb648cbc85cded7ec83465"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/content/19518_6a1585331e4875.69063844.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0dac26a70c0083e5.webp",
+      "bytes": 54430,
+      "sha256": "6186c01a73eb21ac34d3494dd90f644784bbf26b56aa912152985f15d0e3639c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/content/19518_6a15887438bda0.24104592.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/18b1bf5b42e9509f.webp",
+      "bytes": 68240,
+      "sha256": "88ec2f8271c7f52a19382dd0d5df05c27fba44b11cb9c2231f012d18b6b7177a"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/content/19518_6a158a6f9b4e95.31000664.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3c51548c6ac9750a.webp",
+      "bytes": 48094,
+      "sha256": "9597a8e882617202fe988e8280e9271c100210a30921155b3302dc7516040331"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_757_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f36b84da2a2f0a11.webp",
+      "bytes": 51230,
+      "sha256": "b5a1097e8165bac338e595def883aff4e4ec8e0e872a849b6a56c3da85a37add"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_744_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3f67a77038e3e294.webp",
+      "bytes": 60686,
+      "sha256": "fdc3f7ec0bd41389f0d316c9a51284cc00616c6a7ef37be020d19936716f0c6c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_574_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/32d09a41a9553f6c.webp",
+      "bytes": 62876,
+      "sha256": "930e72e4d4ea1913bac8fac19e05af8d605f1aa33eaceed66c15ab81b9e48c4d"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_575_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/7b229a4ba1a41fb9.webp",
+      "bytes": 62770,
+      "sha256": "71378e10069ff5ad0ae783c36409a5e03c073c806a81640ec818f856abf94e77"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_737_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d78b7532e0f400d9.webp",
+      "bytes": 69322,
+      "sha256": "fea92468bbcd77e852410fc809a5d6f971d760787412044c71e443a60d36fdb6"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_589_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f441792fdd03854b.webp",
+      "bytes": 114016,
+      "sha256": "f1bc45ca8997e8c4305d57d572832fd85140224edadc10dc77869e9eb045f7f4"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_754_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/54bb3c2e4da95a21.webp",
+      "bytes": 65708,
+      "sha256": "5aae45ed41d2fff8878f9cd0b5d10793514157997ef3287eef28382f58581aa3"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_756_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d97d04929e2bd54d.webp",
+      "bytes": 45276,
+      "sha256": "69e954a520c77e36bf2084b4c55b998d6d716c7363c5148b681680a883841454"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_698_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/165b3cd07ae16145.webp",
+      "bytes": 80986,
+      "sha256": "e51ad58e92a1740e6a3f164424751254a9db92e448ea7cce8d145b87148bbea0"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/promotion_banner_566_.webp",
+      "alt": "GOBI88",
+      "width": 800,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/88f625eae7712a0d.webp",
+      "bytes": 116620,
+      "sha256": "6c80e7cb0d5868df6f0416a78a0faf40eacc2068d3e7fd05733a0164fff6c344"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/idn/idn-slot.jpg",
+      "alt": "IDN Slot",
+      "width": 562,
+      "height": 344,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/1958be9ecf055f3e.jpg",
+      "bytes": 49023,
+      "sha256": "3df3d3624ac65598d71d9b240081790d3774562e64f90c68fb407d59901c16ea"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/idn/idn-poker.jpg",
+      "alt": "IDN Poker",
+      "width": 562,
+      "height": 344,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/cb782be85d4d22f5.jpg",
+      "bytes": 36203,
+      "sha256": "d953d59a9e5a2c2434b8b3f8278fcd87c14c1e8770e49384857592b3e79636ac"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/idn/idn-live.jpg",
+      "alt": "IDN Live",
+      "width": 562,
+      "height": 344,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/da14bec002c5bd14.jpg",
+      "bytes": 54789,
+      "sha256": "358a0e10f04a00aff8d1109e0b116b13609bca927235333e801b9967e628be6f"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/slots-muted.adb9047.svg",
+      "alt": "Slots",
+      "width": 152,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/897fda8431e0bc82.svg",
+      "bytes": 4415,
+      "sha256": "31e84f9e588bc3cdf578cfa2d35341a63c976a1047b5e8e2ddcb32bd218fa8ca"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/hot.svg",
+      "alt": "Hot",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f77f2dd08c57692e.svg",
+      "bytes": 1777,
+      "sha256": "b824f287472a5d23c9db3d14b431078fbbe3bc86a9204b8e9d020f03db741ff6"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/exclusive.svg",
+      "alt": "Exclusive",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/54fa24b35b0784bc.svg",
+      "bytes": 4859,
+      "sha256": "6352748f1d28772ed8df50d2b5bbcd37106d6f38501ef77c763ee1b2349f9edb"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/new.svg",
+      "alt": "New",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/fd174139f70606cf.svg",
+      "bytes": 2140,
+      "sha256": "5f1be681cda246ef22716e5e16593d4db4f6e6ca403031a6a9091cc041fd25a7"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/idnsns.svg",
+      "alt": "Stream n'Spin",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8a92a32edd26da02.svg",
+      "bytes": 6844,
+      "sha256": "6ad8a5fa2d62fc6d64079e7c72cce4b9a1695c99c841215d45752acd43832a05"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/idnslotdirect.svg",
+      "alt": "IDNSLOT",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c1dd83d9ccfcf772.svg",
+      "bytes": 3024,
+      "sha256": "683492d02f5127504face36989bb1b353c43805b848b52c15c42a8beb3d2b57c"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/pragmaticplay.svg",
+      "alt": "PragmaticPlay",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/739e86f47e70551f.svg",
+      "bytes": 3410,
+      "sha256": "ddbea1979c6fd34c4e6f320ef7417deb75f587097ee6d0ec2ffcddaae8c4c6f3"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/slotmania.svg",
+      "alt": "Slot Mania",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/9dcebbbd5604d8de.svg",
+      "bytes": 1669,
+      "sha256": "7403feb673efdea4edef5be3561f544a0f817d81a724bac588c101d2d9330581"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/pp-pop.svg",
+      "alt": "PP POP",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/833da591748397f7.svg",
+      "bytes": 4039,
+      "sha256": "23ff83428eb312b94630da307e00f422af089c5348962aaf95868c3c1c301815"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/pgsoft.svg",
+      "alt": "PG Soft",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a89a377ec2c51ba9.svg",
+      "bytes": 8530,
+      "sha256": "bf2b7d86d406c45fb6ad6e3981fe8565854e6881a8aac9432b5cc8e085cd5e8b"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/microgaming.svg",
+      "alt": "Microgaming",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d9f091064a44e7c4.svg",
+      "bytes": 1228,
+      "sha256": "ea0f5a82c14d1963b11fc57f19fe9f9741c1a1896cb19ba2b12b801314830fa3"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/evolution-nlc.svg",
+      "alt": "Nolimit City",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/9b5f8dcd86c0bad3.svg",
+      "bytes": 455,
+      "sha256": "50bf59f9a40cb39650de9d2ff360ff1c3e9a9758d91445676454c4d1efc13ff3"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/habanero.svg",
+      "alt": "Habanero",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3bb82af6d94da6a7.svg",
+      "bytes": 2598,
+      "sha256": "9b1e4a12d8e2d2d6a892043e940c827e695097f9821affe4ae75bfbb7bd978d8"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/5g.svg",
+      "alt": "5G Games",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/edbd5dcd61aa9733.svg",
+      "bytes": 3533,
+      "sha256": "92ed8a523ec095c4cf9f862a72f8cd5e7f287820c05422ce497e19c519adb712"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/spadegaming_slot.svg",
+      "alt": "Spadegaming",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b3bdf8eb6b3915f3.svg",
+      "bytes": 1156,
+      "sha256": "350ed56713f0f4fda676af39a71693d437d496cfac2cead7d9567b18d5d2ace9"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/jili.svg",
+      "alt": "JILI",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c2b671523424c0d4.svg",
+      "bytes": 37669,
+      "sha256": "84c64011d6e0994d3311ce5e5de131a4a7b4d6d19717f5a981faaef5d123be4a"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/playtech_slot.svg",
+      "alt": "Playtech",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0e6ea52dad3418f6.svg",
+      "bytes": 1845,
+      "sha256": "60f81ce39e5c67b8e08f829a4a865d0b3b5dea46203c9c596082e758520fde75"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/playstar.svg",
+      "alt": "PlayStar",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/5b7e2149103f0878.svg",
+      "bytes": 757,
+      "sha256": "a3f91d53f14425ea3b0eb2d63830524b1115413126da0238e268dc95c9a842f5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/ttg.svg",
+      "alt": "TTG",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/19906d04ac315490.svg",
+      "bytes": 1188,
+      "sha256": "e2b6a091a453d3d0a59391b2e61176c8fe59c29f084422bebd26c29c16850371"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/kagaming_slots.svg",
+      "alt": "KA",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/6d5a6ae91e0446a6.svg",
+      "bytes": 1575,
+      "sha256": "c7555624007764ed46e736453875a6d51e0f81e2da3cbf391bd454914949b64e"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/dstplay_slots.svg",
+      "alt": "DST Play",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/23ff98e544bf658a.svg",
+      "bytes": 409,
+      "sha256": "1a6ec005dfa3dad334f4befe729c2cb460cd20c4142aaa6d22a715a213f8147a"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/comboslots.svg",
+      "alt": "Combo Slots",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0205ec4a9b36e775.svg",
+      "bytes": 5372,
+      "sha256": "0421ba87cda8724a3c6c20999f005959992aaac2e9b43838a0257783c2c79d67"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/popokgaming.svg",
+      "alt": "PopOk",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8d8c4b2534693059.svg",
+      "bytes": 6288,
+      "sha256": "509254b0a9fc8883760e67ca1d81b4517127268f293e301143eafc8a7dafb152"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/fastspin.svg",
+      "alt": "FastSpin",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/148fe7232afdc9d0.svg",
+      "bytes": 3371,
+      "sha256": "6c5ac4cc60a7c3a8e1e89958e421e3610818e62721da35be1fbfcafcc0bbf3ec"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/ygr_slots.svg",
+      "alt": "YGR",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/89f1c2eaaff4110a.svg",
+      "bytes": 19953,
+      "sha256": "b23e6f3e586732b7a6148b48a2dbf6ea883c004b1bba83423beb49175448f51c"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/penguin_king.svg",
+      "alt": "Penguin King",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/37d7a85141d97864.svg",
+      "bytes": 7793,
+      "sha256": "505dc7385af07436fd28f7b70feaada60611af9a0b3490af439ee179a8ab06ef"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/amigo.svg",
+      "alt": "Amigo Gaming",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/603845f91ea0c28d.svg",
+      "bytes": 6776,
+      "sha256": "710ee8820ed30eba25d8e7d4a5b05c5410181be1eac3789812e965488d96005d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/pragmaticplay98.svg",
+      "alt": "PP 98% RTP",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/521a80a1c50ffb43.svg",
+      "bytes": 7197,
+      "sha256": "0d1577d48b1639ec59b0675315079810927f331ab9732b64a5fbfdedfe408b36"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/level-up.svg",
+      "alt": "Level Up",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c12c65b368f35f4a.svg",
+      "bytes": 9254,
+      "sha256": "fb9b5f7eea43517e6a2edbaba4ca474efc32a8adcf991658deaefbc98768511c"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/spin-royal.svg",
+      "alt": "Spin Royal",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c6d86a9ae850b3f8.svg",
+      "bytes": 54592,
+      "sha256": "6fc05c2364257af6d5ebe14599914609c9541403e06c1ec27399976afa6595f5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/cq9.svg",
+      "alt": "CQ9",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/73c4d1a7c40562e8.svg",
+      "bytes": 3866,
+      "sha256": "3f3bd3be12a2e00ed6bf66a6b420b49399c81fa75d2dcfe19da727d29c372d63"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/yggdrasil.svg",
+      "alt": "Yggdrasil",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f75d949fb07d4f58.svg",
+      "bytes": 1973,
+      "sha256": "58e5cb27f968186e478d5eead7ff68b49e58c0128cd928804763cb2005c2cdf2"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/shadylady.svg",
+      "alt": "ShadyLady",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/37420afa73f50998.svg",
+      "bytes": 6888,
+      "sha256": "5a5506c9ec29b9d3c1844d44a1200f14b6078729e405044a2bf3e45176814c1d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/bng.svg",
+      "alt": "BNG",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0f06132ac96e9c66.svg",
+      "bytes": 2979,
+      "sha256": "af467b4cc140cf1ba04a6344dba3bd45db71d6027c8437906b145a2db33a2e5e"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/askmeslot_slot.svg",
+      "alt": "Askmeslot",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/889f8ef2ee9b80ad.svg",
+      "bytes": 5974,
+      "sha256": "f05c6a503486a0e3677c9bf2c4ef56d2bd8dd04a9778ae7b4ff7d26d19ac2f04"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/vplus.svg",
+      "alt": "VPlus",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/e1bd519f0d555320.svg",
+      "bytes": 4443,
+      "sha256": "b0bdfdd3c6f86c026826eb34e9e0852b257775f3696086d263f637c5e86e60d5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/bigpot.svg",
+      "alt": "BigPot",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/e00f605896408ebf.svg",
+      "bytes": 30448,
+      "sha256": "7fd7d8d25857dd3c283ca272c48604540da09f3ca737e20d2d2a44c294e927e3"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/reevo.svg",
+      "alt": "Reevo",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a79de6853c484ca6.svg",
+      "bytes": 767,
+      "sha256": "16e5ee944e7ac4bb254f7b5f6f16ebd892edcef8dc7daadfef6a500e66a463e0"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/bgaming.svg",
+      "alt": "Bgaming",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a13f7afb1eee14cb.svg",
+      "bytes": 640,
+      "sha256": "1c94a3948e814ce0bb4bdc573a341d7b9a2654b9be44997554395176cd658f74"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/evolution-redtiger.svg",
+      "alt": "RedTiger",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8d8fafa25af4471d.svg",
+      "bytes": 9584,
+      "sha256": "c36f62bfa88c18990fc9ea993bf89e901af8dbd9cd22c647b45fb76bf3d84063"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/evolution-netent.svg",
+      "alt": "NetEnt",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/db064d1b26377ee3.svg",
+      "bytes": 783,
+      "sha256": "0fee2c46d984401390a8b59199bec7263a30f9069905de93225ab9f9e1114692"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/simpleplay.svg",
+      "alt": "SimplePlay",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/2c769ab55328e095.svg",
+      "bytes": 744,
+      "sha256": "9fc6ca77d1a3d19832fe2cbaac6ab5bb6af307bcc2183a9dc7ea12213b71d9d4"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/gmw.svg",
+      "alt": "GMW",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ea1ee6fbc9918cfb.svg",
+      "bytes": 1196,
+      "sha256": "9e7848ee1de1e58dd6084d5ef155beb3a7f3d54db829d18e0c42e2eaec771d15"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/apparat.svg",
+      "alt": "Apparat",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b270abc487a6964d.svg",
+      "bytes": 677,
+      "sha256": "c696d997befd1b543cd6ddc0a56a1462b508e0f89fd99615c8fd287d15c97ea9"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/booming_games.svg",
+      "alt": "Booming",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/25d7d4ddcfea0a31.svg",
+      "bytes": 2093,
+      "sha256": "3c9385cc7edd94f8c81aba8ebc7a7561d592b6974a1d660630cacec083ec2a97"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/live_22.svg",
+      "alt": "Live22",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/9833847885ff9a67.svg",
+      "bytes": 2970,
+      "sha256": "77882b943394665bc95c7b4c67047d598c5317a787d78a5d08b4a742b345ee7f"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/evolution-btg.svg",
+      "alt": "BTG",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d6813666f7eb581d.svg",
+      "bytes": 6985,
+      "sha256": "b43dbcf70e59ed9679396ee59b3bcd102ec6953e5b7591d4d3af1212ca33048b"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/jdb_slot.svg",
+      "alt": "JDB",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d24beaad69c5eaac.svg",
+      "bytes": 6931,
+      "sha256": "3ca65c4c4f257bc16b967e62e33c681f35ad6aad427c3e5e8edd80b2dd23338d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/sboslots.svg",
+      "alt": "SBOBET",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/00f731224d329e38.svg",
+      "bytes": 995,
+      "sha256": "1b34030d6d016a69cfb3a5df3269286ea0364ae4a813c9de9e9bc654ff29b800"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/ky_slots.svg",
+      "alt": "KY",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b9d2403ef7a060ec.svg",
+      "bytes": 4707,
+      "sha256": "b737d7023ae26ae1b91a9eb54fbbecfabdc1a67ef564bf4dc5928d410d82c1a5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/buy-bonus.svg",
+      "alt": "Buy Bonus",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/7ed85e18f06390ba.svg",
+      "bytes": 1643,
+      "sha256": "2891e1d8812b4470bdbb2cc31bcd7f696dd8faadaf1e2f7695cd36de2c735f0e"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/table.svg",
+      "alt": "Table",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/340073aedd4acd74.svg",
+      "bytes": 2974,
+      "sha256": "67105438039272a5fa424b262e159d73dafd700356c46727060fd1a02d3dfd82"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/megaways.svg",
+      "alt": "Megaways",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/50bffa0be7f37cc0.svg",
+      "bytes": 3222,
+      "sha256": "f858bd27cb41e1f1b3e8a0d2ac41743fb7e3606f533d478535d582541285dad5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/slot/fishing.svg",
+      "alt": "Fishing",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/bb6c59669f24096d.svg",
+      "bytes": 5831,
+      "sha256": "e0dc081c1ad5057b4fe83160a7044b79095fae48d8ff69bfa5769bb41abdc53b"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/hot-muted.0c60698.svg",
+      "alt": "Hot Slots",
+      "width": 544,
+      "height": 668,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/4a1941439235f911.svg",
+      "bytes": 2173,
+      "sha256": "a0885fc82592d1e9f6f8f2eebec1c6d2e9b070d7d0fe7ec84e743d75c9a7e89c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnslot/18288/thumbnail.webp",
+      "alt": "Mahjong Ways I",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/4391d60abba51a6f.webp",
+      "bytes": 13560,
+      "sha256": "e55393d5b7e49759d786efada6ba48e062bb28685c0c5427ae4178a5456c1c2f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/microgaming/15503/thumbnail.webp",
+      "alt": "Mahjong MaxWin",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a09b7b5fef89395f.webp",
+      "bytes": 10242,
+      "sha256": "ad62d35270808f9e335c768f067cc5a564719ccee559d2854611bd6bca509b03"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/nolimit-city/18274/thumbnail.webp",
+      "alt": "Carnival Mental 2",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f9b92662a867a682.webp",
+      "bytes": 10448,
+      "sha256": "0c5944f1e181172530f24dc6c6177289d65f54d8d146cf16b95d99382b4508fb"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/booming/18292/thumbnail.webp",
+      "alt": "Booming Buffalo Hold and Win: Extreme 2",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/625727aa4a707845.webp",
+      "bytes": 10302,
+      "sha256": "709958fe1976f5fbafd3429edd5ecf9214960f6346eafdc7ee7876bd96d4b301"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/dst-play/17819/thumbnail.webp",
+      "alt": "Sweet Buffet",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c2f6bc324755d489.webp",
+      "bytes": 7762,
+      "sha256": "90c953f8d5ec194a12de8e4001f1e08f2741b2aaf45b469f35c39240d273f082"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/playstar/15125/thumbnail.webp",
+      "alt": "ZEUS OF OLYMPUS",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/2fa048dd1709268d.webp",
+      "bytes": 12110,
+      "sha256": "e476f91d4c022f95ca927b4964abdae2f071ea914a6685e86b2d1c0c34afbbd0"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/ttg/5211/thumbnail.webp",
+      "alt": "Frogs N Flies",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/2bde7952a0a62f83.webp",
+      "bytes": 8208,
+      "sha256": "68c797e57765f197a8769b9365eddf6888ef94df21002806b4e2cc9a0ff9d9ac"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/amigo-gaming/16447/thumbnail.webp",
+      "alt": "1000 Olympus Rivals",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/791fa45bd36a6f24.webp",
+      "bytes": 28270,
+      "sha256": "eabca889a0bf6bc1c03df65e66c2a2621daaf226f78ca4ec1c46274a4650698d"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/5g-games/18280/thumbnail.webp",
+      "alt": "Zeus 2000",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d7e8ad9a17be0562.webp",
+      "bytes": 63508,
+      "sha256": "1c9a5c288630171f1d9a4bd03b8a8d76c79b0dffe622309c058a7bda0f459570"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/18272/thumbnail.webp",
+      "alt": "Double Mummy's Jewels 1000",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/548a76ed19671da1.webp",
+      "bytes": 11474,
+      "sha256": "89bd3924e6da215b40da8062a50e7fc9952eed13529de0de4da8bf821f99d501"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/microgaming/17887/thumbnail.webp",
+      "alt": "Kart Rush",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/80319437060db2c7.webp",
+      "bytes": 9798,
+      "sha256": "30128488938165abbff0c9f60c8100d6116f9c3beeaeb212e9f8dee215194c78"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/5g-games/16483/thumbnail.webp",
+      "alt": "Pinata 1000",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/67f61f73cf749851.webp",
+      "bytes": 10348,
+      "sha256": "4606597dbe31ef4acb2637032b0177b9f569e2d2d8278184f9d512b49fb7f5a4"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/casino-muted.200f49c.svg",
+      "alt": "Top Tables",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0716cf9e2abbe89c.svg",
+      "bytes": 4624,
+      "sha256": "a70d92efa23a7a902e742deaaa28b2dd4477518764563aec104463c31ca159b4"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/microgaming-live/11225/thumbnail.webp",
+      "alt": "Istanbul Roulette",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f543ddf8b370b4c3.webp",
+      "bytes": 8862,
+      "sha256": "7e6aaa0e52e297670ca8b6eac58a9619f6221ee313442ab6f6bd50d80cc8676a"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/logo/game-placeholder.png",
+      "alt": "Istanbul Roulette",
+      "width": 400,
+      "height": 107,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/fffb015c3c498914.png",
+      "bytes": 39892,
+      "sha256": "f61e25db7f48463d1a9b38d6bebb564dc3658a6265d673b3bd136f3fe9021121"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/11077/thumbnail.webp",
+      "alt": "Baccarat 2",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/38dc7fd57713c049.webp",
+      "bytes": 28210,
+      "sha256": "b7a1295c788c30479d5de4d6504753923088ebe8c6f0fd13fd7283a004de2c44"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/vivogaming/11288/thumbnail.webp",
+      "alt": "Copa Cabana Baccarat",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b69db6f0a73e1551.webp",
+      "bytes": 23974,
+      "sha256": "7f76259f529a95c69222c91de34e1ec8856abd9190d75a79163e5bcf7579f605"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/11069/thumbnail.webp",
+      "alt": "Romanian Roulette",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3bf3c939baee54ac.webp",
+      "bytes": 36390,
+      "sha256": "82ed4d50d7083af6c0239759519f502e0fa41a17ea0d5a80450f825702df6b4f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/11129/thumbnail.webp",
+      "alt": "Priv\u00e9 Lounge Baccarat 5",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/777d36485723a03f.webp",
+      "bytes": 36108,
+      "sha256": "f3ed95d683e93775d8de5b31d15c4347f559e1131acdb4d4e9e1fcb4c04a11f8"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnlive/1214/thumbnail.webp",
+      "alt": "Dragon Tiger",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/32edfb706a7202fd.webp",
+      "bytes": 8294,
+      "sha256": "1b6283f3f8d6e6b207cd288cf1b0eed2540ff7f7e1b24e26f48ff991d04ed02c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/11124/thumbnail.webp",
+      "alt": "Turkish Mega Roulette",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/2355201c1fe46b33.webp",
+      "bytes": 39094,
+      "sha256": "46e10c4e95998db1bb51f27ae4fcc8127fa013fc2650b682cf011f0d89b56819"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/ezugi/11342/thumbnail.webp",
+      "alt": "Casino Marina Roulette 1",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0fcbd55c729e768e.webp",
+      "bytes": 16796,
+      "sha256": "782a38fecb966861860e87a8521bd7f15fdd914ad34da30b6e44d0b193b45401"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/microgaming-live/11250/thumbnail.webp",
+      "alt": "Blackjack Niagara Falls",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a75dd4cbcffbb7e9.webp",
+      "bytes": 9966,
+      "sha256": "672671be83ceb86ce9cefe571a9ffb8a208675230724e139c88d864cabf5793b"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/evolution/13879/thumbnail.webp",
+      "alt": "Speed VIP Blackjack H",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a7c6e0b54f1e3ca0.webp",
+      "bytes": 32096,
+      "sha256": "9d637edc5c71323c966ef7380e061a628f88045d1136b99d3dd3b6d012803818"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/playtech-casino/12532/thumbnail.webp",
+      "alt": "Baccarat",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/2253a35bab76149f.webp",
+      "bytes": 23602,
+      "sha256": "bdbf13b0bbe59961bf013e2e698e9a220ee327d50d029ccf3881caef7560d680"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/vivogaming/11275/thumbnail.webp",
+      "alt": "Portomaso Roulette",
+      "width": 187,
+      "height": 303,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/bc8e864b3efddd8f.webp",
+      "bytes": 23890,
+      "sha256": "ebbe528397c3d45eea5c4ca596747b3d53eeee88ce98c5b9d56164830cfe6952"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sns/banner-d.webp",
+      "alt": "Stream n'Spin",
+      "width": 2200,
+      "height": 280,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/00805923051ecfed.webp",
+      "bytes": 142258,
+      "sha256": "85b63f2ddc247d2e190b948c5931ba1112c28e4a73dda074c7d9d684e8b44f7e"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/947/thumbnail.webp",
+      "alt": "Live - Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/e70a6360d701f395.webp",
+      "bytes": 81444,
+      "sha256": "036a233f4118efddb60e4063d858da79ead88c00662314f06b49940d4ce94c78"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnlive/14252/thumbnail.webp",
+      "alt": "IDN Live New Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/04219876f0acbdeb.webp",
+      "bytes": 62992,
+      "sha256": "183d8333e474a76504a79f8c9380de0d24d74ec00c7a624c3557eb1aa937d49d"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/14772/thumbnail.webp",
+      "alt": "Live Mania Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b2ae73282be1b0f5.webp",
+      "bytes": 80840,
+      "sha256": "54d626d1631e9baf5541048fabdd0ceba2615a25c75ada0d199a4a781c3bc3cb"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/evolution/2306/thumbnail.webp",
+      "alt": "Live - Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/5a4166c774d02244.webp",
+      "bytes": 71268,
+      "sha256": "83e97addf0558a3b4c05d06c45bede7fb804d5a2a0593aa91bcf6a0ee4cc6b5a"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/arcade-muted.06527a2.svg",
+      "alt": "Arcade",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/1a62662a7608379f.svg",
+      "bytes": 1931,
+      "sha256": "564c4622a2bb242cac2fba8c87a748b3b22c00edd02f4d81870915a9d2c4194d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/hot.svg",
+      "alt": "Hot",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/477b1b67aa4e17dd.svg",
+      "bytes": 1777,
+      "sha256": "b824f287472a5d23c9db3d14b431078fbbe3bc86a9204b8e9d020f03db741ff6"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/idnarcade.svg",
+      "alt": "IDNArcade",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b0e7cba05430abbb.svg",
+      "bytes": 1851,
+      "sha256": "1d153fb7c44733344994dff714f038f5583aee4b2c091f6cc2853405cd1bafc5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/pragmaticplay_arcade.svg",
+      "alt": "PragmaticPlay",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/7eaed6ab3f3c50c2.svg",
+      "bytes": 3410,
+      "sha256": "ddbea1979c6fd34c4e6f320ef7417deb75f587097ee6d0ec2ffcddaae8c4c6f3"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/minigame.svg",
+      "alt": "Minigame",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b73903d700405549.svg",
+      "bytes": 1309,
+      "sha256": "151ccfdc80d043929234061c137b58679e6a99ea399267d37cbc4ffaf879a706"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/askmeslot_arcade.svg",
+      "alt": "Askmeslot",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ee8d4c285d22facb.svg",
+      "bytes": 5974,
+      "sha256": "f05c6a503486a0e3677c9bf2c4ef56d2bd8dd04a9778ae7b4ff7d26d19ac2f04"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/originals.svg",
+      "alt": "Kong Original",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ec01f4762f63dfe6.svg",
+      "bytes": 3358,
+      "sha256": "cb59826c1205172c0124bc223e2cf4fbaf72e7ad00f5c4dd2bf00ad573ade1e2"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/idnplay.svg",
+      "alt": "Kong Original",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/02242f287bcae979.svg",
+      "bytes": 1718,
+      "sha256": "910fd781464cdf3b0ea64f0a031215d6bab217fe2dcee5fa99aa0c4aeef46a83"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/microgaming_arcade.svg",
+      "alt": "Microgaming",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/dc34572a4c0cdfcf.svg",
+      "bytes": 1228,
+      "sha256": "ea0f5a82c14d1963b11fc57f19fe9f9741c1a1896cb19ba2b12b801314830fa3"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/ky_arcade.svg",
+      "alt": "KY",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f53b38dae990140f.svg",
+      "bytes": 4707,
+      "sha256": "b737d7023ae26ae1b91a9eb54fbbecfabdc1a67ef564bf4dc5928d410d82c1a5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/new.svg",
+      "alt": "New",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ee7325f7fc1e9299.svg",
+      "bytes": 2140,
+      "sha256": "5f1be681cda246ef22716e5e16593d4db4f6e6ca403031a6a9091cc041fd25a7"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/15515/thumbnail.webp",
+      "alt": "Chicken+",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0ee4fd3c51468ff9.webp",
+      "bytes": 7472,
+      "sha256": "bd3390fae809766a75c861fcdb5b9fb5e95f181fe71a44061a1a5d4ef261e808"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnarcade/17601/thumbnail.webp",
+      "alt": "CLASH OF COLOSSEUM: HORSE RACING",
+      "width": 500,
+      "height": 339,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/9fe4d5826b0e354a.webp",
+      "bytes": 56110,
+      "sha256": "daacb41b9bf65b2ea45453ab2abc5353b4093e8de84e0f9ebf57c7bcfb6a8b96"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/14915/thumbnail.webp",
+      "alt": "Limbo+",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/11e590b777736ad0.webp",
+      "bytes": 5870,
+      "sha256": "7b51933a4dbc3c8e48734934759eb8d38179d2ad27d9e99fc4e368414a001a3d"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnarcade/16211/thumbnail.webp",
+      "alt": "Dream Baccarat",
+      "width": 1050,
+      "height": 675,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/aa0cfbca1a9b643b.webp",
+      "bytes": 161028,
+      "sha256": "a80c318783c4e946ca1a24ea1f435235190213ccfbd0d2ae75e065d89c9160fd"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/slot-mania/12520/thumbnail.webp",
+      "alt": "Slot Mania High Flyer",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a1c4036fd9f573d8.webp",
+      "bytes": 11200,
+      "sha256": "b32d7cb742df66595190dfa0e2edf9a614de4f89a9a7b00a8de62362eae8dd05"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/arcade/slotmania.svg",
+      "alt": "Slot Mania",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/cd19937982dd8524.svg",
+      "bytes": 1669,
+      "sha256": "7403feb673efdea4edef5be3561f544a0f817d81a724bac588c101d2d9330581"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/14421/thumbnail.webp",
+      "alt": "Mines+",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0c8e8d6a16a8584f.webp",
+      "bytes": 12066,
+      "sha256": "1dc56a818c199689623251ca0aca05ae8903bd918ffd665517a16234345e76ba"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/sports-muted.d7d89f7.svg",
+      "alt": "Sports+",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ef4342a43cf9ecec.svg",
+      "bytes": 13947,
+      "sha256": "86fcfa06678e8edae65c2805b96b8403047a3df6454ccad661077e860f9e3d77"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sport.png",
+      "alt": "Sports+",
+      "width": 324,
+      "height": 274,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a58957488ed0a193.png",
+      "bytes": 26697,
+      "sha256": "5e2d3ba983e6acd2346002525c80fd98bda2b7af3fb1f21b1393e08c63b994b7"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/exclusive-muted.ccee61c.svg",
+      "alt": "Eksklusif",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/fac9db91ea3a42e2.svg",
+      "bytes": 3461,
+      "sha256": "a4e8b4738d221f7cdccfbedc375a0a1463897ed1e5d648bc637c8d8ebae7c8dc"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/idnpoker.webp",
+      "alt": "IDNPOKER",
+      "width": 447,
+      "height": 598,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/53551a18237e3052.webp",
+      "bytes": 16810,
+      "sha256": "01ac4e1ec09c154a5350b063c9e2d283d30139eccbd9c170d85c8e3eb14c3ac1"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/idnslot.webp",
+      "alt": "IDNSLOT",
+      "width": 523,
+      "height": 698,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d4915997d6499b1f.webp",
+      "bytes": 34682,
+      "sha256": "838437a80be770361630a2acd41208f2da3f7217a89e144a7e7d15d8a917cdc5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/slotmania.webp",
+      "alt": "Slot Mania",
+      "width": 894,
+      "height": 1196,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/589d8b1a3d51be93.webp",
+      "bytes": 119858,
+      "sha256": "aad1056b17282ccd3d68041c5b6c58059f41e546c530ee7317fca1ab0d355293"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/idnlive.webp",
+      "alt": "IDNLIVE",
+      "width": 523,
+      "height": 698,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/02d8cf775fb7cd76.webp",
+      "bytes": 12310,
+      "sha256": "95c36e937336a58acf5cd74cf14618959e43c48cf5cc2d232b6e7376e0245c16"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/livemania.webp",
+      "alt": "Live Mania",
+      "width": 894,
+      "height": 1196,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f5de69555bda3465.webp",
+      "bytes": 158036,
+      "sha256": "d135087c639e3af7c3c35e71ed0231adaab9191a2b291ab37117fc882232a7da"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/idnarcade.webp",
+      "alt": "IDN Arcade",
+      "width": 523,
+      "height": 698,
+      "foundOn": [
+        "https://gobi88.com/",
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/262861b7326f96a1.webp",
+      "bytes": 34136,
+      "sha256": "2cb9ad0ebcdf6dba0b0057eb7e4efce2672fb2b8126ff0c58e4cc1e19402c6fc"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/promo-muted.ee149da.svg",
+      "alt": "Promosi",
+      "width": 800,
+      "height": 800,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0df9ba761f01b8f9.svg",
+      "bytes": 3607,
+      "sha256": "2ff85e194c360d437d15de9aa4f2cf128a8a2cc1f116ea52a2c296a95a375e3f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/thumbnail_757_.webp",
+      "alt": "Crazy Slot Mania Oktober",
+      "width": 447,
+      "height": 598,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/110d237351bfd84a.webp",
+      "bytes": 61790,
+      "sha256": "a6bedef2ae555adae3c009d788961da46cd07d14537ac4c446ccb840c8f2a500"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/thumbnail_748_.webp",
+      "alt": "STREAM N\u2019 SPIN CASHDROP",
+      "width": 447,
+      "height": 598,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/7f8df9981ac00b3b.webp",
+      "bytes": 44336,
+      "sha256": "cb4186b26461894403d84366566f3242c2da005034d363d8345b209858a1ed7f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/thumbnail_744_.webp",
+      "alt": "Clash Of Colosseum Horse Racing Bonus Harian",
+      "width": 447,
+      "height": 598,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0c621ba5c96a0489.webp",
+      "bytes": 62564,
+      "sha256": "24151845e10f474cfbca5ec5fd570b93eafc74f4883e02c233c126c0102659df"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/thumbnail_698_.webp",
+      "alt": "Golden Crown Showdown",
+      "width": 447,
+      "height": 598,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a92d5496a25d963d.webp",
+      "bytes": 86054,
+      "sha256": "65864c9ffaa1839b2678c7cdda55277481137567a1474a9282fc475c8aca9e47"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/thumbnail_567_.webp",
+      "alt": "Level Up Game Rewards",
+      "width": 447,
+      "height": 598,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/e851c5a94358e3c9.webp",
+      "bytes": 52068,
+      "sha256": "bf75bcaf3cad41b057209e8d928c5229755192703a961064804852959bcee2da"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/promotions/thumbnail_652_.webp",
+      "alt": "SportsGG Extra Bonus Parlay 100%",
+      "width": 447,
+      "height": 598,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f9386c962285e95b.webp",
+      "bytes": 74398,
+      "sha256": "bae72a2d32f1d5202608344576c2a352124aeb4d04d17d8d03ee9257d5997038"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/lotto-muted.06763e2.svg",
+      "alt": "Lotto",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d7d6638c718b34f7.svg",
+      "bytes": 9411,
+      "sha256": "e4f694fff60d600bcca025d5db907bbb9c513fc8236cc3f7d1c07664b7592cff"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/lotto.png",
+      "alt": "Lotto",
+      "width": 324,
+      "height": 274,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/29331b48e7b21a2f.png",
+      "bytes": 43209,
+      "sha256": "20c368e7cd13721460eaba8fb11609c65f5f56ffd90da716e5b8c58c1dc65883"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/poker-muted.ea86631.svg",
+      "alt": "Poker",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/e700c59e57067d28.svg",
+      "bytes": 5025,
+      "sha256": "06ca9b8db6b854df7b7fba7a2f6f41a53afaf4d5ca77d3fe3235126478228925"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/poker.png",
+      "alt": "Poker",
+      "width": 324,
+      "height": 274,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/263dacc3991ca9b3.png",
+      "bytes": 28545,
+      "sha256": "120f715e003cf89014d7f072d63402a2735486bd82000d491483057999824d32"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/fishing-muted.daad0e4.svg",
+      "alt": "Fishing",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/efcf4666b14533cc.svg",
+      "bytes": 4759,
+      "sha256": "90c74ec953ada579f5b849b99535ccde8c688ff2c58f9e389bb0dd55da64a6c5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/fishing.png",
+      "alt": "Fishing",
+      "width": 324,
+      "height": 274,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/563b8ceeb8f8ec28.png",
+      "bytes": 44613,
+      "sha256": "fe52d4704c7a9583f5961327e4a6f172f0a6b8fb88f78fd46c9e9c69fa753063"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/payment/Mandiri.svg",
+      "alt": "GOBI88 - Metode deposit - MANDIRI",
+      "width": 300,
+      "height": 87,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/deb719b7bad1bd9d.svg",
+      "bytes": 3495,
+      "sha256": "5e6827ad14b05f1408585905929971db79f39a1c244f7563af19e62aed453ada"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/payment/BNI.svg",
+      "alt": "GOBI88 - Metode deposit - BNI",
+      "width": 300,
+      "height": 87,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d9146494c09600ec.svg",
+      "bytes": 1879,
+      "sha256": "915460452e35da02503f19948c58f370c2b9c050e596ec34eb614508eea1bc5b"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/payment/BRI.svg",
+      "alt": "GOBI88 - Metode deposit - BRI",
+      "width": 300,
+      "height": 71,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/e03dec19b63343e1.svg",
+      "bytes": 3783,
+      "sha256": "ff3d6188fbc7665888469bb910c3be8d878ded3c208d1e77f39228abfa94ae79"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/dark/payment/BCA.svg",
+      "alt": "GOBI88 - Metode deposit - BCA",
+      "width": 300,
+      "height": 91,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/6a2c75d590011e93.svg",
+      "bytes": 3909,
+      "sha256": "2dbf35249ae8c8ab8e836810cd9071da005d2ed902714482304a4053249f5b96"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/851/dist/img/search.6942324.svg",
+      "alt": "Cari",
+      "width": 84,
+      "height": 84,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/9d6a23110c8f6938.svg",
+      "bytes": 1920,
+      "sha256": "d94ff42629d78cebb283d9ede6b8529ccd38698c1e665e614559f5302378e08f"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/flags/id-ID.svg",
+      "alt": "id",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/318bf6c0314ec8c1.svg",
+      "bytes": 678,
+      "sha256": "b16649c3ef1f2f3a583d6f4e8c0249fb1fdec133475336efb794949cfa677d5a"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/flags/en-GB.svg",
+      "alt": "en",
+      "width": 150,
+      "height": 150,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/12ca450c235132d9.svg",
+      "bytes": 2599,
+      "sha256": "1a55a5ced0b629a0bdc966b76b6cd4348cf7dc75a04a91ccc63900bea8cdbcf6"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/icons/icon_production_851_5131.gif",
+      "alt": "RTP Slot Gobi88",
+      "width": 140,
+      "height": 140,
+      "foundOn": [
+        "https://gobi88.com/"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/406c6eaa3d56a658.gif",
+      "bytes": 437012,
+      "sha256": "bace59ae4828ed6dcafe19fc62c9cd6b39ffbedc4a5536d67e5c750d90b2958a"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/slot-mania/18271/thumbnail.webp",
+      "alt": "Bad Seed",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ffd699b3234e73de.webp",
+      "bytes": 12718,
+      "sha256": "e5f39b3e2a6b5e4a056e11345db114acf074ee22f43b9f2ba979914f60ec661a"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/playtech/17891/thumbnail.webp",
+      "alt": "Oktober Cash\u2122",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/488dcbbc3ecbaa0a.webp",
+      "bytes": 14122,
+      "sha256": "d47c45af2122ba187b851a06badabd83da911e67a87b8f9f32ec3f376a65d51c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnslot/14162/thumbnail.webp",
+      "alt": "Poker Mania 1024",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/33cb77fa9749ee87.webp",
+      "bytes": 16040,
+      "sha256": "053f2d999bd7da6756bfffe4ef03f15799027aeed77a01a96f09fa40c8acbfff"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/6000/thumbnail.webp",
+      "alt": "Gates of Olympus 1000",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b2c22ec49b396c00.webp",
+      "bytes": 9502,
+      "sha256": "e57a47fb18da009b3b9c7415f811c501fbe7f9456bb8cedbfc06c12050356fcd"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/10460/thumbnail.webp",
+      "alt": "Gates of Olympus Super Scatter",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/cfe85def5e10a9fb.webp",
+      "bytes": 8964,
+      "sha256": "7bd94dd5e0b27ea63817cb0c0f258946d9a09ada6e1bd1987e16e4b0282d0241"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/8979/thumbnail.webp",
+      "alt": "Mahjong Wins 3 - Black Scatter",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/e8ba11022e116627.webp",
+      "bytes": 290484,
+      "sha256": "217708b54e061eb41c1872d0c05afab1e1e1d7f76515eb5419484e101df20c13"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/habanero/52/thumbnail.webp",
+      "alt": "Koi Gate",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8b9a7c70a664c41f.webp",
+      "bytes": 11686,
+      "sha256": "72ca8256f81ef0ac25b7d9507b09741d6fb1490beef4b0b9d6704b47e216a63a"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/slot-mania/15510/thumbnail.webp",
+      "alt": "50.000x Mania",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f04c603ac4647495.webp",
+      "bytes": 9798,
+      "sha256": "4c54030c928eae0386d0f9ef05100f11a5db7631e2d1c4b54ce132fcb1957e89"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/nolimit-city/17488/thumbnail.webp",
+      "alt": "Carnival Tanked",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/00d4f4970d207aa4.webp",
+      "bytes": 12428,
+      "sha256": "f45eb3ff77fd81deff2b04ade4adf6d07822f32209bbab60cf74a30fa95552da"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/playtech/9710/thumbnail.webp",
+      "alt": "Arowana's Luck",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/83a9c29158d00518.webp",
+      "bytes": 7386,
+      "sha256": "4f0fce8aefdebfa8fd795625878a384605b787e25cb85fa603775e5fbd2e8f7b"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnslot/14168/thumbnail.webp",
+      "alt": "Power of Odin",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8a7a338ecf7c2584.webp",
+      "bytes": 12562,
+      "sha256": "925b856fdbe1ee5909e46079bfe12c621d936198329e5ce3f2883b8061683cd6"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/slot-mania/12498/thumbnail.webp",
+      "alt": "15000x Mania",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/66041af99595612c.webp",
+      "bytes": 12808,
+      "sha256": "9c12596ee8c5d9fe51b8daedef97f2f28cefa7a33636d9b3ee14f5f4946746e4"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/fastspin/18005/thumbnail.webp",
+      "alt": "Jurassic Rush",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8e0249f5bd225c61.webp",
+      "bytes": 8558,
+      "sha256": "350486d92dab217d52379692d74e486a4f3bed7c8cf74e5e9958be44edadc443"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/pragmaticplay/5612/thumbnail.webp",
+      "alt": "Starlight Princess 1000",
+      "width": 376,
+      "height": 250,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/63467dd7df60ed44.webp",
+      "bytes": 24182,
+      "sha256": "1fd1bda90a3326e029c91ae67ef57fd50b7f64f0b568c7185c8f9c44e881a960"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/slot-mania/12499/thumbnail.webp",
+      "alt": "Mahjong Bonanza",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c5f686cf90a881db.webp",
+      "bytes": 13690,
+      "sha256": "8dff049c8312fdf0691954133ece8df742c54e831cc3be8fee7980eba6fc9fc4"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/habanero/5875/thumbnail.webp",
+      "alt": "Koi Gate Level UP",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/6bc171d97c9b8dde.webp",
+      "bytes": 12934,
+      "sha256": "16be7fa8ba45888e52056ac35cabbe7d784d647e92f2a1a3bbe9c00535e999c2"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/playstar/14963/thumbnail.webp",
+      "alt": "Mahjong Origin",
+      "width": 214,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/7649d459bb470b90.webp",
+      "bytes": 10870,
+      "sha256": "e5d29d2acf4cfbf90c670611032b28235de38cb7ddbb8f81738356ba21b8813c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/microgaming/4246/thumbnail.webp",
+      "alt": "Lucky Twins Wilds",
+      "width": 215,
+      "height": 145,
+      "foundOn": [
+        "https://gobi88.com/slot/category/hot"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/6dbafcbf5c8d6fd0.webp",
+      "bytes": 6692,
+      "sha256": "648f164c96f361e47848d9c615bb522693ac8209767864c5291e466bfd7b8de9"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/sns.webp",
+      "alt": "Stream n'Spin",
+      "width": 894,
+      "height": 1196,
+      "foundOn": [
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/54e591aa2ad6bcf5.webp",
+      "bytes": 152604,
+      "sha256": "69b81bd57110c5f37643ea7c4d5fdaf9e2169505031141a7aa07be33f527ff68"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/sportgg.webp",
+      "alt": "Sport GG",
+      "width": 894,
+      "height": 1196,
+      "foundOn": [
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/47dbc5d310d934ff.webp",
+      "bytes": 136212,
+      "sha256": "c48e190e4ef99341e2320b91970e71c40f0ba8063dd15239089d41aee562978d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/pp98.webp",
+      "alt": "PP 98% RTP",
+      "width": 894,
+      "height": 1196,
+      "foundOn": [
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/7a4bc4e063eb6864.webp",
+      "bytes": 52792,
+      "sha256": "b1e4309858ae42e6cc6f2208e071b5ace33713be911c53cff824a9b9d7f3bdda"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/spinroyal.webp",
+      "alt": "Spin Royal",
+      "width": 523,
+      "height": 699,
+      "foundOn": [
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/df88abbdf6b16269.webp",
+      "bytes": 48886,
+      "sha256": "e240e59e6b5dcafe881d8ef365c3ec90e62e454818b30d3d0c29862eef79ea54"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/levelup.webp",
+      "alt": "LeVel UP",
+      "width": 523,
+      "height": 699,
+      "foundOn": [
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/4b566635d758b135.webp",
+      "bytes": 32410,
+      "sha256": "1ad42c71097303a8dbf4647433caf2e633648817bad30fc3a9eb30112e9ac18d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/exclusive/kong.webp",
+      "alt": "Kong Original",
+      "width": 523,
+      "height": 699,
+      "foundOn": [
+        "https://gobi88.com/exclusive"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/75dec43e14f13580.webp",
+      "bytes": 27944,
+      "sha256": "1a4c57ac8c85cf6b245d6028e86a2e0c04fbc45095f5e8a3fd26eabde1d82f33"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/dekstop_sport-gg.jpg",
+      "alt": "Sportsbook",
+      "width": 1080,
+      "height": 140,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c3e5e3edece7a99e.jpg",
+      "bytes": 30560,
+      "sha256": "a1657104645509850ace2a428bdd2fdc9ad57053b466d5bde3c7518f5aac0ae9"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/pgsport.jpg",
+      "alt": "PGSport",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/7357c4fccd6ae9d7.jpg",
+      "bytes": 30256,
+      "sha256": "e017b1998bec348e34c0068abfbe8a4dd1e6c6736bd4e4fd4407eff3a6712f4d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/saba.jpg",
+      "alt": "SABA Sports",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/2d88d7eda712a1a3.jpg",
+      "bytes": 42347,
+      "sha256": "05e8c0a147845feeb6018e3831067e9f9130aca0f8cce4b620ffcaaabd4bd0d5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/sbobet.jpg",
+      "alt": "SBOBET",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/07312642bf83cf70.jpg",
+      "bytes": 50888,
+      "sha256": "d832225a41122798f98128cccaca25ae9e67d71d96a0156aa229698c62ba6169"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/ubo.jpg",
+      "alt": "UboBet",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/413ef387df664853.jpg",
+      "bytes": 51733,
+      "sha256": "bc5aaac338225742197f2bd4ed1f341e8338a62b0f7a0fecc8090f49b2075045"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/nsoft.jpg",
+      "alt": "NSOFT",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a5bf99136fa98ef3.jpg",
+      "bytes": 32664,
+      "sha256": "d3f9988b8323914bee5a114d575df5489c244907cca47174e5c1c54b5883ef2d"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/bti.jpg",
+      "alt": "BTI",
+      "width": 400,
+      "height": 400,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3ac986fb6d54a2f4.jpg",
+      "bytes": 28742,
+      "sha256": "8c605943d84b068529a2a8ec98c5f015e1b43e453f4b8d4bb5049d7dc1dd2f65"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/ftsport.jpg",
+      "alt": "CMD368",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/6b942d17b885f738.jpg",
+      "bytes": 52859,
+      "sha256": "02c2a4528f8bbe0c99aaea864a86ed7ad92dd8a504b43036f3dbeeb78d5a4d47"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/e-sabaesports.jpg",
+      "alt": "Saba eSports",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a1f63a6b27d57d86.jpg",
+      "bytes": 74337,
+      "sha256": "1f141c5899da52a2bc60443c8362ec18f57fade1b2b285c276993cf4863cbbd5"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/e-tfgaming.jpg",
+      "alt": "TFGaming",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/bc0fb3b65d940abb.jpg",
+      "bytes": 70044,
+      "sha256": "ff014f288fd0f61322926b5c10c25e83fa7b33f19e3effbb16bb0877a39f6bde"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/e-ftesport.jpg",
+      "alt": "CMD368",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b1f111c1569a02e9.jpg",
+      "bytes": 45479,
+      "sha256": "389cb44d53795284f9903dbef0b7e0538fa4db3469bc584ae56a947efc39794f"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/sportgg.jpg",
+      "alt": "Sport GG",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/50f494721c849263.jpg",
+      "bytes": 42570,
+      "sha256": "30942496864789174fad98887392572cd7baec5c78450252f66884174afb21ba"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/sports/sbovsports.jpg",
+      "alt": "SBOBET Virtual",
+      "width": 540,
+      "height": 540,
+      "foundOn": [
+        "https://gobi88.com/sports"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0f236a09d013d399.jpg",
+      "bytes": 60193,
+      "sha256": "b631dd5b3ba257c279e1efc64289a0bb4ea0c7d02e44b71280279ec20713b35d"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idnlive/1238/thumbnail.webp",
+      "alt": "Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0ccb74fdcbbab050.webp",
+      "bytes": 14558,
+      "sha256": "7ff67f678d794e6e8b2388b20a893d3fdbc59786364aa027e51408fd8bf89f2d"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/sexygaming/15086/thumbnail.webp",
+      "alt": "Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f8c681ae91e8a492.webp",
+      "bytes": 132630,
+      "sha256": "dfee268d3f55f766bfefe52740a91f681de487a6264be6b8b049e26b22b27c12"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/microgaming-live/7198/thumbnail.webp",
+      "alt": "MG Live Grand",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/299eaa8a5e3df2eb.webp",
+      "bytes": 58404,
+      "sha256": "31747414f956c3c9e30754bc5bf2a8e08d5f229f21db15d9d1e640e7591a4638"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/playtech-casino/10099/thumbnail.webp",
+      "alt": "Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/5f1959df7fc4f53e.webp",
+      "bytes": 55952,
+      "sha256": "61078bf1e912f20c694d8af7d8e09364dcfa4d40a18fd180c5b646057ac86f04"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/sa-gaming/8929/thumbnail.webp",
+      "alt": "Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3d813f2ad576b9dc.webp",
+      "bytes": 87800,
+      "sha256": "8a93a1095e82ab48d93784a9a957cd93bf4f15ad4732e6a1a5414eff454e19b1"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/ezugi/652/thumbnail.webp",
+      "alt": "Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0b8234e36a052111.webp",
+      "bytes": 70320,
+      "sha256": "6c254de3e6a390332f5db6eb30e663451b9a2c58e1392c25fc8d86aa724aab1a"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/vivogaming/1199/thumbnail.webp",
+      "alt": "Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/13607af2dca6b478.webp",
+      "bytes": 61572,
+      "sha256": "2048928d93957acda4c37fbb9849026422edcf8ee76d922e7f3ae5b56d0e18fb"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/oriental-game/4941/thumbnail.webp",
+      "alt": "og-lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/879f022a8a5eb0af.webp",
+      "bytes": 72894,
+      "sha256": "c14fd050908de16c12a924ea798d17c96662c694d1d86cf8fee2a8bb3814170c"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/luckystreak/1865/thumbnail.webp",
+      "alt": "Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/b5b3afb88cba5f92.webp",
+      "bytes": 71264,
+      "sha256": "a44e080f46f23c8a21cc0d267529ac00f9d1433bcd5bc1a20d0d43ff25a8f375"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/ion/13477/thumbnail.webp",
+      "alt": "ION Lobby",
+      "width": 374,
+      "height": 606,
+      "foundOn": [
+        "https://gobi88.com/casino/category/lobby"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/9038e21cf804a9ac.webp",
+      "bytes": 59668,
+      "sha256": "c631958b50775a5f202dbc36b7b9daa79fcb36018465832011fa9f3bba78a163"
+    },
+    {
+      "url": "https://cdn-proxy.globalcontentcloud.com/common/default/poker-banner-d.webp",
+      "alt": "Poker",
+      "width": 1920,
+      "height": 222,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/f35e21765b4a6090.webp",
+      "bytes": 95054,
+      "sha256": "6d54715d64302d40f1f2ef824e2109b806e2b27c524175c61e9579e23f5ea641"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/14224/second_thumb.webp",
+      "alt": "Joker Cash",
+      "width": 1119,
+      "height": 832,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/6e1275e05a59d12d.webp",
+      "bytes": 109070,
+      "sha256": "3c32e4fb90acfde6c7aa1bcdfe9fb612126607f2bff77b8693a6ffb62374e62f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/9597/second_thumb.webp",
+      "alt": "Joker Spin",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ba4c3aa6123185dc.webp",
+      "bytes": 54336,
+      "sha256": "7038a82e26f8771669610f6fc376e71afa9adec51de3989cd3740d3a6495c5bf"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1297/second_thumb.webp",
+      "alt": "Capsa Susun",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/9faff6915aef6405.webp",
+      "bytes": 76190,
+      "sha256": "96af1a9a3396eb7db5c93edc50bb8628cdf25640ac4432c9ca826e0bc8910732"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1291/second_thumb.webp",
+      "alt": "Ceme",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0fc8fdf17a4b6a35.webp",
+      "bytes": 40926,
+      "sha256": "cd6a9e1f7401bae652af43f947b7e0bf2a3b43674eea27048a74df482edb6268"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1289/second_thumb.webp",
+      "alt": "Ceme Keliling",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/a5743ddd14bcd3f1.webp",
+      "bytes": 36958,
+      "sha256": "5ae44fef0a47c66d4ed58ddf4349f215e41010679a45db8b370be722a801f77a"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1292/second_thumb.webp",
+      "alt": "Dealer Capsa",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/0d8c444296487137.webp",
+      "bytes": 57244,
+      "sha256": "0db45237682082324ee491af058a3b823b76fb7b3535634ed316a97fc6b9ffff"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1290/second_thumb.webp",
+      "alt": "Domino bet",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/dcecf700d38f0f1a.webp",
+      "bytes": 43880,
+      "sha256": "721ad7268019947d35fab2ffe37e10e977b30303bebe86d3945ce66c2ea5b0b3"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1294/second_thumb.webp",
+      "alt": "Pot Limit Omaha",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/8e1f9a75026c2886.webp",
+      "bytes": 44574,
+      "sha256": "236b985cb7924a5bc5e5a969f097d6f73048e2c9a7689e89ff053c7e773d4a1f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1298/second_thumb.webp",
+      "alt": "QQ Spirit",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/55468b0ccf068efa.webp",
+      "bytes": 40126,
+      "sha256": "699168957a9c3aebc6fbf9afb2e2dffd0107484a5c847e06f114e6b59912effa"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1296/second_thumb.webp",
+      "alt": "Super Bull",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/503b0eddac0db740.webp",
+      "bytes": 53796,
+      "sha256": "ad2ad07ff4a7269bf7cee531e4e92792bff9086144907283ba051f47a34d2e9d"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1293/second_thumb.webp",
+      "alt": "Super Ten",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3d2eb8877561732d.webp",
+      "bytes": 52554,
+      "sha256": "127cf034c5e8ce81537322a79ef77c772b15d7f1701dfbae1a4d8eae54b4121e"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/1288/second_thumb.webp",
+      "alt": "Texas Poker",
+      "width": 1000,
+      "height": 1000,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/d3b499e26c89ea1f.webp",
+      "bytes": 43508,
+      "sha256": "71c290d53323a4d67cbcae2664a189c88c7151517d7c7de954db970f7e6d5426"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/idn-poker/12128/second_thumb.webp",
+      "alt": "Gaple",
+      "width": 539,
+      "height": 539,
+      "foundOn": [
+        "https://gobi88.com/poker"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/fdef02ddd7aa2397.webp",
+      "bytes": 28498,
+      "sha256": "2f50ecf4f36f16fa9a3f509bfa625e810d63cb9c0a666504759e6f9aefa6b058"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/totomacau-pools/9500/game_logo.webp",
+      "alt": "Totomacau Pools",
+      "width": 1075,
+      "height": 825,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/08720a940d1d73ee.webp",
+      "bytes": 93028,
+      "sha256": "67600b7b6d3e86f49305fa2c72370a08b6b191cc51ebc48070b26bf0410cdac7"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9497/thumbnail.webp",
+      "alt": "Winzo Wheels 09",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ad704fc74ded1c32.webp",
+      "bytes": 13810,
+      "sha256": "a47a093276f5912d2b977f26cdad150f0f644c8973b4efe99a4b1d11f869e8cb"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9486/thumbnail.webp",
+      "alt": "Eagle Lottery",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c2db8fbec5edb9b6.webp",
+      "bytes": 15200,
+      "sha256": "728366b848c38f26d11a6610a4049f47840f43b6b036f85e8ca60aff81a0a857"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9483/thumbnail.webp",
+      "alt": "Temple Palace",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/ddd39b14352ea8eb.webp",
+      "bytes": 16714,
+      "sha256": "9eeca9f05f252709d84cf80f4427d0299f69e8d8c6b2190b5961f1ef46aa3e4f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9490/thumbnail.webp",
+      "alt": "Hawaii Bingo",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/c9d9981e4157a1de.webp",
+      "bytes": 20008,
+      "sha256": "4162ec8aa0d02481bb1dda47ac48c85f534f86e9437b8d6aa3c9400ddf863b44"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9484/thumbnail.webp",
+      "alt": "Crazy Lotto",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/eb04c67cad02c973.webp",
+      "bytes": 13634,
+      "sha256": "774dcbcf163ebe085fa00f688d16ef391145985767390cc1efa5768b29a229cd"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9488/thumbnail.webp",
+      "alt": "Universe 6D",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/bc07df14ff652b1b.webp",
+      "bytes": 9342,
+      "sha256": "ba169cb242e725dfb424eb72d2e9d1a02512ed786ab14b3aeeb1cb6908fcc436"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9485/thumbnail.webp",
+      "alt": "DRAGON 5D",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/35f55144ff0c7ca3.webp",
+      "bytes": 16822,
+      "sha256": "0b815fb22e592274b56b3d83dfad6634f699d2b83e3eed951540b3f7d28e5b4f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/16924/thumbnail.webp",
+      "alt": "Chinchirorin",
+      "width": 332,
+      "height": 224,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/41fe9acab198ef5c.webp",
+      "bytes": 25284,
+      "sha256": "e72f019a98bfa1414bd4d57fcc989c8d3c947ca6dc20c2af1c59e93e5c206819"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9498/thumbnail.webp",
+      "alt": "Winzo Wheels 15",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/5ab6511b0a541fc8.webp",
+      "bytes": 9884,
+      "sha256": "ca4075c7e889cad4893d63eceec4cbe4ccd5c183e6e371ad68c35e95d3c9274f"
+    },
+    {
+      "url": "https://cdn.globalcontentcloud.com/game-images/e-lottery/9489/thumbnail.webp",
+      "alt": "King Palace",
+      "width": 320,
+      "height": 240,
+      "foundOn": [
+        "https://gobi88.com/lotto/popular"
+      ],
+      "acquisitionStatus": "URL_OBSERVED_BYTES_NOT_VERIFIED",
+      "status": "COPIED",
+      "localPath": "/assets/3eb8cba151a645fa.webp",
+      "bytes": 18306,
+      "sha256": "4bbd370fefc2eefe6f667f6fba8c59356a774843fe17267a95017d8f8634ab1d"
+    }
+  ]
+}

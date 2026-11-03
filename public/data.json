@@ -1,0 +1,2682 @@
+{
+  "navIcons": {
+    "exclusive": "/assets/fd954835f8abba37.svg",
+    "sports": "/assets/8fc4e1eca39dc6d4.svg",
+    "slots": "/assets/3f85618b9227a468.svg",
+    "casino": "/assets/d1ad6ea3ac9fca7b.svg",
+    "poker": "/assets/3ae000702c2d64bb.svg",
+    "lotto": "/assets/c33653c244e3a128.svg",
+    "arcade": "/assets/f172b2743a13a280.svg",
+    "fishing": "/assets/1740fc4110c2070c.svg",
+    "promo": "/assets/16617f4450c728d2.svg",
+    "leaderboard": "/assets/eaf51373b380743a.svg",
+    "referral": "/assets/54aec394576f7e8c.svg",
+    "chat": "/assets/80292222aaba85b5.svg",
+    "slots-muted": "/assets/897fda8431e0bc82.svg",
+    "hot-muted": "/assets/4a1941439235f911.svg",
+    "casino-muted": "/assets/0716cf9e2abbe89c.svg",
+    "arcade-muted": "/assets/1a62662a7608379f.svg",
+    "sports-muted": "/assets/ef4342a43cf9ecec.svg",
+    "exclusive-muted": "/assets/fac9db91ea3a42e2.svg",
+    "promo-muted": "/assets/0df9ba761f01b8f9.svg",
+    "lotto-muted": "/assets/d7d6638c718b34f7.svg",
+    "poker-muted": "/assets/e700c59e57067d28.svg",
+    "fishing-muted": "/assets/efcf4666b14533cc.svg",
+    "search": "/assets/9d6a23110c8f6938.svg"
+  },
+  "providers": [
+    {
+      "id": "idnslotdirect",
+      "name": "IDNSLOT",
+      "family": "slot",
+      "image": "/assets/c1dd83d9ccfcf772.svg",
+      "path": "/slot/provider/idnslotdirect"
+    },
+    {
+      "id": "pragmaticplay",
+      "name": "PragmaticPlay",
+      "family": "slot",
+      "image": "/assets/739e86f47e70551f.svg",
+      "path": "/slot/provider/pragmaticplay"
+    },
+    {
+      "id": "slotmania",
+      "name": "Slot Mania",
+      "family": "slot",
+      "image": "/assets/9dcebbbd5604d8de.svg",
+      "path": "/slot/provider/slotmania"
+    },
+    {
+      "id": "pp-pop",
+      "name": "PP POP",
+      "family": "slot",
+      "image": "/assets/833da591748397f7.svg",
+      "path": "/slot/provider/pp-pop"
+    },
+    {
+      "id": "pgsoft",
+      "name": "PG Soft",
+      "family": "slot",
+      "image": "/assets/a89a377ec2c51ba9.svg",
+      "path": "/slot/provider/pgsoft"
+    },
+    {
+      "id": "microgaming",
+      "name": "Microgaming",
+      "family": "slot",
+      "image": "/assets/d9f091064a44e7c4.svg",
+      "path": "/slot/provider/microgaming"
+    },
+    {
+      "id": "evolution-nlc",
+      "name": "Nolimit City",
+      "family": "slot",
+      "image": "/assets/9b5f8dcd86c0bad3.svg",
+      "path": "/slot/provider/evolution-nlc"
+    },
+    {
+      "id": "habanero",
+      "name": "Habanero",
+      "family": "slot",
+      "image": "/assets/3bb82af6d94da6a7.svg",
+      "path": "/slot/provider/habanero"
+    },
+    {
+      "id": "5g",
+      "name": "5G Games",
+      "family": "slot",
+      "image": "/assets/edbd5dcd61aa9733.svg",
+      "path": "/slot/provider/5g"
+    },
+    {
+      "id": "spadegaming_slot",
+      "name": "Spadegaming",
+      "family": "slot",
+      "image": "/assets/b3bdf8eb6b3915f3.svg",
+      "path": "/slot/provider/spadegaming_slot"
+    },
+    {
+      "id": "jili",
+      "name": "JILI",
+      "family": "slot",
+      "image": "/assets/c2b671523424c0d4.svg",
+      "path": "/slot/provider/jili"
+    },
+    {
+      "id": "playtech_slot",
+      "name": "Playtech",
+      "family": "slot",
+      "image": "/assets/0e6ea52dad3418f6.svg",
+      "path": "/slot/provider/playtech_slot"
+    },
+    {
+      "id": "playstar",
+      "name": "PlayStar",
+      "family": "slot",
+      "image": "/assets/5b7e2149103f0878.svg",
+      "path": "/slot/provider/playstar"
+    },
+    {
+      "id": "ttg",
+      "name": "TTG",
+      "family": "slot",
+      "image": "/assets/19906d04ac315490.svg",
+      "path": "/slot/provider/ttg"
+    },
+    {
+      "id": "kagaming_slots",
+      "name": "KA",
+      "family": "slot",
+      "image": "/assets/6d5a6ae91e0446a6.svg",
+      "path": "/slot/provider/kagaming_slots"
+    },
+    {
+      "id": "dstplay_slots",
+      "name": "DST Play",
+      "family": "slot",
+      "image": "/assets/23ff98e544bf658a.svg",
+      "path": "/slot/provider/dstplay_slots"
+    },
+    {
+      "id": "comboslots",
+      "name": "Combo Slots",
+      "family": "slot",
+      "image": "/assets/0205ec4a9b36e775.svg",
+      "path": "/slot/provider/comboslots"
+    },
+    {
+      "id": "popokgaming",
+      "name": "PopOk",
+      "family": "slot",
+      "image": "/assets/8d8c4b2534693059.svg",
+      "path": "/slot/provider/popokgaming"
+    },
+    {
+      "id": "fastspin",
+      "name": "FastSpin",
+      "family": "slot",
+      "image": "/assets/148fe7232afdc9d0.svg",
+      "path": "/slot/provider/fastspin"
+    },
+    {
+      "id": "ygr_slots",
+      "name": "YGR",
+      "family": "slot",
+      "image": "/assets/89f1c2eaaff4110a.svg",
+      "path": "/slot/provider/ygr_slots"
+    },
+    {
+      "id": "penguin_king",
+      "name": "Penguin King",
+      "family": "slot",
+      "image": "/assets/37d7a85141d97864.svg",
+      "path": "/slot/provider/penguin_king"
+    },
+    {
+      "id": "amigo",
+      "name": "Amigo Gaming",
+      "family": "slot",
+      "image": "/assets/603845f91ea0c28d.svg",
+      "path": "/slot/provider/amigo"
+    },
+    {
+      "id": "pragmaticplay98",
+      "name": "PP 98% RTP",
+      "family": "slot",
+      "image": "/assets/521a80a1c50ffb43.svg",
+      "path": "/slot/provider/pragmaticplay98"
+    },
+    {
+      "id": "cq9",
+      "name": "CQ9",
+      "family": "slot",
+      "image": "/assets/73c4d1a7c40562e8.svg",
+      "path": "/slot/provider/cq9"
+    },
+    {
+      "id": "yggdrasil",
+      "name": "Yggdrasil",
+      "family": "slot",
+      "image": "/assets/f75d949fb07d4f58.svg",
+      "path": "/slot/provider/yggdrasil"
+    },
+    {
+      "id": "shadylady",
+      "name": "ShadyLady",
+      "family": "slot",
+      "image": "/assets/37420afa73f50998.svg",
+      "path": "/slot/provider/shadylady"
+    },
+    {
+      "id": "bng",
+      "name": "BNG",
+      "family": "slot",
+      "image": "/assets/0f06132ac96e9c66.svg",
+      "path": "/slot/provider/bng"
+    },
+    {
+      "id": "askmeslot_slot",
+      "name": "Askmeslot",
+      "family": "slot",
+      "image": "/assets/889f8ef2ee9b80ad.svg",
+      "path": "/slot/provider/askmeslot_slot"
+    },
+    {
+      "id": "vplus",
+      "name": "VPlus",
+      "family": "slot",
+      "image": "/assets/e1bd519f0d555320.svg",
+      "path": "/slot/provider/vplus"
+    },
+    {
+      "id": "bigpot",
+      "name": "BigPot",
+      "family": "slot",
+      "image": "/assets/e00f605896408ebf.svg",
+      "path": "/slot/provider/bigpot"
+    },
+    {
+      "id": "reevo",
+      "name": "Reevo",
+      "family": "slot",
+      "image": "/assets/a79de6853c484ca6.svg",
+      "path": "/slot/provider/reevo"
+    },
+    {
+      "id": "bgaming",
+      "name": "Bgaming",
+      "family": "slot",
+      "image": "/assets/a13f7afb1eee14cb.svg",
+      "path": "/slot/provider/bgaming"
+    },
+    {
+      "id": "evolution-redtiger",
+      "name": "RedTiger",
+      "family": "slot",
+      "image": "/assets/8d8fafa25af4471d.svg",
+      "path": "/slot/provider/evolution-redtiger"
+    },
+    {
+      "id": "evolution-netent",
+      "name": "NetEnt",
+      "family": "slot",
+      "image": "/assets/db064d1b26377ee3.svg",
+      "path": "/slot/provider/evolution-netent"
+    },
+    {
+      "id": "simpleplay",
+      "name": "SimplePlay",
+      "family": "slot",
+      "image": "/assets/2c769ab55328e095.svg",
+      "path": "/slot/provider/simpleplay"
+    },
+    {
+      "id": "gmw",
+      "name": "GMW",
+      "family": "slot",
+      "image": "/assets/ea1ee6fbc9918cfb.svg",
+      "path": "/slot/provider/gmw"
+    },
+    {
+      "id": "apparat",
+      "name": "Apparat",
+      "family": "slot",
+      "image": "/assets/b270abc487a6964d.svg",
+      "path": "/slot/provider/apparat"
+    },
+    {
+      "id": "booming_games",
+      "name": "Booming",
+      "family": "slot",
+      "image": "/assets/25d7d4ddcfea0a31.svg",
+      "path": "/slot/provider/booming_games"
+    },
+    {
+      "id": "live_22",
+      "name": "Live22",
+      "family": "slot",
+      "image": "/assets/9833847885ff9a67.svg",
+      "path": "/slot/provider/live_22"
+    },
+    {
+      "id": "evolution-btg",
+      "name": "BTG",
+      "family": "slot",
+      "image": "/assets/d6813666f7eb581d.svg",
+      "path": "/slot/provider/evolution-btg"
+    },
+    {
+      "id": "jdb_slot",
+      "name": "JDB",
+      "family": "slot",
+      "image": "/assets/d24beaad69c5eaac.svg",
+      "path": "/slot/provider/jdb_slot"
+    },
+    {
+      "id": "sboslots",
+      "name": "SBOBET",
+      "family": "slot",
+      "image": "/assets/00f731224d329e38.svg",
+      "path": "/slot/provider/sboslots"
+    },
+    {
+      "id": "ky_slots",
+      "name": "KY",
+      "family": "slot",
+      "image": "/assets/b9d2403ef7a060ec.svg",
+      "path": "/slot/provider/ky_slots"
+    },
+    {
+      "id": "idnarcade",
+      "name": "IDNArcade",
+      "family": "arcade",
+      "image": "/assets/b0e7cba05430abbb.svg",
+      "path": "/arcade/provider/idnarcade"
+    },
+    {
+      "id": "pragmaticplay_arcade",
+      "name": "PragmaticPlay",
+      "family": "arcade",
+      "image": "/assets/7eaed6ab3f3c50c2.svg",
+      "path": "/arcade/provider/pragmaticplay_arcade"
+    },
+    {
+      "id": "minigame",
+      "name": "Minigame",
+      "family": "arcade",
+      "image": "/assets/b73903d700405549.svg",
+      "path": "/arcade/provider/minigame"
+    },
+    {
+      "id": "askmeslot_arcade",
+      "name": "Askmeslot",
+      "family": "arcade",
+      "image": "/assets/ee8d4c285d22facb.svg",
+      "path": "/arcade/provider/askmeslot_arcade"
+    },
+    {
+      "id": "originals",
+      "name": "Kong Original",
+      "family": "arcade",
+      "image": "/assets/ec01f4762f63dfe6.svg",
+      "path": "/arcade/provider/originals"
+    },
+    {
+      "id": "microgaming_arcade",
+      "name": "Microgaming",
+      "family": "arcade",
+      "image": "/assets/dc34572a4c0cdfcf.svg",
+      "path": "/arcade/provider/microgaming_arcade"
+    },
+    {
+      "id": "ky_arcade",
+      "name": "KY",
+      "family": "arcade",
+      "image": "/assets/f53b38dae990140f.svg",
+      "path": "/arcade/provider/ky_arcade"
+    }
+  ],
+  "games": [
+    {
+      "id": "18288",
+      "title": "Mahjong Ways I",
+      "family": "slot",
+      "provider": "idnslotdirect",
+      "providerName": "IDNSLOT",
+      "image": "/assets/4391d60abba51a6f.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "buy-bonus",
+        "megaways"
+      ],
+      "sourceIndex": 87
+    },
+    {
+      "id": "15503",
+      "title": "Mahjong MaxWin",
+      "family": "slot",
+      "provider": "microgaming",
+      "providerName": "Microgaming",
+      "image": "/assets/a09b7b5fef89395f.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 88
+    },
+    {
+      "id": "18274",
+      "title": "Carnival Mental 2",
+      "family": "slot",
+      "provider": "evolution-nlc",
+      "providerName": "Nolimit City",
+      "image": "/assets/f9b92662a867a682.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 89
+    },
+    {
+      "id": "18292",
+      "title": "Booming Buffalo Hold and Win: Extreme 2",
+      "family": "slot",
+      "provider": "booming_games",
+      "providerName": "Booming",
+      "image": "/assets/625727aa4a707845.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 90
+    },
+    {
+      "id": "17819",
+      "title": "Sweet Buffet",
+      "family": "slot",
+      "provider": "dstplay_slots",
+      "providerName": "DST Play",
+      "image": "/assets/c2f6bc324755d489.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 91
+    },
+    {
+      "id": "15125",
+      "title": "ZEUS OF OLYMPUS",
+      "family": "slot",
+      "provider": "playstar",
+      "providerName": "PlayStar",
+      "image": "/assets/2fa048dd1709268d.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 92
+    },
+    {
+      "id": "5211",
+      "title": "Frogs N Flies",
+      "family": "slot",
+      "provider": "ttg",
+      "providerName": "TTG",
+      "image": "/assets/2bde7952a0a62f83.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "megaways"
+      ],
+      "sourceIndex": 93
+    },
+    {
+      "id": "16447",
+      "title": "1000 Olympus Rivals",
+      "family": "slot",
+      "provider": "amigo",
+      "providerName": "Amigo Gaming",
+      "image": "/assets/791fa45bd36a6f24.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 94
+    },
+    {
+      "id": "18280",
+      "title": "Zeus 2000",
+      "family": "slot",
+      "provider": "5g",
+      "providerName": "5G Games",
+      "image": "/assets/d7e8ad9a17be0562.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 95
+    },
+    {
+      "id": "18272",
+      "title": "Double Mummy's Jewels 1000",
+      "family": "slot",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/548a76ed19671da1.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 96
+    },
+    {
+      "id": "17887",
+      "title": "Kart Rush",
+      "family": "slot",
+      "provider": "microgaming",
+      "providerName": "Microgaming",
+      "image": "/assets/80319437060db2c7.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 97
+    },
+    {
+      "id": "16483",
+      "title": "Pinata 1000",
+      "family": "slot",
+      "provider": "5g",
+      "providerName": "5G Games",
+      "image": "/assets/67f61f73cf749851.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 98
+    },
+    {
+      "id": "11225",
+      "title": "Istanbul Roulette",
+      "family": "casino",
+      "provider": "mg_live_grand",
+      "providerName": "Microgaming Live",
+      "image": "/assets/f543ddf8b370b4c3.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "megaways",
+        "roulette"
+      ],
+      "sourceIndex": 100
+    },
+    {
+      "id": "11077",
+      "title": "Baccarat 2",
+      "family": "casino",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/38dc7fd57713c049.webp",
+      "tags": [
+        "hot",
+        "baccarat"
+      ],
+      "sourceIndex": 102
+    },
+    {
+      "id": "11288",
+      "title": "Copa Cabana Baccarat",
+      "family": "casino",
+      "provider": "vivo-gaming",
+      "providerName": "Vivogaming",
+      "image": "/assets/b69db6f0a73e1551.webp",
+      "tags": [
+        "hot",
+        "baccarat"
+      ],
+      "sourceIndex": 103
+    },
+    {
+      "id": "11069",
+      "title": "Romanian Roulette",
+      "family": "casino",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/3bf3c939baee54ac.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "buy-bonus",
+        "roulette"
+      ],
+      "sourceIndex": 104
+    },
+    {
+      "id": "11129",
+      "title": "Privé Lounge Baccarat 5",
+      "family": "casino",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/777d36485723a03f.webp",
+      "tags": [
+        "hot",
+        "new",
+        "baccarat"
+      ],
+      "sourceIndex": 105
+    },
+    {
+      "id": "1214",
+      "title": "Dragon Tiger",
+      "family": "casino",
+      "provider": "idnlive",
+      "providerName": "Idnlive",
+      "image": "/assets/32edfb706a7202fd.webp",
+      "tags": [
+        "hot",
+        "dragon-tiger"
+      ],
+      "sourceIndex": 106
+    },
+    {
+      "id": "11124",
+      "title": "Turkish Mega Roulette",
+      "family": "casino",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/2355201c1fe46b33.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "megaways",
+        "roulette"
+      ],
+      "sourceIndex": 107
+    },
+    {
+      "id": "11342",
+      "title": "Casino Marina Roulette 1",
+      "family": "casino",
+      "provider": "ezugi-gaming",
+      "providerName": "Ezugi",
+      "image": "/assets/0fcbd55c729e768e.webp",
+      "tags": [
+        "hot",
+        "roulette"
+      ],
+      "sourceIndex": 108
+    },
+    {
+      "id": "11250",
+      "title": "Blackjack Niagara Falls",
+      "family": "casino",
+      "provider": "mg_live_grand",
+      "providerName": "Microgaming Live",
+      "image": "/assets/a75dd4cbcffbb7e9.webp",
+      "tags": [
+        "hot",
+        "new",
+        "buy-bonus",
+        "blackjack"
+      ],
+      "sourceIndex": 109
+    },
+    {
+      "id": "13879",
+      "title": "Speed VIP Blackjack H",
+      "family": "casino",
+      "provider": "evolution",
+      "providerName": "Evolution",
+      "image": "/assets/a7c6e0b54f1e3ca0.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "blackjack"
+      ],
+      "sourceIndex": 110
+    },
+    {
+      "id": "12532",
+      "title": "Baccarat",
+      "family": "casino",
+      "provider": "playtech",
+      "providerName": "Playtech Casino",
+      "image": "/assets/2253a35bab76149f.webp",
+      "tags": [
+        "hot",
+        "baccarat"
+      ],
+      "sourceIndex": 111
+    },
+    {
+      "id": "11275",
+      "title": "Portomaso Roulette",
+      "family": "casino",
+      "provider": "vivo-gaming",
+      "providerName": "Vivogaming",
+      "image": "/assets/bc8e864b3efddd8f.webp",
+      "tags": [
+        "hot",
+        "roulette"
+      ],
+      "sourceIndex": 112
+    },
+    {
+      "id": "947",
+      "title": "PragmaticPlay Lobby",
+      "family": "casino",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/e70a6360d701f395.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "megaways"
+      ],
+      "sourceIndex": 114
+    },
+    {
+      "id": "14252",
+      "title": "IDN Live New Lobby",
+      "family": "casino",
+      "provider": "idnlive",
+      "providerName": "Idnlive",
+      "image": "/assets/04219876f0acbdeb.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 115
+    },
+    {
+      "id": "14772",
+      "title": "Live Mania Lobby",
+      "family": "casino",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/b2ae73282be1b0f5.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 116
+    },
+    {
+      "id": "2306",
+      "title": "Evolution Lobby",
+      "family": "casino",
+      "provider": "evolution",
+      "providerName": "Evolution",
+      "image": "/assets/5a4166c774d02244.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 117
+    },
+    {
+      "id": "15515",
+      "title": "Chicken+",
+      "family": "arcade",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/0ee4fd3c51468ff9.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 129
+    },
+    {
+      "id": "17601",
+      "title": "CLASH OF COLOSSEUM: HORSE RACING",
+      "family": "arcade",
+      "provider": "idnarcade",
+      "providerName": "IDNArcade",
+      "image": "/assets/9fe4d5826b0e354a.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 130
+    },
+    {
+      "id": "14915",
+      "title": "Limbo+",
+      "family": "arcade",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/11e590b777736ad0.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "buy-bonus",
+        "megaways"
+      ],
+      "sourceIndex": 131
+    },
+    {
+      "id": "16211",
+      "title": "Dream Baccarat",
+      "family": "arcade",
+      "provider": "idnarcade",
+      "providerName": "IDNArcade",
+      "image": "/assets/aa0cfbca1a9b643b.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 132
+    },
+    {
+      "id": "12520",
+      "title": "Slot Mania High Flyer",
+      "family": "arcade",
+      "provider": "slotmania",
+      "providerName": "Slot Mania",
+      "image": "/assets/a1c4036fd9f573d8.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 133
+    },
+    {
+      "id": "14421",
+      "title": "Mines+",
+      "family": "arcade",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/0c8e8d6a16a8584f.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 135
+    },
+    {
+      "id": "18271",
+      "title": "Bad Seed",
+      "family": "slot",
+      "provider": "slotmania",
+      "providerName": "Slot Mania",
+      "image": "/assets/ffd699b3234e73de.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 166
+    },
+    {
+      "id": "17891",
+      "title": "Oktober Cash™",
+      "family": "slot",
+      "provider": "playtech_slot",
+      "providerName": "Playtech",
+      "image": "/assets/488dcbbc3ecbaa0a.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 167
+    },
+    {
+      "id": "14162",
+      "title": "Poker Mania 1024",
+      "family": "slot",
+      "provider": "idnslotdirect",
+      "providerName": "IDNSLOT",
+      "image": "/assets/33cb77fa9749ee87.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "megaways"
+      ],
+      "sourceIndex": 168
+    },
+    {
+      "id": "6000",
+      "title": "Gates of Olympus 1000",
+      "family": "slot",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/b2c22ec49b396c00.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 169
+    },
+    {
+      "id": "10460",
+      "title": "Gates of Olympus Super Scatter",
+      "family": "slot",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/cfe85def5e10a9fb.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 170
+    },
+    {
+      "id": "8979",
+      "title": "Mahjong Wins 3 - Black Scatter",
+      "family": "slot",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/e8ba11022e116627.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 171
+    },
+    {
+      "id": "52",
+      "title": "Koi Gate",
+      "family": "slot",
+      "provider": "habanero",
+      "providerName": "Habanero",
+      "image": "/assets/8b9a7c70a664c41f.webp",
+      "tags": [
+        "hot",
+        "new",
+        "buy-bonus",
+        "level-up"
+      ],
+      "sourceIndex": 172
+    },
+    {
+      "id": "15510",
+      "title": "50.000x Mania",
+      "family": "slot",
+      "provider": "slotmania",
+      "providerName": "Slot Mania",
+      "image": "/assets/f04c603ac4647495.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 173
+    },
+    {
+      "id": "17488",
+      "title": "Carnival Tanked",
+      "family": "slot",
+      "provider": "evolution-nlc",
+      "providerName": "Nolimit City",
+      "image": "/assets/00d4f4970d207aa4.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "megaways"
+      ],
+      "sourceIndex": 174
+    },
+    {
+      "id": "9710",
+      "title": "Arowana's Luck",
+      "family": "slot",
+      "provider": "playtech_slot",
+      "providerName": "Playtech",
+      "image": "/assets/83a9c29158d00518.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 175
+    },
+    {
+      "id": "14168",
+      "title": "Power of Odin",
+      "family": "slot",
+      "provider": "idnslotdirect",
+      "providerName": "IDNSLOT",
+      "image": "/assets/8a7a338ecf7c2584.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 176
+    },
+    {
+      "id": "12498",
+      "title": "15000x Mania",
+      "family": "slot",
+      "provider": "slotmania",
+      "providerName": "Slot Mania",
+      "image": "/assets/66041af99595612c.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "buy-bonus"
+      ],
+      "sourceIndex": 177
+    },
+    {
+      "id": "18005",
+      "title": "Jurassic Rush",
+      "family": "slot",
+      "provider": "fastspin",
+      "providerName": "FastSpin",
+      "image": "/assets/8e0249f5bd225c61.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 178
+    },
+    {
+      "id": "5612",
+      "title": "Starlight Princess 1000",
+      "family": "slot",
+      "provider": "pragmaticplay",
+      "providerName": "PragmaticPlay",
+      "image": "/assets/63467dd7df60ed44.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 179
+    },
+    {
+      "id": "12499",
+      "title": "Mahjong Bonanza",
+      "family": "slot",
+      "provider": "slotmania",
+      "providerName": "Slot Mania",
+      "image": "/assets/c5f686cf90a881db.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "megaways"
+      ],
+      "sourceIndex": 180
+    },
+    {
+      "id": "5875",
+      "title": "Koi Gate Level UP",
+      "family": "slot",
+      "provider": "habanero",
+      "providerName": "Habanero",
+      "image": "/assets/6bc171d97c9b8dde.webp",
+      "tags": [
+        "hot",
+        "level-up"
+      ],
+      "sourceIndex": 181
+    },
+    {
+      "id": "14963",
+      "title": "Mahjong Origin",
+      "family": "slot",
+      "provider": "playstar",
+      "providerName": "PlayStar",
+      "image": "/assets/7649d459bb470b90.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 182
+    },
+    {
+      "id": "4246",
+      "title": "Lucky Twins Wilds",
+      "family": "slot",
+      "provider": "microgaming",
+      "providerName": "Microgaming",
+      "image": "/assets/6dbafcbf5c8d6fd0.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 183
+    },
+    {
+      "id": "1238",
+      "title": "Idnlive Lobby",
+      "family": "casino",
+      "provider": "idnlive",
+      "providerName": "Idnlive",
+      "image": "/assets/0ccb74fdcbbab050.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 203
+    },
+    {
+      "id": "15086",
+      "title": "Sexygaming Lobby",
+      "family": "casino",
+      "provider": "sexygaming",
+      "providerName": "Sexygaming",
+      "image": "/assets/f8c681ae91e8a492.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 204
+    },
+    {
+      "id": "7198",
+      "title": "Microgaming Live Lobby",
+      "family": "casino",
+      "provider": "mg_live_grand",
+      "providerName": "Microgaming Live",
+      "image": "/assets/299eaa8a5e3df2eb.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "megaways"
+      ],
+      "sourceIndex": 205
+    },
+    {
+      "id": "10099",
+      "title": "Playtech Casino Lobby",
+      "family": "casino",
+      "provider": "playtech",
+      "providerName": "Playtech Casino",
+      "image": "/assets/5f1959df7fc4f53e.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 206
+    },
+    {
+      "id": "8929",
+      "title": "Sa Gaming Lobby",
+      "family": "casino",
+      "provider": "sagaming",
+      "providerName": "Sa Gaming",
+      "image": "/assets/3d813f2ad576b9dc.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 207
+    },
+    {
+      "id": "652",
+      "title": "Ezugi Lobby",
+      "family": "casino",
+      "provider": "ezugi-gaming",
+      "providerName": "Ezugi",
+      "image": "/assets/0b8234e36a052111.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 208
+    },
+    {
+      "id": "1199",
+      "title": "Vivogaming Lobby",
+      "family": "casino",
+      "provider": "vivo-gaming",
+      "providerName": "Vivogaming",
+      "image": "/assets/13607af2dca6b478.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 209
+    },
+    {
+      "id": "4941",
+      "title": "Oriental Game Lobby",
+      "family": "casino",
+      "provider": "og",
+      "providerName": "Oriental Game",
+      "image": "/assets/879f022a8a5eb0af.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 210
+    },
+    {
+      "id": "1865",
+      "title": "Luckystreak Lobby",
+      "family": "casino",
+      "provider": "luckystreak",
+      "providerName": "Luckystreak",
+      "image": "/assets/b5b3afb88cba5f92.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "buy-bonus",
+        "megaways"
+      ],
+      "sourceIndex": 211
+    },
+    {
+      "id": "13477",
+      "title": "Ion Lobby",
+      "family": "casino",
+      "provider": "ion",
+      "providerName": "Ion",
+      "image": "/assets/9038e21cf804a9ac.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 212
+    },
+    {
+      "id": "14224",
+      "title": "Joker Cash",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/6e1275e05a59d12d.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 214
+    },
+    {
+      "id": "9597",
+      "title": "Joker Spin",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/ba4c3aa6123185dc.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 215
+    },
+    {
+      "id": "1297",
+      "title": "Capsa Susun",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/9faff6915aef6405.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 216
+    },
+    {
+      "id": "1291",
+      "title": "Ceme",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/0fc8fdf17a4b6a35.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 217
+    },
+    {
+      "id": "1289",
+      "title": "Ceme Keliling",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/a5743ddd14bcd3f1.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "megaways"
+      ],
+      "sourceIndex": 218
+    },
+    {
+      "id": "1292",
+      "title": "Dealer Capsa",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/0d8c444296487137.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 219
+    },
+    {
+      "id": "1290",
+      "title": "Domino bet",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/dcecf700d38f0f1a.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 220
+    },
+    {
+      "id": "1294",
+      "title": "Pot Limit Omaha",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/8e1f9a75026c2886.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 221
+    },
+    {
+      "id": "1298",
+      "title": "QQ Spirit",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/55468b0ccf068efa.webp",
+      "tags": [
+        "hot",
+        "buy-bonus"
+      ],
+      "sourceIndex": 222
+    },
+    {
+      "id": "1296",
+      "title": "Super Bull",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/503b0eddac0db740.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 223
+    },
+    {
+      "id": "1293",
+      "title": "Super Ten",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/3d2eb8877561732d.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "megaways"
+      ],
+      "sourceIndex": 224
+    },
+    {
+      "id": "1288",
+      "title": "Texas Poker",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/d3b499e26c89ea1f.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 225
+    },
+    {
+      "id": "12128",
+      "title": "Gaple",
+      "family": "poker",
+      "provider": "idn-poker",
+      "providerName": "Idn Poker",
+      "image": "/assets/fdef02ddd7aa2397.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 226
+    },
+    {
+      "id": "9497",
+      "title": "Winzo Wheels 09",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/ad704fc74ded1c32.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "buy-bonus"
+      ],
+      "sourceIndex": 228
+    },
+    {
+      "id": "9486",
+      "title": "Eagle Lottery",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/c2db8fbec5edb9b6.webp",
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "sourceIndex": 229
+    },
+    {
+      "id": "9483",
+      "title": "Temple Palace",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/ddd39b14352ea8eb.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 230
+    },
+    {
+      "id": "9490",
+      "title": "Hawaii Bingo",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/c9d9981e4157a1de.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "megaways"
+      ],
+      "sourceIndex": 231
+    },
+    {
+      "id": "9484",
+      "title": "Crazy Lotto",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/eb04c67cad02c973.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 232
+    },
+    {
+      "id": "9488",
+      "title": "Universe 6D",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/bc07df14ff652b1b.webp",
+      "tags": [
+        "hot",
+        "new",
+        "buy-bonus"
+      ],
+      "sourceIndex": 233
+    },
+    {
+      "id": "9485",
+      "title": "DRAGON 5D",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/35f55144ff0c7ca3.webp",
+      "tags": [
+        "hot",
+        "exclusive"
+      ],
+      "sourceIndex": 234
+    },
+    {
+      "id": "16924",
+      "title": "Chinchirorin",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/41fe9acab198ef5c.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 235
+    },
+    {
+      "id": "9498",
+      "title": "Winzo Wheels 15",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/5ab6511b0a541fc8.webp",
+      "tags": [
+        "hot"
+      ],
+      "sourceIndex": 236
+    },
+    {
+      "id": "9489",
+      "title": "King Palace",
+      "family": "lotto",
+      "provider": "e-lottery",
+      "providerName": "E Lottery",
+      "image": "/assets/3eb8cba151a645fa.webp",
+      "tags": [
+        "hot",
+        "exclusive",
+        "new",
+        "megaways"
+      ],
+      "sourceIndex": 237
+    }
+  ],
+  "banners": [
+    {
+      "image": "/assets/18144c5f9d3bb644.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g721",
+      "id": "721"
+    },
+    {
+      "image": "/assets/4e7959246c246e40.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all",
+      "id": null
+    },
+    {
+      "image": "/assets/ca590c01e6b2571c.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all",
+      "id": null
+    },
+    {
+      "image": "/assets/0dac26a70c0083e5.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all",
+      "id": null
+    },
+    {
+      "image": "/assets/18b1bf5b42e9509f.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all",
+      "id": null
+    },
+    {
+      "image": "/assets/3c51548c6ac9750a.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all",
+      "id": null
+    },
+    {
+      "image": "/assets/f36b84da2a2f0a11.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g757",
+      "id": "757"
+    },
+    {
+      "image": "/assets/3f67a77038e3e294.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g744",
+      "id": "744"
+    },
+    {
+      "image": "/assets/32d09a41a9553f6c.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g574",
+      "id": "574"
+    },
+    {
+      "image": "/assets/7b229a4ba1a41fb9.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g575",
+      "id": "575"
+    },
+    {
+      "image": "/assets/d78b7532e0f400d9.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g737",
+      "id": "737"
+    },
+    {
+      "image": "/assets/f441792fdd03854b.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g589",
+      "id": "589"
+    },
+    {
+      "image": "/assets/54bb3c2e4da95a21.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g754",
+      "id": "754"
+    },
+    {
+      "image": "/assets/d97d04929e2bd54d.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g756",
+      "id": "756"
+    },
+    {
+      "image": "/assets/165b3cd07ae16145.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g698",
+      "id": "698"
+    },
+    {
+      "image": "/assets/88f625eae7712a0d.webp",
+      "title": "Promosi GOBI88",
+      "path": "/promotions/all/g566",
+      "id": "566"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "g757",
+      "title": "Crazy Slot Mania Oktober",
+      "image": "/assets/110d237351bfd84a.webp",
+      "banner": "/assets/f36b84da2a2f0a11.webp",
+      "category": "slots",
+      "period": "Program promosi • Pratinjau",
+      "summary": "Jelajahi program dan detail promosi pilihan. Ketentuan serta periode aktif akan mengikuti konfigurasi agen Playground.",
+      "terms": [
+        "Penawaran ini ditampilkan sebagai contoh UI.",
+        "Bonus dan progres pada pratinjau menggunakan data demo.",
+        "Ketersediaan program mengikuti pengaturan agen saat integrasi."
+      ]
+    },
+    {
+      "id": "g748",
+      "title": "STREAM N’ SPIN CASHDROP",
+      "image": "/assets/7f8df9981ac00b3b.webp",
+      "banner": null,
+      "category": "slots",
+      "period": "Program promosi • Pratinjau",
+      "summary": "Jelajahi program dan detail promosi pilihan. Ketentuan serta periode aktif akan mengikuti konfigurasi agen Playground.",
+      "terms": [
+        "Penawaran ini ditampilkan sebagai contoh UI.",
+        "Bonus dan progres pada pratinjau menggunakan data demo.",
+        "Ketersediaan program mengikuti pengaturan agen saat integrasi."
+      ]
+    },
+    {
+      "id": "g744",
+      "title": "Clash Of Colosseum Horse Racing Bonus Harian",
+      "image": "/assets/0c621ba5c96a0489.webp",
+      "banner": "/assets/3f67a77038e3e294.webp",
+      "category": "slots",
+      "period": "Program promosi • Pratinjau",
+      "summary": "Jelajahi program dan detail promosi pilihan. Ketentuan serta periode aktif akan mengikuti konfigurasi agen Playground.",
+      "terms": [
+        "Penawaran ini ditampilkan sebagai contoh UI.",
+        "Bonus dan progres pada pratinjau menggunakan data demo.",
+        "Ketersediaan program mengikuti pengaturan agen saat integrasi."
+      ]
+    },
+    {
+      "id": "g698",
+      "title": "Golden Crown Showdown",
+      "image": "/assets/a92d5496a25d963d.webp",
+      "banner": "/assets/165b3cd07ae16145.webp",
+      "category": "slots",
+      "period": "Program promosi • Pratinjau",
+      "summary": "Jelajahi program dan detail promosi pilihan. Ketentuan serta periode aktif akan mengikuti konfigurasi agen Playground.",
+      "terms": [
+        "Penawaran ini ditampilkan sebagai contoh UI.",
+        "Bonus dan progres pada pratinjau menggunakan data demo.",
+        "Ketersediaan program mengikuti pengaturan agen saat integrasi."
+      ]
+    },
+    {
+      "id": "g567",
+      "title": "Level Up Game Rewards",
+      "image": "/assets/e851c5a94358e3c9.webp",
+      "banner": null,
+      "category": "slots",
+      "period": "Program promosi • Pratinjau",
+      "summary": "Jelajahi program dan detail promosi pilihan. Ketentuan serta periode aktif akan mengikuti konfigurasi agen Playground.",
+      "terms": [
+        "Penawaran ini ditampilkan sebagai contoh UI.",
+        "Bonus dan progres pada pratinjau menggunakan data demo.",
+        "Ketersediaan program mengikuti pengaturan agen saat integrasi."
+      ]
+    },
+    {
+      "id": "g652",
+      "title": "SportsGG Extra Bonus Parlay 100%",
+      "image": "/assets/f9386c962285e95b.webp",
+      "banner": null,
+      "category": "sports",
+      "period": "Program promosi • Pratinjau",
+      "summary": "Jelajahi program dan detail promosi pilihan. Ketentuan serta periode aktif akan mengikuti konfigurasi agen Playground.",
+      "terms": [
+        "Penawaran ini ditampilkan sebagai contoh UI.",
+        "Bonus dan progres pada pratinjau menggunakan data demo.",
+        "Ketersediaan program mengikuti pengaturan agen saat integrasi."
+      ]
+    },
+    {
+      "id": "g721",
+      "title": "Program 721",
+      "image": "/assets/18144c5f9d3bb644.webp",
+      "banner": "/assets/18144c5f9d3bb644.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    },
+    {
+      "id": "g574",
+      "title": "Program 574",
+      "image": "/assets/32d09a41a9553f6c.webp",
+      "banner": "/assets/32d09a41a9553f6c.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    },
+    {
+      "id": "g575",
+      "title": "Program 575",
+      "image": "/assets/7b229a4ba1a41fb9.webp",
+      "banner": "/assets/7b229a4ba1a41fb9.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    },
+    {
+      "id": "g737",
+      "title": "Program 737",
+      "image": "/assets/d78b7532e0f400d9.webp",
+      "banner": "/assets/d78b7532e0f400d9.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    },
+    {
+      "id": "g589",
+      "title": "Program 589",
+      "image": "/assets/f441792fdd03854b.webp",
+      "banner": "/assets/f441792fdd03854b.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    },
+    {
+      "id": "g754",
+      "title": "Program 754",
+      "image": "/assets/54bb3c2e4da95a21.webp",
+      "banner": "/assets/54bb3c2e4da95a21.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    },
+    {
+      "id": "g756",
+      "title": "Program 756",
+      "image": "/assets/d97d04929e2bd54d.webp",
+      "banner": "/assets/d97d04929e2bd54d.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    },
+    {
+      "id": "g566",
+      "title": "Program 566",
+      "image": "/assets/88f625eae7712a0d.webp",
+      "banner": "/assets/88f625eae7712a0d.webp",
+      "category": "slots",
+      "period": "Pratinjau promosi",
+      "summary": "Lihat visual program promosi dan simulasi workflow klaim.",
+      "terms": [
+        "Data dan klaim hanya untuk simulasi UI.",
+        "Ketentuan final mengikuti konfigurasi agen."
+      ]
+    }
+  ],
+  "specials": [
+    {
+      "image": "/assets/1958be9ecf055f3e.jpg",
+      "title": "IDN Slot",
+      "path": "/slot/provider/idnslotdirect"
+    },
+    {
+      "image": "/assets/cb782be85d4d22f5.jpg",
+      "title": "IDN Poker",
+      "path": "/poker"
+    },
+    {
+      "image": "/assets/da14bec002c5bd14.jpg",
+      "title": "IDN Live",
+      "path": "/casino/provider/idnlive"
+    }
+  ],
+  "exclusive": [
+    {
+      "title": "IDNPOKER",
+      "image": "/assets/53551a18237e3052.webp",
+      "path": "/poker"
+    },
+    {
+      "title": "IDNSLOT",
+      "image": "/assets/d4915997d6499b1f.webp",
+      "path": "/slot/provider/idnslotdirect"
+    },
+    {
+      "title": "Slot Mania",
+      "image": "/assets/589d8b1a3d51be93.webp",
+      "path": "/slot/category/exclusive"
+    },
+    {
+      "title": "IDNLIVE",
+      "image": "/assets/02d8cf775fb7cd76.webp",
+      "path": "/casino/provider/idnlive"
+    },
+    {
+      "title": "Live Mania",
+      "image": "/assets/f5de69555bda3465.webp",
+      "path": "/slot/category/exclusive"
+    },
+    {
+      "title": "IDN Arcade",
+      "image": "/assets/262861b7326f96a1.webp",
+      "path": "/arcade/provider/idnarcade"
+    },
+    {
+      "title": "Stream n'Spin",
+      "image": "/assets/54e591aa2ad6bcf5.webp",
+      "path": "/slot/category/exclusive"
+    },
+    {
+      "title": "Sport GG",
+      "image": "/assets/47dbc5d310d934ff.webp",
+      "path": "/sports/virtual"
+    },
+    {
+      "title": "PP 98% RTP",
+      "image": "/assets/7a4bc4e063eb6864.webp",
+      "path": "/slot/category/exclusive"
+    },
+    {
+      "title": "Spin Royal",
+      "image": "/assets/df88abbdf6b16269.webp",
+      "path": "/slot/category/exclusive"
+    },
+    {
+      "title": "LeVel UP",
+      "image": "/assets/4b566635d758b135.webp",
+      "path": "/slot/category/exclusive"
+    },
+    {
+      "title": "Kong Original",
+      "image": "/assets/75dec43e14f13580.webp",
+      "path": "/arcade/provider/originals"
+    }
+  ],
+  "sports": [
+    {
+      "id": "pgsport",
+      "title": "PGSport",
+      "image": "/assets/7357c4fccd6ae9d7.jpg",
+      "type": "sport"
+    },
+    {
+      "id": "saba",
+      "title": "SABA Sports",
+      "image": "/assets/2d88d7eda712a1a3.jpg",
+      "type": "sport"
+    },
+    {
+      "id": "sbobet",
+      "title": "SBOBET",
+      "image": "/assets/07312642bf83cf70.jpg",
+      "type": "sport"
+    },
+    {
+      "id": "ubo",
+      "title": "UboBet",
+      "image": "/assets/413ef387df664853.jpg",
+      "type": "sport"
+    },
+    {
+      "id": "nsoft",
+      "title": "NSOFT",
+      "image": "/assets/a5bf99136fa98ef3.jpg",
+      "type": "sport"
+    },
+    {
+      "id": "bti",
+      "title": "BTI",
+      "image": "/assets/3ac986fb6d54a2f4.jpg",
+      "type": "sport"
+    },
+    {
+      "id": "ftsport",
+      "title": "CMD368",
+      "image": "/assets/6b942d17b885f738.jpg",
+      "type": "sport"
+    },
+    {
+      "id": "e-sabaesports",
+      "title": "Saba eSports",
+      "image": "/assets/a1f63a6b27d57d86.jpg",
+      "type": "esport"
+    },
+    {
+      "id": "e-tfgaming",
+      "title": "TFGaming",
+      "image": "/assets/bc0fb3b65d940abb.jpg",
+      "type": "esport"
+    },
+    {
+      "id": "e-ftesport",
+      "title": "CMD368",
+      "image": "/assets/b1f111c1569a02e9.jpg",
+      "type": "esport"
+    },
+    {
+      "id": "sportgg",
+      "title": "Sport GG",
+      "image": "/assets/50f494721c849263.jpg",
+      "type": "virtual"
+    },
+    {
+      "id": "sbovsports",
+      "title": "SBOBET Virtual",
+      "image": "/assets/0f236a09d013d399.jpg",
+      "type": "virtual"
+    }
+  ],
+  "illustrations": {
+    "sports": "/assets/a58957488ed0a193.png",
+    "poker": "/assets/263dacc3991ca9b3.png",
+    "lotto": "/assets/29331b48e7b21a2f.png",
+    "fishing": "/assets/563b8ceeb8f8ec28.png",
+    "pokerHero": "/assets/f35e21765b4a6090.webp",
+    "sportsHero": "/assets/c3e5e3edece7a99e.jpg",
+    "sns": "/assets/00805923051ecfed.webp"
+  },
+  "payments": [
+    {
+      "title": "MANDIRI",
+      "image": "/assets/deb719b7bad1bd9d.svg"
+    },
+    {
+      "title": "BNI",
+      "image": "/assets/d9146494c09600ec.svg"
+    },
+    {
+      "title": "BRI",
+      "image": "/assets/e03dec19b63343e1.svg"
+    },
+    {
+      "title": "BCA",
+      "image": "/assets/6a2c75d590011e93.svg"
+    }
+  ],
+  "flags": {
+    "id": "/assets/318bf6c0314ec8c1.svg",
+    "en": "/assets/12ca450c235132d9.svg"
+  },
+  "routes": [
+    {
+      "path": "/",
+      "label": "Beranda",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/user/messages/",
+      "label": "Inbox\n0",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/deposit",
+      "label": "Deposit",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/exclusive",
+      "label": "Eksklusif",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/sports",
+      "label": "Sports+",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/slot/category/hot",
+      "label": "Slots",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/casino",
+      "label": "Casino",
+      "status": "REDIRECT_INSPECTED"
+    },
+    {
+      "path": "/poker",
+      "label": "Poker",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/lotto/",
+      "label": "Lotto",
+      "status": "REDIRECT_INSPECTED"
+    },
+    {
+      "path": "/arcade/category/hot",
+      "label": "Arcade",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/fishing",
+      "label": "Fishing",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all",
+      "label": "Promosi",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/leaderboard/distributed",
+      "label": "Leaderboard",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/referral/history",
+      "label": "Referral",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/contact",
+      "label": "Kontak",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g721",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g757",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g744",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g574",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g575",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g737",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g589",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g754",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/dstplay_slots",
+      "label": "DST Play",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g698",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g566",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/idnslotdirect",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/history",
+      "label": "Riwayat Bermain",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/exclusive",
+      "label": "Exclusive",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/new",
+      "label": "New",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sns",
+      "label": "Stream n'Spin",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pragmaticplay",
+      "label": "PragmaticPlay",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/slotmania",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pp-pop",
+      "label": "PP POP",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pgsoft",
+      "label": "PG Soft",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/microgaming",
+      "label": "Microgaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-nlc",
+      "label": "Nolimit City",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/habanero",
+      "label": "Habanero",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/5g",
+      "label": "5G Games",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/spadegaming_slot",
+      "label": "Spadegaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/jili",
+      "label": "JILI",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/playtech_slot",
+      "label": "Playtech",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/playstar",
+      "label": "PlayStar",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/ttg",
+      "label": "TTG",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/kagaming_slots",
+      "label": "KA",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/comboslots",
+      "label": "Combo Slots",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/popokgaming",
+      "label": "PopOk",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/fastspin",
+      "label": "FastSpin",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/ygr_slots",
+      "label": "YGR",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/penguin_king",
+      "label": "Penguin King",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/amigo",
+      "label": "Amigo Gaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pragmaticplay98",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/level-up",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/spin-royal",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/cq9",
+      "label": "CQ9",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/yggdrasil",
+      "label": "Yggdrasil",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/shadylady",
+      "label": "ShadyLady",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/bng",
+      "label": "BNG",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/askmeslot_slot",
+      "label": "Askmeslot",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/vplus",
+      "label": "VPlus",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/bigpot",
+      "label": "BigPot",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/reevo",
+      "label": "Reevo",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/bgaming",
+      "label": "Bgaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-redtiger",
+      "label": "RedTiger",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-netent",
+      "label": "NetEnt",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/simpleplay",
+      "label": "SimplePlay",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/gmw",
+      "label": "GMW",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/apparat",
+      "label": "Apparat",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/booming_games",
+      "label": "Booming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/live_22",
+      "label": "Live22",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-btg",
+      "label": "BTG",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/jdb_slot",
+      "label": "JDB",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/sboslots",
+      "label": "SBOBET",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/ky_slots",
+      "label": "KY",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/buy-bonus",
+      "label": "Buy Bonus",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/table",
+      "label": "Table",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/megaways",
+      "label": "Megaways",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/top",
+      "label": "Top",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/idnarcade",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/pragmaticplay_arcade",
+      "label": "PragmaticPlay",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/minigame",
+      "label": "Minigame",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/askmeslot_arcade",
+      "label": "Askmeslot",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/originals",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/microgaming_arcade",
+      "label": "Microgaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/ky_arcade",
+      "label": "KY",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/category/new",
+      "label": "New",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g748",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g567",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g652",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/about-us",
+      "label": "Tentang Kami",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/withdraw/bank-transfer",
+      "label": "Withdraw",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/referral",
+      "label": "Referral",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/legal/responsible-gaming",
+      "label": "Responsible Gaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/legal/terms-and-conditions",
+      "label": "Syarat & Ketentuan",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/legal/privacy-policy",
+      "label": "Kebijakan Privasi",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/complaint",
+      "label": "Pengaduan Konsumen",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/evolution",
+      "label": "Evolution",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/idnlive",
+      "label": "IDNLIVE",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/mg_live_grand",
+      "label": "Microgaming Live",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/sagaming",
+      "label": "SA Gaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/og",
+      "label": "Oriental Game",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/ion",
+      "label": "ION",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/vivo-gaming",
+      "label": "VivoGaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/ezugi-gaming",
+      "label": "Ezugi",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/luckystreak",
+      "label": "LuckyStreak",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/sexygaming",
+      "label": "SexyGaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/search",
+      "label": "Cari",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/bonuses",
+      "label": "Bonus",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/",
+      "label": "Informasi akun",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/activity",
+      "label": "Aktivitas",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/en",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sports/sport",
+      "label": "Sports",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sports/esport",
+      "label": "E-sports",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sports/virtual",
+      "label": "Virtual",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/lobby",
+      "label": "Lobby\n(14)",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/casino/category/game-shows",
+      "label": "Game Shows",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/roulette",
+      "label": "Roulette",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/baccarat",
+      "label": "Baccarat",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/sic-bo",
+      "label": "Sic Bo",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/dragon-tiger",
+      "label": "Dragon Tiger",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/blackjack",
+      "label": "Blackjack",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/ball-games",
+      "label": "Ball Games",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/idn-special",
+      "label": "IDN Special",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/popular",
+      "label": "Populer",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/lotto/lotto",
+      "label": "Lotto",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/e-lottery",
+      "label": "E-Lottery",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/lotteries",
+      "label": "Semua",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/results",
+      "label": "Histori",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/results/idn-lotto",
+      "label": "Results TOTOMACAU POOLS",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    }
+  ],
+  "categoryIcons": {
+    "hot": "/assets/f77f2dd08c57692e.svg",
+    "exclusive": "/assets/54fa24b35b0784bc.svg",
+    "new": "/assets/fd174139f70606cf.svg",
+    "idnsns": "/assets/8a92a32edd26da02.svg",
+    "idnslotdirect": "/assets/c1dd83d9ccfcf772.svg",
+    "pragmaticplay": "/assets/739e86f47e70551f.svg",
+    "slotmania": "/assets/9dcebbbd5604d8de.svg",
+    "pp-pop": "/assets/833da591748397f7.svg",
+    "pgsoft": "/assets/a89a377ec2c51ba9.svg",
+    "microgaming": "/assets/d9f091064a44e7c4.svg",
+    "evolution-nlc": "/assets/9b5f8dcd86c0bad3.svg",
+    "habanero": "/assets/3bb82af6d94da6a7.svg",
+    "5g": "/assets/edbd5dcd61aa9733.svg",
+    "spadegaming_slot": "/assets/b3bdf8eb6b3915f3.svg",
+    "jili": "/assets/c2b671523424c0d4.svg",
+    "playtech_slot": "/assets/0e6ea52dad3418f6.svg",
+    "playstar": "/assets/5b7e2149103f0878.svg",
+    "ttg": "/assets/19906d04ac315490.svg",
+    "kagaming_slots": "/assets/6d5a6ae91e0446a6.svg",
+    "dstplay_slots": "/assets/23ff98e544bf658a.svg",
+    "comboslots": "/assets/0205ec4a9b36e775.svg",
+    "popokgaming": "/assets/8d8c4b2534693059.svg",
+    "fastspin": "/assets/148fe7232afdc9d0.svg",
+    "ygr_slots": "/assets/89f1c2eaaff4110a.svg",
+    "penguin_king": "/assets/37d7a85141d97864.svg",
+    "amigo": "/assets/603845f91ea0c28d.svg",
+    "pragmaticplay98": "/assets/521a80a1c50ffb43.svg",
+    "level-up": "/assets/c12c65b368f35f4a.svg",
+    "spin-royal": "/assets/c6d86a9ae850b3f8.svg",
+    "cq9": "/assets/73c4d1a7c40562e8.svg",
+    "yggdrasil": "/assets/f75d949fb07d4f58.svg",
+    "shadylady": "/assets/37420afa73f50998.svg",
+    "bng": "/assets/0f06132ac96e9c66.svg",
+    "askmeslot_slot": "/assets/889f8ef2ee9b80ad.svg",
+    "vplus": "/assets/e1bd519f0d555320.svg",
+    "bigpot": "/assets/e00f605896408ebf.svg",
+    "reevo": "/assets/a79de6853c484ca6.svg",
+    "bgaming": "/assets/a13f7afb1eee14cb.svg",
+    "evolution-redtiger": "/assets/8d8fafa25af4471d.svg",
+    "evolution-netent": "/assets/db064d1b26377ee3.svg",
+    "simpleplay": "/assets/2c769ab55328e095.svg",
+    "gmw": "/assets/ea1ee6fbc9918cfb.svg",
+    "apparat": "/assets/b270abc487a6964d.svg",
+    "booming_games": "/assets/25d7d4ddcfea0a31.svg",
+    "live_22": "/assets/9833847885ff9a67.svg",
+    "evolution-btg": "/assets/d6813666f7eb581d.svg",
+    "jdb_slot": "/assets/d24beaad69c5eaac.svg",
+    "sboslots": "/assets/00f731224d329e38.svg",
+    "ky_slots": "/assets/b9d2403ef7a060ec.svg",
+    "buy-bonus": "/assets/7ed85e18f06390ba.svg",
+    "table": "/assets/340073aedd4acd74.svg",
+    "megaways": "/assets/50bffa0be7f37cc0.svg",
+    "fishing": "/assets/bb6c59669f24096d.svg"
+  }
+}

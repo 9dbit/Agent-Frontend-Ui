@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" fill="none" version="1.1" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <radialGradient id="radial-gradient" cx="37.74" cy="234.19" r="235.37" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#8a4c93" offset="0"/>
+   <stop stop-color="#8a4f95" offset=".13"/>
+   <stop stop-color="#8c599c" offset=".24"/>
+   <stop stop-color="#8e69a8" offset=".33"/>
+   <stop stop-color="#9180b8" offset=".41"/>
+   <stop stop-color="#959ecd" offset=".49"/>
+   <stop stop-color="#9ac2e6" offset=".57"/>
+   <stop stop-color="#9ddcf9" offset=".62"/>
+   <stop stop-color="#7bb5e1" offset=".72"/>
+   <stop stop-color="#578bc8" offset=".84"/>
+   <stop stop-color="#4072b8" offset=".94"/>
+   <stop stop-color="#3868b2" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient25" cx="37.74" cy="234.19" r="235.37" gradientUnits="userSpaceOnUse" xlink:href="#radial-gradient"/>
+ </defs>
+ <g transform="matrix(2.5246 0 0 2.5246 193.97 136.18)" data-name="Layer 2">
+  <g fill="url(#radialGradient25)" data-name="Layer 1">
+   <path class="cls-1" d="m69.3 48h-10.36a0.54 0.54 0 0 0-0.55 0.55v16.93h10.91a92.53 92.53 0 0 0 0-17.48c0.55 0.57 0.55 0 0 0z"/>
+   <path class="cls-1" d="m153.89 47.48-33.84-34.38c-6-6-14.73-10.37-25.64-11.46a284.67 284.67 0 0 0-30.02-1.64 276.85 276.85 0 0 0-30 1.64c-21.29 2.73-34.39 15.28-34.39 34.36v137.53l35.47 35.47 15.83-3.27a281.48 281.48 0 0 1 42.56-4.91h10.91a273.84 273.84 0 0 1 42.57 4.91l15.82 3.27v-137.51c0.55-9.83-2.72-18.01-9.27-24.01zm-38.75 109.68a209.6 209.6 0 0 0-45.29-4.91v-51.84h-10.91v51.84a319.72 319.72 0 0 0-45.3 4.91v-121.16c0-11.46 7.64-19.65 22.38-21.29a242.29 242.29 0 0 1 56.2 0c14.78 1.66 22.38 9.29 22.38 21.29 0.54 40.4 0.54 80.78 0.54 121.16z"/>
+  </g>
+ </g>
+</svg>
