@@ -129,7 +129,6 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 .glass-icon{fill:none!important;stroke:none!important;shape-rendering:geometricPrecision;overflow:visible;filter:drop-shadow(0 3px 2px #09001066);transform:rotate(-6deg);transition:transform .25s,filter .25s}
 .nav-item:hover .glass-icon,.nav-item.active .glass-icon{transform:rotate(0deg) translateY(-2px);filter:drop-shadow(0 0 5px #ff3a7555)}
 .main-nav .category-icon-wrap{height:40px}.main-nav .category-icon{width:38px;height:40px}
-.home-soft-tech .section-title span{font-family:CorPixel,monospace;font-size:24px;font-weight:400;letter-spacing:.3px}
 .soft-tech-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .soft-tech-card{display:flex;min-width:0;flex-direction:column;align-items:center;gap:7px;text-align:center;border-radius:24px}
 .soft-tech-art{display:block;width:100%;aspect-ratio:1;border-radius:22%;overflow:hidden;background:#150a21;box-shadow:0 8px 24px #03000b55,inset 0 0 0 1px #fff2}
@@ -142,7 +141,7 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 @media(max-width:599px){
  :root{--radius:20px}.section,.panel,.catalog-sidebar,.account-sidebar,.stat,.contact-card,.sports-card,.result-card,.bonus-card{border-radius:20px}
  .main-nav .category-icon-wrap{height:30px}.main-nav .category-icon{width:30px;height:32px}
- .soft-tech-grid{gap:10px}.soft-tech-card{gap:6px}.soft-tech-card strong{font-size:12px}.soft-tech-label{font-size:7px;letter-spacing:.7px}.home-soft-tech .section-title span{font-size:20px}
+ .soft-tech-grid{gap:10px}.soft-tech-card{gap:6px}.soft-tech-card strong{font-size:12px}.soft-tech-label{font-size:7px;letter-spacing:.7px}
  main:not(.home-page) .promotion-list{padding:12px}.original-copy{padding:18px}.original-copy .btn{font-size:12px}
 }
 @media(prefers-reduced-motion:reduce){.glass-icon,.soft-tech-art img{transition:none}}
@@ -154,3 +153,11 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 .brand-number{color:#ff001d}.brand-letters{color:#fff}
 @media(max-width:599px){.brand-wordmark{font-size:25px}.header .logo{padding-inline:4px}.drawer-head .brand-wordmark{font-size:28px}}
 @media(max-width:359px){.brand-wordmark{font-size:23px}.header .header-deposit{padding-inline:8px}}
+
+/* User reference artwork: one transparent atlas, twelve complete category icons. */
+.artwork-icon{display:block;flex:none;background-image:url('/assets/navigation/red-ivory-gold-atlas-v1.webp');background-size:600% 200%;background-repeat:no-repeat;filter:drop-shadow(0 2px 2px #13000c55)}
+.artwork-exclusive{background-position:0 0}.artwork-sports{background-position:20% 0}.artwork-slots{background-position:40% 0}.artwork-casino{background-position:60% 0}.artwork-poker{background-position:80% 0}.artwork-lotto{background-position:100% 0}
+.artwork-arcade{background-position:0 100%}.artwork-fishing{background-position:20% 100%}.artwork-promo{background-position:40% 100%}.artwork-leaderboard{background-position:60% 100%}.artwork-referral{background-position:80% 100%}.artwork-chat{background-position:100% 100%}
+.main-nav .category-icon-wrap{width:48px;height:44px}.main-nav .artwork-icon{width:44px;height:44px}
+.drawer-categories .artwork-icon{width:36px;height:36px}
+@media(max-width:599px){.main-nav .category-icon-wrap{width:40px;height:38px}.main-nav .artwork-icon{width:38px;height:38px}}

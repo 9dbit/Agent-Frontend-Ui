@@ -26,11 +26,12 @@ function rerender(){const y=scrollY;render();window.scrollTo(0,y);}
 function navIcon(name,muted=false){return D.navIcons[name+(muted?'-muted':'')]||D.navIcons[name]||D.navIcons.slots;}
 const primaryCategories=new Set(['slots','casino','poker','lotto','arcade','fishing','promo','leaderboard','referral','chat']);
 function categoryIcon(name,label){return glassIcon(name,'category-icon')||image(navIcon(name),label);}
-function navMarkup(primary=false){return config.navigation.filter(([name])=>!primary||primaryCategories.has(name)).map(([name,label,url])=>link(url,`<span class="category-icon-wrap">${categoryIcon(name,label)}</span><span>${t(label)}</span>`,'nav-item '+(path().startsWith('/'+url.split('/')[1])?'active':''))).join('');}
+function navigationIcon(name){const aliases={spade:'casino',cards:'poker'},key=aliases[name]||name;return `<span class="category-icon artwork-icon artwork-${key}" aria-hidden="true"></span>`;}
+function navMarkup(primary=false){return config.navigation.filter(([name])=>!primary||primaryCategories.has(name)).map(([name,label,url])=>link(url,`<span class="category-icon-wrap">${navigationIcon(name)}</span><span>${t(label)}</span>`,'nav-item '+(path().startsWith('/'+url.split('/')[1])?'active':''))).join('');}
 function categoryNavigation(){
- const featured=[['arcade','Semua','/search'],['slots','Slots','/slot/category/hot'],['spade','Live Casino','/casino/category/lobby'],['cards','Card','/poker'],['sports','Sports','/sports'],['fishing','Fishing','/fishing']];
+ const featured=[['exclusive','Semua','/search'],['slots','Slots','/slot/category/hot'],['spade','Live Casino','/casino/category/lobby'],['cards','Card','/poker'],['sports','Sports','/sports'],['fishing','Fishing','/fishing']];
  const extra=config.navigation.filter(([name])=>['lotto','arcade','promo','leaderboard','referral','chat'].includes(name));
- return `<nav class="main-nav" aria-label="Kategori utama">${[...featured,...extra].map(([name,label,url])=>link(url,`<span class="category-icon-wrap">${categoryIcon(name,label)}</span><span>${t(label)}</span>`,'nav-item '+(path()===url?'active':''))).join('')}</nav>`;
+ return `<nav class="main-nav" aria-label="Kategori utama">${[...featured,...extra].map(([name,label,url])=>link(url,`<span class="category-icon-wrap">${navigationIcon(name)}</span><span>${t(label)}</span>`,'nav-item '+(path()===url?'active':''))).join('')}</nav>`;
 }
 function announcement(){return `<div class="ticker">${icon('volume')}<div class="ticker-window"><span class="ticker-text">${esc(config.announcement)}</span></div></div>`;}
 function accountLinks(){
