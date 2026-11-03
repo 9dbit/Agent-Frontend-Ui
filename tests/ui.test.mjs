@@ -57,6 +57,21 @@ test('catalogue search, provider filtering and favorites update rendered results
   assert.ok(d.querySelectorAll('.game-card').length>0);
 });
 
+test('slow banner decoding preserves the visible slide and latest selection wins',async t=>{
+  const {click,d,get}=await mount(t);
+  let finishSecond,finishThird;
+  const slides=d.querySelectorAll('.hero-slide');
+  slides[1].querySelector('img').decode=()=>new Promise(resolve=>finishSecond=resolve);
+  slides[2].querySelector('img').decode=()=>new Promise(resolve=>finishThird=resolve);
+  click('[data-action="hero-dot"][data-index="1"]');
+  assert.equal(get('.carousel .dot.active').dataset.index,'0');
+  click('[data-action="hero-dot"][data-index="2"]');
+  finishThird();await new Promise(resolve=>setImmediate(resolve));
+  assert.equal(get('.carousel .dot.active').dataset.index,'2');
+  finishSecond();await new Promise(resolve=>setImmediate(resolve));
+  assert.equal(get('.carousel .dot.active').dataset.index,'2');
+});
+
 test('deposit completion, withdraw rejection and cancellation work through forms',async t=>{
   const {navigate,click,get,fill,submit,state}=await mount(t);
   navigate('/deposit');click('[data-action="amount"][data-amount="100000"]');submit('[data-form="transaction"]');

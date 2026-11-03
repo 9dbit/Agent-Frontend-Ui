@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Responsive Preview · Playground</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#101010;color:#eee;font:14px Arial,sans-serif}
+    header{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:16px 20px;background:#242222;position:sticky;top:0;z-index:2}
+    h1{font-size:16px;margin:0 auto 0 0}nav{display:flex;gap:6px;flex-wrap:wrap}button,a{font:inherit;color:inherit;background:#424242;border:0;border-radius:5px;padding:9px 12px;cursor:pointer;text-decoration:none}
+    button[aria-pressed="true"]{background:#c52c28}button:focus-visible,a:focus-visible{outline:2px solid #f1bd65;outline-offset:3px}
+    p{margin:14px 20px;color:#aaa;font-size:12px}#frame-wrap{margin:16px auto 30px;position:relative;background:#1a1818;box-shadow:0 0 0 1px #555,0 15px 60px #0008}
+    iframe{border:0;display:block;transform-origin:top left}#size{font-variant-numeric:tabular-nums}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Playground · Responsive Preview</h1>
+    <nav aria-label="Ukuran preview">
+      <button data-width="1440" data-height="1000" aria-pressed="true">Desktop 1440</button>
+      <button data-width="768" data-height="1024" aria-pressed="false">Tablet 768</button>
+      <button data-width="393" data-height="852" aria-pressed="false">Mobile 393</button>
+      <button data-width="360" data-height="800" aria-pressed="false">Mobile 360</button>
+    </nav>
+    <a href="/" target="_blank" rel="noopener">Buka website</a>
+  </header>
+  <p>Viewport halaman: <strong id="size">1440 × 1000</strong> px. Preview dapat diperkecil agar muat pada layar; ukuran layout di dalamnya tetap sesuai pilihan. Semua workflow menggunakan data demo.</p>
+  <div id="frame-wrap"><iframe id="website" title="Website Playground" src="/" width="1440" height="1000"></iframe></div>
+  <script src="/preview/preview.js"></script>
+</body>
+</html>

@@ -17,6 +17,9 @@ Open localhost:3000. Railway uses PORT and /health. Discovered page URLs support
 
 Live preview: https://playground-agent-frontend-production.up.railway.app
 
+Responsive preview: https://playground-agent-frontend-production.up.railway.app/preview/
+This renders the same app in an iframe with a real 1440, 768, 393 or 360 pixel layout viewport. Scaling the outer preview does not change media-query dimensions inside it. Embedding is restricted to the same origin.
+
 ## Demo access
 
 Default signed-in demo: playground_demo. After logout, use password demo1234. Registration is a browser-local simulation; entered passwords are discarded. Use sample data only. Reset demo state from the footer.
@@ -41,6 +44,6 @@ public/state.js implements the pure demo state adapter. Replace local persistenc
 
 Reference-site native-mobile rendering and some deep states were unavailable during audit. Responsive layout is implemented for 360–1920px. Fishing lobby, live provider sessions, APK downloads, streaming and live results display explicit preview or unavailable states until connected. This is a frontend template, not a live betting platform.
 
-21 automated tests cover HTTP serving, the 131 discovered route views, DOM interactions, persistence and wallet state transitions. DOM tests do not render pixels or validate responsive geometry. See docs/DEPLOYMENT_QA_2026-11-03.md for the deployment checks and outstanding visual verification.
+23 automated tests cover HTTP serving, the 131 discovered route views, DOM interactions, persistence and wallet state transitions. DOM tests do not render pixels or validate responsive geometry. See docs/DEPLOYMENT_QA_2026-11-03.md and docs/RESPONSIVE_QA_2026-11-03.md for deployment checks, the observed carousel loading fix and outstanding visual verification.
 
 To restore captured assets, run `python3 scripts/restore-assets.py`. Each download must match its recorded SHA-256 hash; assets are committed to Git and served locally without runtime hotlinks.
