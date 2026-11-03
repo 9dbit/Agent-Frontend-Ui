@@ -1,0 +1,662 @@
+{
+  "source": "https://gobi88.com/",
+  "auditDate": "2026-11-03",
+  "note": "Paths discovered from rendered navigation. Discovered does not mean functionally tested. No game launch, deposits, withdrawals, or account changes were submitted.",
+  "routes": [
+    {
+      "path": "/",
+      "label": "Beranda",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/user/messages/",
+      "label": "Inbox\n0",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/deposit",
+      "label": "Deposit",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/exclusive",
+      "label": "Eksklusif",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/sports",
+      "label": "Sports+",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/slot/category/hot",
+      "label": "Slots",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/casino",
+      "label": "Casino",
+      "status": "REDIRECT_INSPECTED"
+    },
+    {
+      "path": "/poker",
+      "label": "Poker",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/lotto/",
+      "label": "Lotto",
+      "status": "REDIRECT_INSPECTED"
+    },
+    {
+      "path": "/arcade/category/hot",
+      "label": "Arcade",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/fishing",
+      "label": "Fishing",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all",
+      "label": "Promosi",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/leaderboard/distributed",
+      "label": "Leaderboard",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/referral/history",
+      "label": "Referral",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/contact",
+      "label": "Kontak",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g721",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g757",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g744",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g574",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g575",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g737",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g589",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g754",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/dstplay_slots",
+      "label": "DST Play",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g698",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g566",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/idnslotdirect",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/history",
+      "label": "Riwayat Bermain",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/exclusive",
+      "label": "Exclusive",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/new",
+      "label": "New",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sns",
+      "label": "Stream n'Spin",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pragmaticplay",
+      "label": "PragmaticPlay",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/slotmania",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pp-pop",
+      "label": "PP POP",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pgsoft",
+      "label": "PG Soft",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/microgaming",
+      "label": "Microgaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-nlc",
+      "label": "Nolimit City",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/habanero",
+      "label": "Habanero",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/5g",
+      "label": "5G Games",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/spadegaming_slot",
+      "label": "Spadegaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/jili",
+      "label": "JILI",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/playtech_slot",
+      "label": "Playtech",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/playstar",
+      "label": "PlayStar",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/ttg",
+      "label": "TTG",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/kagaming_slots",
+      "label": "KA",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/comboslots",
+      "label": "Combo Slots",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/popokgaming",
+      "label": "PopOk",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/fastspin",
+      "label": "FastSpin",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/ygr_slots",
+      "label": "YGR",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/penguin_king",
+      "label": "Penguin King",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/amigo",
+      "label": "Amigo Gaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/pragmaticplay98",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/level-up",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/spin-royal",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/cq9",
+      "label": "CQ9",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/yggdrasil",
+      "label": "Yggdrasil",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/shadylady",
+      "label": "ShadyLady",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/bng",
+      "label": "BNG",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/askmeslot_slot",
+      "label": "Askmeslot",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/vplus",
+      "label": "VPlus",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/bigpot",
+      "label": "BigPot",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/reevo",
+      "label": "Reevo",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/bgaming",
+      "label": "Bgaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-redtiger",
+      "label": "RedTiger",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-netent",
+      "label": "NetEnt",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/simpleplay",
+      "label": "SimplePlay",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/gmw",
+      "label": "GMW",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/apparat",
+      "label": "Apparat",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/booming_games",
+      "label": "Booming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/live_22",
+      "label": "Live22",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/evolution-btg",
+      "label": "BTG",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/jdb_slot",
+      "label": "JDB",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/sboslots",
+      "label": "SBOBET",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/provider/ky_slots",
+      "label": "KY",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/buy-bonus",
+      "label": "Buy Bonus",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/table",
+      "label": "Table",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/slot/category/megaways",
+      "label": "Megaways",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/top",
+      "label": "Top",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/idnarcade",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/pragmaticplay_arcade",
+      "label": "PragmaticPlay",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/minigame",
+      "label": "Minigame",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/askmeslot_arcade",
+      "label": "Askmeslot",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/originals",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/microgaming_arcade",
+      "label": "Microgaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/provider/ky_arcade",
+      "label": "KY",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/arcade/category/new",
+      "label": "New",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g748",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g567",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/promotions/all/g652",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/about-us",
+      "label": "Tentang Kami",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/withdraw/bank-transfer",
+      "label": "Withdraw",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/referral",
+      "label": "Referral",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/legal/responsible-gaming",
+      "label": "Responsible Gaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/legal/terms-and-conditions",
+      "label": "Syarat & Ketentuan",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/legal/privacy-policy",
+      "label": "Kebijakan Privasi",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/complaint",
+      "label": "Pengaduan Konsumen",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/evolution",
+      "label": "Evolution",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/idnlive",
+      "label": "IDNLIVE",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/mg_live_grand",
+      "label": "Microgaming Live",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/sagaming",
+      "label": "SA Gaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/og",
+      "label": "Oriental Game",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/ion",
+      "label": "ION",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/vivo-gaming",
+      "label": "VivoGaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/ezugi-gaming",
+      "label": "Ezugi",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/luckystreak",
+      "label": "LuckyStreak",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/provider/sexygaming",
+      "label": "SexyGaming",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/search",
+      "label": "Cari",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/bonuses",
+      "label": "Bonus",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/",
+      "label": "Informasi akun",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/user/activity",
+      "label": "Aktivitas",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/en",
+      "label": "",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sports/sport",
+      "label": "Sports",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sports/esport",
+      "label": "E-sports",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/sports/virtual",
+      "label": "Virtual",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/lobby",
+      "label": "Lobby\n(14)",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/casino/category/game-shows",
+      "label": "Game Shows",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/roulette",
+      "label": "Roulette",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/baccarat",
+      "label": "Baccarat",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/sic-bo",
+      "label": "Sic Bo",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/dragon-tiger",
+      "label": "Dragon Tiger",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/blackjack",
+      "label": "Blackjack",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/ball-games",
+      "label": "Ball Games",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/casino/category/idn-special",
+      "label": "IDN Special",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/popular",
+      "label": "Populer",
+      "status": "INSPECTED"
+    },
+    {
+      "path": "/lotto/lotto",
+      "label": "Lotto",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/e-lottery",
+      "label": "E-Lottery",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/lotteries",
+      "label": "Semua",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/results",
+      "label": "Histori",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    },
+    {
+      "path": "/lotto/results/idn-lotto",
+      "label": "Results TOTOMACAU POOLS",
+      "status": "DISCOVERED_NOT_INSPECTED"
+    }
+  ]
+}
