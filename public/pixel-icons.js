@@ -92,10 +92,45 @@ const pixelGlyphs = {
   ],
   menu: ['0000000000000000','0000000000000000','0111111111111110','0111111111111110','0000000000000000','0000000000000000','0111111111111110','0111111111111110','0000000000000000','0000000000000000','0111111111111110','0111111111111110','0000000000000000','0000000000000000','0000000000000000','0000000000000000']
 };
-const pixelAliases={promo:'gift',leaderboard:'trophy',deposit:'wallet'};
+const pixelAliases={promo:'gift',leaderboard:'trophy'};
+const solidGlyphs={
+ bell:'M10 2h4v2c4 1 5 4 5 8v3l3 3v2H2v-2l3-3v-3c0-4 1-7 5-8V2zm0 20h4v2h-4z',
+ spade:'M12 1L2 11c-6 7 4 13 9 6l-3 6h8l-3-6c5 7 15 1 9-6z',
+ cards:'M9 2h14l-3 4H6zM6 9h14l-3 4H3zM3 16h14l-3 4H0z',
+ sports:'M8 1h8l6 5 2 8-5 8H5l-5-8 2-8zm2 6-3 5 3 5h5l3-5-3-5zM4 5l-2 7 4-1 2-6zm14 0-2 1 3 5 3 1-2-6zM5 17l2 4h4l-2-4zm11 0-2 4h4l3-4z',
+ deposit:'M11 1 4 8l2 2 4-4v11h4V6l4 4 2-2-7-7zM2 12h5v3H5v7h14v-7h-2v-3h5v13H2z'
+};
 export function pixelIcon(name,cls=''){
+  if(solidGlyphs[name])return `<svg class="icon pixel-icon ${cls}" viewBox="0 0 24 25" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="${solidGlyphs[name]}"/></svg>`;
   const rows=pixelGlyphs[pixelAliases[name]||name];
   if(!rows)return '';
   const cells=rows.flatMap((row,y)=>[...row.matchAll(/1+/g)].map(run=>`M${run.index} ${y}h${run[0].length}v1h-${run[0].length}z`)).join('');
   return `<svg class="icon pixel-icon ${cls}" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="${cells}"/></svg>`;
+}
+
+const glassShapes={
+ slots:'M5 3h13v2H5zM3 6h18v16H3zM5 9v8h14V9zM6 10h3v1l-1 5H7l1-5H6zM11 10h3v1l-1 5h-1l1-5h-2zM16 10h3v1l-1 5h-1l1-5h-2zM7 19h10v1H7z',
+ arcade:'M7 7h10c3 0 4 3 5 6l1 6c0 3-3 3-5 1l-2-3H8l-2 3c-2 2-5 2-5-1l1-6c1-3 2-6 5-6zM6 10v2H4v2h2v2h2v-2h2v-2H8v-2zM17 10a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM20 14a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z',
+ spade:'M12 2C9 6 2 10 2 15c0 5 6 6 9 1l-3 7h8l-3-7c3 5 9 4 9-1 0-5-7-9-10-13z',
+ poker:'M3 3h12v17H3zM7 6h14v17H7zM14 9l-4 5c-2 3 2 5 3 2l-1 4h4l-1-4c1 3 5 1 3-2z',
+ cards:'M9 3h14l-3 4H6zM6 10h14l-3 4H3zM3 17h14l-3 4H0z',
+ sports:'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM10 8h4l3 4-3 4h-4l-3-4zM5 5l3 1-2 4-3 1zM19 5l2 6-3-1-2-4zM5 17l3-1 2 4-3 1zM19 17l-2 4-3-1 2-4z',
+ fishing:'M7 8c5-5 11-4 16 4-5 8-11 9-16 4l-6 5V5zM17 10a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6zM12 6l3-4h4l-2 4zM12 18l3 4h3l-2-4z',
+ lotto:'M2 5h20v4c-4 0-4 6 0 6v4H2v-4c4 0 4-6 0-6zM10 8h2v8h-2zM15 8h2v8h-2z',
+ gift:'M3 8h18v5H3zM5 14h6v9H5zM13 14h6v9h-6zM12 8C1 7 3 0 8 2c3 1 4 4 4 6zm0 0c0-2 1-5 4-6 5-2 7 5-4 6zM9 5C5 1 4 6 10 6zM15 5c4-4 5 1-1 1z',
+ trophy:'M7 2h10v9c0 5-10 5-10 0zM7 4H2v5c0 4 4 6 7 6v-2C3 12 4 8 4 6h3zM17 4h5v5c0 4-4 6-7 6v-2c6-1 5-5 5-7h-3zM10 15h4v5h4v3H6v-3h4z',
+ referral:'M12 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 13c0-6 12-6 12 0zM4 15a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM20 15a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM0 24c0-5 8-5 8 0zM16 24c0-5 8-5 8 0zM11 13h2v3h5v2h-6v-2H6v-2h5z',
+ chat:'M3 12a9 9 0 0 1 18 0v7c0 3-3 5-9 5v-3c4 0 6-1 6-3v-6a6 6 0 0 0-12 0v6H1v-6zM18 12h5v7h-5z',
+ hot:'M14 1c1 6-5 8-3 13 4-2 6-5 7-8 10 12 0 19-6 18C0 24 0 13 7 8c-1 5 0 6 2 7C6 7 10 5 14 1z'
+};
+glassShapes.casino=glassShapes.spade;
+let glassSequence=0;
+
+// Preserve the navigational silhouettes; add a bevel, translucent face and extrusion.
+export function glassIcon(name,cls=''){
+ const source=pixelIcon(name);if(!source)return '';
+ const d=glassShapes[pixelAliases[name]||name]||source.match(/ d="([^"]+)"/)?.[1];if(!d)return source;
+ const id='glass-'+(++glassSequence),wide=Boolean(glassShapes[pixelAliases[name]||name]||solidGlyphs[name]);
+ const scale=wide?0.72:1.1;
+ return `<svg class="icon glass-icon ${cls}" viewBox="0 0 24 26" aria-hidden="true" focusable="false"><defs><linearGradient id="${id}-side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff385c"/><stop offset=".5" stop-color="#4b001b"/><stop offset="1" stop-color="#b40034"/></linearGradient><linearGradient id="${id}-face" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff0f8"/><stop offset=".1" stop-color="#ff587c"/><stop offset=".47" stop-color="#f0003a" stop-opacity=".87"/><stop offset=".7" stop-color="#8d002b" stop-opacity=".7"/><stop offset="1" stop-color="#ff4169"/></linearGradient><linearGradient id="${id}-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".4" stop-color="#ffb2d1"/><stop offset=".7" stop-color="#ff1762"/><stop offset="1" stop-color="#ffd8ec"/></linearGradient></defs><g transform="translate(2 3) scale(${scale})"><path d="${d}" transform="translate(2 2)" fill="url(#${id}-side)" stroke="#fa3668" stroke-width=".45" stroke-linejoin="round" fill-rule="evenodd"/><path d="${d}" fill="url(#${id}-face)" stroke="url(#${id}-edge)" stroke-width=".55" stroke-linejoin="round" fill-rule="evenodd"/><path d="${d}" transform="translate(-.18 -.18)" fill="none" stroke="#ffe3f3" stroke-opacity=".55" stroke-width=".15" fill-rule="evenodd"/></g></svg>`;
 }

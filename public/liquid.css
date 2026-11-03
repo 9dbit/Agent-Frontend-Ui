@@ -70,3 +70,87 @@ body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;ba
  .float-help{right:14px;bottom:calc(94px + env(safe-area-inset-bottom));width:38px;height:38px}.float-help .pixel-icon{width:21px;height:21px}
 }
 @media(prefers-reduced-motion:reduce){.nav-indicator,.floating-nav .pixel-icon,.nav-item .category-icon-wrap{transition:none}.nav-glass{animation:none}}
+
+/* Approved November 4 reference: midnight magenta, cobalt and polished glass. */
+:root{--bg:#10051b;--surface:#180d28d9;--elevated:#281338;--red:#ff001d;--header-height:82px;--muted:#d2c8df}
+body::before{background:radial-gradient(ellipse at 0% 38%,#a0004599,transparent 57%),radial-gradient(ellipse at 100% 47%,#003cadbb,transparent 58%),linear-gradient(140deg,#240017,#13051e 46%,#080e33)}
+.header{background:#12041f99;border:0;box-shadow:none;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+.header-inner{gap:12px}.header .logo{width:174px}.header .logo img{height:auto;max-height:44px}.header-account{gap:13px}
+.header .header-deposit{background:linear-gradient(#ff2639,#f00012);box-shadow:inset 0 1px 0 #ff737b,0 4px 20px #ff00141a;color:#fff;padding:11px 19px;min-height:42px}
+.header-deposit .pixel-icon{color:#fff;width:21px;height:21px}.header-profile{border-radius:0;border-left:1px solid #ffffff40;padding-left:13px}
+.header .icon-button .pixel-icon{width:27px;height:27px}.notification-dot{position:absolute;width:8px;height:8px;background:#ff001d;border-radius:50%;top:4px;right:3px}
+.home-page{padding-top:12px}.carousel{border:1px solid #f2a2e377;border-radius:22px;box-shadow:0 12px 36px #ed00521a;background:#240628}
+.ticker{background:transparent;border-radius:0;color:#fff;height:35px;font-size:13px;margin:6px 0}.ticker>.icon{color:#ff001d;width:22px;height:22px;margin:0 9px}
+.main-nav{height:auto;min-height:84px;border-radius:20px;padding:10px 8px;gap:4px;margin:0 0 8px;background:linear-gradient(115deg,#ff86c51f,#12082b4d 55%,#5bb5ff2b);border:1px solid #f2b2ef66;box-shadow:inset 0 1px 12px #ffa2f926,0 5px 18px #08001c33;justify-content:flex-start}
+.main-nav .nav-item{flex:1 0 82px;min-width:0;min-height:60px;font-size:12px;font-weight:500;padding:0 4px;gap:5px}
+.category-icon-wrap{height:34px;width:38px}.category-icon{width:32px;height:32px}
+.home-page>.section{background:transparent;box-shadow:none;margin:8px 0 22px;border-radius:0;overflow:visible}
+.home-page .section-head{padding:12px 0 14px}.section-title{font-size:23px;font-weight:750;gap:8px}.section-title .category-icon{width:28px;height:28px}
+.all-link{display:inline-flex;align-items:center;gap:6px;background:transparent;font-size:13px;padding:6px 0;font-weight:400}.all-link .icon{color:#ff001d;width:19px;height:19px}.all-link:hover{background:transparent;color:#ff5570}
+.home-hot-slots .game-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:0}
+.home-hot-slots .game-card{aspect-ratio:1;overflow:hidden;border-radius:16%;isolation:isolate;border:1px solid #ef86dc88;background:#16091d;box-shadow:inset 0 1px 1px #fff4,0 8px 16px #04001533}
+.home-hot-slots .game-card:nth-child(4n+2){border-color:#9cc6f488}.home-hot-slots .game-card:nth-child(4n+3){border-color:#b36affaa}
+.home-hot-slots .game-image{aspect-ratio:1;height:100%;border-radius:0;box-shadow:none;outline:0}.home-hot-slots .game-image img{object-fit:cover}
+.home-hot-slots .game-name{position:absolute;bottom:0;left:0;right:0;margin:0;padding:24px 5px 7px;min-height:0;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:linear-gradient(transparent,#10051cf0 65%);font-size:clamp(11px,1.8vw,18px);font-weight:700;line-height:1.25;text-shadow:0 1px 4px #000;z-index:2}
+.hot-badge{position:absolute;top:0;right:0;background:#ff001d;color:#fff;border-radius:0 0 0 8px;padding:3px 7px;font-size:11px;font-weight:800;line-height:1.2;z-index:3}
+.home-hot-slots .favorite{top:5px;left:5px;right:auto;z-index:4;background:#0a031bbf}
+.home-promotions .section-head{padding-top:0}.promotion-list{padding:0;gap:14px}.promotion-cover{border-radius:20px;border:1px solid #e79bea88;box-shadow:inset 0 1px 0 #ffffff33,0 8px 24px #0a022133;outline:0}
+.promotion-composite{background:radial-gradient(ellipse at left bottom,#970344,transparent 70%),linear-gradient(110deg,#300a2f,#10164e)}
+.footer{background:#0b041929;padding-top:16px}.footer h3{font-size:13px;color:#dbd1e5}.footer-group{background:#ffffff05}.footer-group summary{font-weight:400}
+.floating-nav{width:min(620px,calc(100% - 32px));height:88px;padding:6px;border-radius:999px;background:linear-gradient(110deg,#d167b82f,#28204655 55%,#7a9ee52e);border:1px solid #c2baf394;box-shadow:inset 0 2px 3px #fff7,inset 0 -1px 10px #8c94d33b,0 12px 35px #05001066;backdrop-filter:blur(24px) saturate(160%);-webkit-backdrop-filter:blur(24px) saturate(160%)}
+.floating-nav .dock-link{font-size:13px;gap:6px;color:#fff}.floating-nav .pixel-icon{width:29px;height:29px}
+.nav-glass{background:radial-gradient(ellipse at 50% 0,#ffb4e94d,transparent 65%),linear-gradient(145deg,#ffdcff4a,#9f47a21a 55%,#e6b3ed30);border-color:#f9b5f2b3;box-shadow:inset 0 2px 5px #fff9,inset 0 -2px 8px #f392d94d,0 0 17px #ff08734d}
+.nav-glass::after{content:'';position:absolute;width:38%;height:3px;bottom:-1px;left:31%;border-radius:50%;background:#ff4eac;box-shadow:0 0 8px 3px #ff399b8c}
+.float-help{bottom:calc(122px + env(safe-area-inset-bottom))}
+@media(min-width:1000px){.home-page{max-width:1040px}.home-hot-slots .game-grid{gap:18px}.home-hot-slots .game-card{border-radius:24px}.home-page .main-nav .nav-item{flex-basis:76px}.home-page .section-head{padding-top:20px}.home-page .hero-slide{max-height:350px}}
+@media(max-width:599px){
+ :root{--header-height:70px}.container{padding-inline:12px}.header-inner{padding-inline:16px;gap:8px}.header .logo{width:128px}.header-account{gap:5px}.header .header-deposit{padding:8px 12px;font-size:12px;gap:5px;min-height:34px}.header-deposit .pixel-icon{width:17px;height:17px}.header .icon-button{min-width:32px;min-height:36px}.header .icon-button .pixel-icon{width:23px;height:23px}.header-profile{padding-left:7px}.header .logo img{max-height:34px}
+ .home-page{padding-top:7px}.carousel{border-radius:15px}.hero-slide{aspect-ratio:20/8}.hero-slide img{object-fit:contain}.carousel-arrow{width:26px;height:30px}.dots{bottom:5px;gap:5px}.dot{width:5px;height:5px;min-height:5px}
+ .ticker{font-size:11px;height:29px;margin:4px 0}.ticker>.icon{width:19px;height:19px;margin:0 7px}
+ .main-nav{min-height:62px;border-radius:15px;padding:6px 4px;margin-bottom:5px;gap:1px}.main-nav .nav-item{flex:0 0 calc((100% - 14px)/6);min-height:49px;padding:2px 0;gap:4px;font-size:9px;white-space:nowrap}.category-icon-wrap{width:30px;height:27px}.category-icon{width:26px;height:26px}
+ .home-page>.section{margin:6px 0 14px;border-radius:0}.home-page .section-head{padding:9px 0 11px}.section-title{font-size:18px;gap:6px}.section-title .category-icon{width:24px;height:24px}.all-link{font-size:10px;gap:3px}.all-link .icon{width:15px;height:15px}
+ .home-hot-slots .game-grid{gap:7px;padding:0}.home-hot-slots .game-card{border-radius:13px}.home-hot-slots .game-image{border-radius:0}.home-hot-slots .game-name{font-size:10px;padding:20px 3px 5px;line-height:1.2;min-height:0;margin:0;white-space:nowrap;display:block}.hot-badge{font-size:9px;padding:2px 5px;border-radius:0 0 0 5px}
+ .promotion-list{padding:0;gap:10px}.promotion-cover{border-radius:14px}.home-promotions .section-head{padding-top:2px}.promotion-copy{padding:10px;gap:5px}
+ .floating-nav{width:calc(100% - 24px);max-width:440px;height:70px;padding:5px;bottom:calc(12px + env(safe-area-inset-bottom))}.floating-nav .dock-link{font-size:11px;gap:4px}.floating-nav .pixel-icon{width:26px;height:26px}
+ .float-help{display:none}.footer{padding-bottom:calc(104px + env(safe-area-inset-bottom))}.footer-links{gap:4px}.footer-group summary{padding:10px;font-size:10px}
+}
+/* Keep the reference header notification visible at narrow breakpoints. */
+.header-account>.inbox-button{display:inline-grid}
+
+/* 64COR / Soft Tech: consistent rounded surfaces across every destination. */
+@font-face{font-family:CorPixel;src:url('/fonts/64cor-pixel.woff2') format('woff2');font-display:swap}
+:root{--radius:24px}
+.header .logo img{aspect-ratio:29/7;width:100%;max-height:42px}
+.section,.panel,.catalog-sidebar,.account-sidebar,.stat,.contact-card,.sports-card,.result-card,.bonus-card{border-radius:24px}
+.panel,.catalog-sidebar,.account-sidebar,.stat{background:linear-gradient(130deg,#32203bde,#151329e6);box-shadow:inset 0 1px 0 #ffffff0e,0 8px 26px #07011120}
+.account-sidebar{overflow:hidden}.account-content .panel{overflow:hidden}.account-content .table-wrap{max-width:100%;overflow-x:auto}
+main:not(.home-page) .section{background:linear-gradient(130deg,#32203bde,#151329e6)}
+main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radius:24px;overflow:hidden}
+.glass-icon{fill:none!important;stroke:none!important;shape-rendering:geometricPrecision;overflow:visible;filter:drop-shadow(0 3px 2px #09001066);transform:rotate(-6deg);transition:transform .25s,filter .25s}
+.nav-item:hover .glass-icon,.nav-item.active .glass-icon{transform:rotate(0deg) translateY(-2px);filter:drop-shadow(0 0 5px #ff3a7555)}
+.main-nav .category-icon-wrap{height:40px}.main-nav .category-icon{width:38px;height:40px}
+.home-soft-tech .section-title span{font-family:CorPixel,monospace;font-size:24px;font-weight:400;letter-spacing:.3px}
+.soft-tech-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.soft-tech-card{display:flex;min-width:0;flex-direction:column;align-items:center;gap:7px;text-align:center;border-radius:24px}
+.soft-tech-art{display:block;width:100%;aspect-ratio:1;border-radius:22%;overflow:hidden;background:#150a21;box-shadow:0 8px 24px #03000b55,inset 0 0 0 1px #fff2}
+.soft-tech-art img{width:100%;height:100%;object-fit:contain;transition:transform .3s}
+.soft-tech-card:hover img{transform:scale(1.035)}.soft-tech-card strong{font-size:16px;line-height:1.2}
+.soft-tech-label{font-size:9px;letter-spacing:1.5px;color:#d6bddb;font-weight:600}
+.hero-slide,.home-page .hero-slide{aspect-ratio:3/1;max-height:none}.hero-slide img{object-fit:contain}
+.original-detail{padding:0;overflow:hidden}.original-hero{width:100%;aspect-ratio:3/1;object-fit:contain}.original-copy{padding:28px}.original-copy p{max-width:66ch}.original-copy .btn{margin:10px 8px 0 0}
+@media(min-width:1000px){.soft-tech-grid{max-width:none;gap:22px}.home-soft-tech{padding-bottom:8px}}
+@media(max-width:599px){
+ :root{--radius:20px}.section,.panel,.catalog-sidebar,.account-sidebar,.stat,.contact-card,.sports-card,.result-card,.bonus-card{border-radius:20px}
+ .main-nav .category-icon-wrap{height:30px}.main-nav .category-icon{width:30px;height:32px}
+ .soft-tech-grid{gap:10px}.soft-tech-card{gap:6px}.soft-tech-card strong{font-size:12px}.soft-tech-label{font-size:7px;letter-spacing:.7px}.home-soft-tech .section-title span{font-size:20px}
+ main:not(.home-page) .promotion-list{padding:12px}.original-copy{padding:18px}.original-copy .btn{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){.glass-icon,.soft-tech-art img{transition:none}}
+
+/* User-supplied Dogica Pixel; exact 15-degree rightward oblique, no synthetic italic. */
+@font-face{font-family:DogicaPixel;src:url('/fonts/dogicapixel.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+.header .logo,.drawer-head .logo{width:auto;display:inline-flex;align-items:center;padding:4px 8px;overflow:visible;flex-shrink:0}
+.brand-wordmark{display:inline-flex;align-items:baseline;font-family:DogicaPixel,monospace;font-size:32px;font-weight:400;font-style:normal;font-synthesis:none;line-height:1.3;letter-spacing:-.3px;transform:skewX(-15deg);transform-origin:center;white-space:nowrap}
+.brand-number{color:#ff001d}.brand-letters{color:#fff}
+@media(max-width:599px){.brand-wordmark{font-size:25px}.header .logo{padding-inline:4px}.drawer-head .brand-wordmark{font-size:28px}}
+@media(max-width:359px){.brand-wordmark{font-size:23px}.header .header-deposit{padding-inline:8px}}

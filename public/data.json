@@ -1493,9 +1493,72 @@
         "megaways"
       ],
       "sourceIndex": 237
+    },
+    {
+      "id": "soft-tech-uno-luck",
+      "title": "Uno Luck",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "Soft Tech",
+      "image": "/assets/soft-tech/uno-luck-icon.png",
+      "hero": "/assets/soft-tech/uno-luck-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://uno-luck-v1172-qa.onrender.com/?utm_source=64cor",
+      "description": "Arcade neon dengan naga, kombinasi kartu berwarna, dan animasi selebrasi. Game original Soft Tech."
+    },
+    {
+      "id": "soft-tech-mahjong-wild",
+      "title": "Mahjong Wild",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "Soft Tech",
+      "image": "/assets/soft-tech/mahjong-wild-touch-gold-20261026.webp",
+      "hero": "/assets/soft-tech/mahjong-wild-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://mahjong-legend-web-production.up.railway.app/?utm_source=64cor",
+      "description": "Simbol mahjong klasik, ornamen jade, dan cascade tile dalam dunia oriental yang bercahaya."
+    },
+    {
+      "id": "soft-tech-skygate",
+      "title": "Skygate 5000",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "Soft Tech",
+      "image": "/assets/soft-tech/skygate-icon.png",
+      "hero": "/assets/soft-tech/skygate-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://skygate-web-production.up.railway.app/play/?utm_source=64cor",
+      "description": "Petualangan fantasi sinematik dengan kuil emas, kekuatan langit, dan petir. Game original Soft Tech."
     }
   ],
   "banners": [
+    {
+      "image": "/assets/soft-tech/uno-luck-hero-v1.webp",
+      "title": "Uno Luck · Soft Tech Original",
+      "path": "/play/originals/soft-tech-uno-luck",
+      "id": "soft-tech-uno-luck"
+    },
+    {
+      "image": "/assets/soft-tech/mahjong-wild-hero-v1.webp",
+      "title": "Mahjong Wild · Soft Tech Original",
+      "path": "/play/originals/soft-tech-mahjong-wild",
+      "id": "soft-tech-mahjong-wild"
+    },
+    {
+      "image": "/assets/soft-tech/skygate-hero-v1.webp",
+      "title": "Skygate 5000 · Soft Tech Original",
+      "path": "/play/originals/soft-tech-skygate",
+      "id": "soft-tech-skygate"
+    },
     {
       "image": "/assets/18144c5f9d3bb644.webp",
       "title": "Promosi GOBI88",

@@ -33,7 +33,7 @@ test('all 131 discovered routes render usable views without runtime errors',asyn
 
 test('carousel changes active slide and menu closes with Escape',async t=>{
   const {click,get,d,w}=await mount(t);
-  assert.equal(d.querySelectorAll('.hero-slide').length,16);
+  assert.equal(d.querySelectorAll('.hero-slide').length,data.banners.length);
   const before=get('.hero-slide.active').getAttribute('href');
   click('[data-action="hero-dot"][data-index="3"]');
   assert.equal(get('.carousel .dot.active').getAttribute('aria-label'),'Banner 4');
@@ -118,13 +118,13 @@ test('landscape promotion covers preserve every listing, filter and detail desti
 test('homepage refresh retains category access and footer while removing retired home sections',async t=>{
   const {get,d,click,w,navigate}=await mount(t);
   assert.deepEqual([...get('main').children].slice(0,3).map(e=>e.className),['hero-layout','ticker','main-nav']);
-  assert.deepEqual([...d.querySelectorAll('main .section-title span')].map(e=>e.textContent),['Hot Slots','Sports+','Promosi']);
+  assert.deepEqual([...d.querySelectorAll('main .section-title span')].map(e=>e.textContent),['Soft Tech','Hot Slots','Promosi']);
   const destinations=[...d.querySelectorAll('.main-nav a')].map(a=>a.getAttribute('href'));
-  assert.equal(destinations.length,10);
-  assert.equal(d.querySelectorAll('.main-nav .category-icon').length,10);
+  assert.equal(destinations.length,12);
+  assert.equal(d.querySelectorAll('.main-nav .category-icon').length,12);
   assert.equal(d.querySelectorAll('.payment-logos img').length,data.payments.length);
   assert.equal(d.querySelectorAll('.partners a').length,data.providers.length);
-  assert.ok(get('.footer-about').textContent.includes('GOBI88'));
+  assert.ok(get('.footer-about').textContent.includes('64COR'));
   for(const href of destinations){navigate('/');click('.main-nav a[href="'+href+'"]');assert.equal(w.location.pathname,href);assert.ok(!get('main').textContent.includes('Halaman tidak ditemukan'));}
 });
 
@@ -182,4 +182,21 @@ test('game preview records history and state survives a new document',async t=>{
   assert.match(ui.get('[role="dialog"]').textContent,/Sesi preview siap/);
   ui.click('[data-action="close"]');ui.navigate('/user/history');assert.ok(ui.get('main').textContent.includes(game.title));
   const second=await mount(t,ui.w.localStorage.getItem('playground.frontend.v1'));second.navigate('/user/history');assert.ok(second.get('main').textContent.includes(game.title));
+});
+
+
+test('Soft Tech originals share working hero, search and detail routes with source game links',async t=>{
+ const {get,d,click,navigate}=await mount(t);
+ const originals=data.games.filter(g=>g.provider==='soft-tech');
+ assert.equal(originals.length,3);
+ assert.equal(d.querySelectorAll('.soft-tech-card').length,3);
+ assert.equal(get('.header .logo').getAttribute('aria-label'),'64COR');
+ for(const g of originals){
+  navigate('/');click('.soft-tech-card[href="/play/originals/'+g.id+'"]');
+  assert.equal(get('h1').textContent,g.title);
+  assert.equal(get('.original-copy a[target="_blank"]').href,g.launchUrl);
+  assert.equal(get('.original-hero').getAttribute('src'),g.hero);
+  navigate('/search?q='+encodeURIComponent(g.title));
+  assert.ok(get('.game-card a[href="/play/originals/'+g.id+'"]'));
+ }
 });
