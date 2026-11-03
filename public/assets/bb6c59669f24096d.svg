@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-name="Layer 1" version="1.1" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:url(#linear-gradient);}.cls-4{clip-path:url(#clip-path-2);}.cls-5{fill:url(#linear-gradient-2);}.cls-6{clip-path:url(#clip-path-3);}.cls-7{fill:#d5d6d5;}.cls-8{clip-path:url(#clip-path-4);}.cls-9{fill:url(#linear-gradient-3);}.cls-10{clip-path:url(#clip-path-6);}.cls-11{fill:url(#linear-gradient-4);}.cls-12{fill:#12181F;}.cls-13{clip-path:url(#clip-path-8);}.cls-14{fill:url(#linear-gradient-5);}</style>
+  <clipPath id="clip-path">
+   <path class="cls-1" d="M236.72,50.62a488.27,488.27,0,0,0-83.91,56.72l-.68,93.07,101.47,7.72A285.19,285.19,0,0,1,344.06,158L328.46,48.62Z"/>
+  </clipPath>
+  <linearGradient id="linear-gradient" x1="1938.1" x2="1939" y1="4335" y2="4335" gradientTransform="matrix(0 153.19 153.19 0 -663848 -296828)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f79236" offset="0"/>
+   <stop stop-color="#f26631" offset="1"/>
+  </linearGradient>
+  <clipPath id="clip-path-2">
+   <path class="cls-1" d="M85.31,180.47a423.29,423.29,0,0,0-50.62,90l.83,94.58,110.26,16.51A305.53,305.53,0,0,1,187,282.19L171.65,173.06Z"/>
+  </clipPath>
+  <linearGradient id="linear-gradient-2" x1="1938.1" x2="1939" y1="4335.2" y2="4335.2" gradientTransform="matrix(0 153.19 153.19 0 -664012 -296731)" xlink:href="#linear-gradient"/>
+  <clipPath id="clip-path-3">
+   <rect class="cls-1" width="800" height="800"/>
+  </clipPath>
+  <clipPath id="clip-path-4">
+   <path class="cls-1" d="M443.9,0a456.37,456.37,0,0,0-105,12.19l14.15,107.9,114.29,20.54H641.25L500.62,0Z"/>
+  </clipPath>
+  <linearGradient id="linear-gradient-3" x1="1938.1" x2="1939" y1="4334.9" y2="4334.9" gradientTransform="matrix(0 153.19 153.19 0 -663594 -296966)" xlink:href="#linear-gradient"/>
+  <clipPath id="clip-path-6">
+   <path class="cls-1" d="M443.9,93.75c-194.06,0-351.56,157.5-351.56,351.56a160.1,160.1,0,0,0,16.4,70.78c26.72,56.72,84.84,93.28,147.66,93.28V562.5a23.44,23.44,0,0,1,0-46.87H500.16l39.12-8.07,70.57,6.19c74.57-8.28,149.63-58.88,178-138.75l-58.12-23.44,68.9-23.44A190.59,190.59,0,0,0,800,304.69c0-116.25-99.22-210.94-215.47-210.94Z"/>
+  </clipPath>
+  <linearGradient id="linear-gradient-4" x1="1963.7" x2="1964.6" y1="4328.7" y2="4328.7" gradientTransform="matrix(-748.98,0,0,748.98,1471517,-3241719)" xlink:href="#linear-gradient"/>
+  <clipPath id="clip-path-8">
+   <path class="cls-1" d="M92.34,492.19c0,81.76,31.77,158.25,89.26,215.27C238.78,765.11,315.27,800,397,800h23.44V776.56c0-38.29-18.45-75.47-47-96.88a117,117,0,0,0,47-93.75V562.5H256.4c-64.64,0-164.06-52.57-164.06-117.19Z"/>
+  </clipPath>
+  <linearGradient id="linear-gradient-5" x1="1958.8" x2="1959.6" y1="4343.3" y2="4343.3" gradientTransform="matrix(378.57 0 0 -378.57 -741449 1644870)" xlink:href="#linear-gradient"/>
+  <linearGradient id="linearGradient14" x1="1938.1" x2="1939" y1="4335" y2="4335" gradientTransform="matrix(0 153.19 153.19 0 -663848 -296828)" gradientUnits="userSpaceOnUse" xlink:href="#linear-gradient"/>
+ </defs>
+ <title>Fishing copy</title>
+ <g transform="matrix(.76265 0 0 .76265 94.939 94.939)">
+  <g class="cls-2" clip-path="url(#clip-path)">
+   <rect class="cls-3" transform="rotate(-32.35 248.06 128.37)" x="124.34" y="9.64" width="247.5" height="237.45" fill="url(#linearGradient14)"/>
+  </g>
+  <g class="cls-4" clip-path="url(#clip-path-2)">
+   <rect class="cls-5" transform="rotate(-32.35 110.85 277.29)" x="-9.27" y="148.48" width="240.26" height="257.66" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g class="cls-6" clip-path="url(#clip-path-3)">
+   <path class="cls-7" d="m211.87 621.56-211.87-212.34c0.86-4.93 2.16-64 34.69-138.75l111.09 111.1a316 316 0 0 0-6.56 63.75 111.49 111.49 0 0 0 11.72 50.62z"/>
+  </g>
+  <g class="cls-8" clip-path="url(#clip-path-4)">
+   <rect class="cls-9" transform="matrix(.84 -.54 .54 .84 38.43 273.13)" x="324.74" y="-69.97" width="330.67" height="280.57" fill="url(#linear-gradient-3)"/>
+  </g>
+  <g class="cls-6" clip-path="url(#clip-path-3)">
+   <path class="cls-7" d="m467.34 140.63h-23.44a294.05 294.05 0 0 0-99.84 17.37l-107.34-107.38c31.87-16.88 66.56-29.53 102.19-38.43z"/>
+   <path class="cls-7" d="m253.59 208.12a294.91 294.91 0 0 0-66.59 74.07l-101.69-101.72a499.92 499.92 0 0 1 67.5-73.13z"/>
+  </g>
+  <g class="cls-10" clip-path="url(#clip-path-6)">
+   <rect class="cls-11" transform="rotate(-33.82 446.2 351.58)" x="8.72" y="-59.57" width="874.91" height="822.26" fill="url(#linear-gradient-4)"/>
+  </g>
+  <g class="cls-6" clip-path="url(#clip-path-3)">
+   <path class="cls-7" d="m609.84 513.75a153.23 153.23 0 0 1-25.31 1.88h-84.38a210.32 210.32 0 0 1-66.56-93.75h-36.59c-5.16 0-10.31-0.47-15.94-0.94-49.22-7-89.06-44.53-98.91-92.81a128.3 128.3 0 0 1-2.34-23.44v-23.44h187.5v70.31c0 83 62.35 151.88 142.5 162.19"/>
+   <path class="cls-7" d="m609.84 513.75a153.23 153.23 0 0 1-25.31 1.88h-84.38a210.32 210.32 0 0 1-66.56-93.75h-36.59c-5.16 0-10.31-0.47-15.94-0.94-49.22-7-89.06-44.53-98.91-92.81h185.19v23.44c0 83 62.35 151.88 142.5 162.19"/>
+   <rect class="cls-12" x="561.09" y="234.37" width="46.88" height="46.87"/>
+   <path class="cls-12" d="m798.59 328.13c-1.87 16.4-5.16 31.87-10.78 46.87h-105a23.21 23.21 0 0 0-23.44 23.44h-46.87a70.22 70.22 0 0 1 70.31-70.31z"/>
+  </g>
+  <g class="cls-13" clip-path="url(#clip-path-8)">
+   <rect class="cls-14" x="92.34" y="445.31" width="328.12" height="354.69" fill="url(#linear-gradient-5)"/>
+  </g>
+ </g>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>Fishing copy</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+</svg>

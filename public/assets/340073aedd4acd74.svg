@@ -1,0 +1,39 @@
+<svg version="1.1" viewBox="0 0 800 800" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#D5D6D5;}
+	.st1{fill:url(#c);}
+	.st2{fill:url(#b);}
+	.st3{fill:url(#a);}
+</style>
+<g transform="matrix(.94373 0 0 .94373 47 112.82)" style="stroke-width:1.0596">
+	<g style="stroke-width:1.0596">
+		<g style="stroke-width:1.0596">
+			<g style="stroke-width:1.0596">
+				<path class="st0" d="m501 163.8c-3.3 0-6.6 0.5-9.6 1.4 6.5-6.3 10.5-15.1 10.5-24.9 0-19.3-15.6-34.9-34.9-34.9s-34.9 15.6-34.9 34.9c0 9.8 4 18.6 10.5 24.9-3.1-0.9-6.3-1.4-9.6-1.4-19.3 0-34.9 15.6-34.9 34.9s15.6 34.9 34.9 34.9c16.6 0 30.5-11.6 34-27.2 3.5 15.6 17.4 27.2 34 27.2 19.3 0 34.9-15.6 34.9-34.9-0.1-19.3-15.7-34.9-34.9-34.9z" style="stroke-width:1.0596"/>
+				<polygon class="st0" points="447.8 250.7 486.1 250.7 467 217.5" style="stroke-width:1.0596"/>
+			</g>
+		</g>
+		<g style="stroke-width:1.0596">
+			<g style="stroke-width:1.0596">
+				<polygon class="st0" points="262.9 437.6 301.3 437.6 282.1 404.4" style="stroke-width:1.0596"/>
+				<path class="st0" d="m351.2 385.6c0-2-0.2-3.9-0.5-5.8-5.4-37.5-54.2-79.8-68.3-91.4-14.2 11.5-62.9 53.9-68.3 91.4-0.3 1.9-0.5 3.8-0.5 5.8v0.4 0.5c0.5 18.8 15.9 34 34.8 34 16.6 0 30.5-11.6 34-27.2 3.5 15.6 17.4 27.2 34 27.2 19 0 34.3-15.1 34.8-34v-0.5-0.4z" style="stroke-width:1.0596"/>
+			</g>
+		</g>
+		<linearGradient id="c" x1="466.9" x2="466.9" y1="105" y2="421" gradientUnits="userSpaceOnUse">
+			<stop style="stop-color:#F69136" offset="0"/>
+			<stop style="stop-color:#F16231" offset="1"/>
+		</linearGradient>
+		<path class="st1" d="m398.1 336.8v0.4c0 2 0.2 3.9 0.5 5.8 5.4 37.5 54.2 79.8 68.3 91.4 14.2-11.5 62.9-53.9 68.3-91.4 0.3-1.9 0.5-3.8 0.5-5.8v-0.4-0.5c-0.5-18.8-15.9-34-34.8-34-16.6 0-30.5 11.6-34 27.2-3.5-15.6-17.4-27.2-34-27.2-19 0-34.3 15.1-34.8 34v0.5z" style="fill:url(#c);stroke-width:1.0596"/>
+		<linearGradient id="b" x1="282.4" x2="282.4" y1="105" y2="421" gradientUnits="userSpaceOnUse">
+			<stop style="stop-color:#F69136" offset="0"/>
+			<stop style="stop-color:#F16231" offset="1"/>
+		</linearGradient>
+		<polygon class="st2" points="282.4 249.5 352.5 172.8 282.4 96 212.3 172.8" style="fill:url(#b);stroke-width:1.0596"/>
+	</g>
+	<linearGradient id="a" x1="374.05" x2="374.05" y1="13" y2="581.03" gradientUnits="userSpaceOnUse">
+		<stop style="stop-color:#F69136" offset="0"/>
+		<stop style="stop-color:#F16231" offset="1"/>
+	</linearGradient>
+	<path class="st3" d="m735.9 264c-1.5-136.2-113.4-247.2-249.9-247.2h-223.6c-134.2 0-244.6 107.2-249.8 240.2l-0.6 91h0.4c1.6 66.3 29.4 126.4 73.4 170.4 45.3 45.3 107.8 73.4 176.6 73.4h223.6c135.4 0 246.6-109.1 249.9-243.8h0.2zm-462.2-199.1h201c116.4 0 211 90.6 211 201.9s-94.7 201.9-211 201.9h-201c-116.4 0-211-90.6-211-201.9s94.6-201.9 211-201.9zm201 478.8h-201c-71.8 0-135.4-34.5-173.5-87.1 43.7 37.5 100.4 60.2 162.2 60.2h223.6c61.8 0 118.5-22.7 162.2-60.2-38.2 52.6-101.7 87.1-173.5 87.1z" style="fill:url(#a);stroke-width:1.0596"/>
+</g>
+</svg>
