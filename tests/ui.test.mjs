@@ -5,7 +5,7 @@ import {JSDOM, VirtualConsole} from 'jsdom';
 
 const read=p=>readFileSync(p,'utf8');
 const data=JSON.parse(read('public/data.json'));
-const script=['public/config.js','public/state.js','public/app.js'].map(p=>read(p).replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
+const script=['public/config.js','public/state.js','public/pixel-icons.js','public/app.js'].map(p=>read(p).replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
 async function mount(t,initial){
   const errors=[];
   const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
@@ -126,6 +126,36 @@ test('homepage refresh retains category access and footer while removing retired
   assert.equal(d.querySelectorAll('.partners a').length,data.providers.length);
   assert.ok(get('.footer-about').textContent.includes('GOBI88'));
   for(const href of destinations){navigate('/');click('.main-nav a[href="'+href+'"]');assert.equal(w.location.pathname,href);assert.ok(!get('main').textContent.includes('Halaman tidak ditemukan'));}
+});
+
+test('floating dock persists across navigation and follows all five destinations and account subpages',async t=>{
+  const {get,d,click,navigate,w}=await mount(t);
+  const nav=get('.floating-nav'),lens=get('.nav-indicator');
+  const items=[['/search',1],['/deposit',2],['/promotions/all',3],['/user',4],['/',0]];
+  for(const [url,index] of items){
+    click('.floating-nav a[href="'+url+'"]');
+    assert.equal(w.location.pathname,url);
+    assert.equal(get('.floating-nav'),nav,'Retain the same navigation element for smooth transitions');
+    assert.equal(get('.nav-indicator'),lens);
+    assert.equal(nav.style.getPropertyValue('--active-index'),String(index));
+    assert.equal(nav.querySelectorAll('[aria-current="page"]').length,1);
+    assert.equal(nav.querySelector('[aria-current="page"]').getAttribute('href'),url);
+  }
+  for(const url of ['/user/messages','/withdraw/bank-transfer','/referral']){navigate(url);assert.equal(nav.dataset.activeIndex,'4');}
+  navigate('/contact');assert.equal(nav.dataset.activeIndex,'-1');assert.equal(nav.querySelectorAll('[aria-current]').length,0);
+  navigate('/');w.history.replaceState({},'','/deposit');w.dispatchEvent(new w.PopStateEvent('popstate'));assert.equal(nav.dataset.activeIndex,'2');
+  assert.equal(d.querySelectorAll('.floating-nav').length,1);
+});
+
+test('compact footer groups keep their links after bank and partner content',async t=>{
+  const {get,d,click}=await mount(t);
+  const footer=get('.footer .container');
+  assert.ok([...footer.children].indexOf(get('.partners'))<[...footer.children].indexOf(get('.footer-links')));
+  const groups=[...d.querySelectorAll('.footer-group')];
+  assert.equal(groups.length,4);assert.ok(groups.every(g=>!g.open));
+  click('.footer-group summary');assert.equal(groups[0].open,true);
+  assert.equal(groups[0].querySelectorAll('a').length,8);
+  click('.footer-group a[href="/exclusive"]');assert.ok(get('h1').textContent.includes('Eksklusif'));
 });
 
 test('logout, login validation, registration and profile use local demo data',async t=>{
