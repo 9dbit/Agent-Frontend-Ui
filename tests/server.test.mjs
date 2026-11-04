@@ -6,8 +6,8 @@ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 const base='http://127.0.0.1:'+server.address().port;
 test.after(()=>new Promise(resolve=>server.close(resolve)));
 test('health reports demo',async()=>{const r=await fetch(base+'/health');assert.equal(r.status,200);assert.equal((await r.json()).mode,'frontend-demo');});
-test('UNO v2 streams exact MP4 bytes and allows warmed blob media under CSP',async()=>{
- const path='/assets/soft-tech/video/uno-luck-v2.mp4';
+test('UNO v3 streams exact MP4 bytes and allows warmed blob media under CSP',async()=>{
+ const path='/assets/soft-tech/video/uno-luck-v3.mp4';
  const expected=readFileSync('public'+path);
  const full=await fetch(base+path);
  assert.equal(full.status,200);

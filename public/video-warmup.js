@@ -1,7 +1,7 @@
 /* Warm Soft Tech MP4s from the first page, before the detail route is opened. */
 (() => {
   const paths = [
-    '/assets/soft-tech/video/uno-luck-v2.mp4',
+    '/assets/soft-tech/video/uno-luck-v3.mp4',
     '/assets/soft-tech/video/mahjong-wild-v1.mp4',
     '/assets/soft-tech/video/skygate-v1.mp4'
   ];
