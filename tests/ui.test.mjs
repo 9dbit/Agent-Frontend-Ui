@@ -186,14 +186,15 @@ test('game preview records history and state survives a new document',async t=>{
 
 
 test('Soft Tech originals share working hero, search and detail routes with source game links',async t=>{
- const {get,d,click,navigate}=await mount(t);
+ const {get,d,click,navigate,w}=await mount(t);
  const originals=data.games.filter(g=>g.provider==='soft-tech');
  assert.equal(originals.length,3);
  assert.equal(d.querySelectorAll('.soft-tech-card').length,3);
  assert.equal(get('.header .logo').getAttribute('aria-label'),'64COR');
  for(const g of originals){
   navigate('/');click('.soft-tech-card[href="/play/originals/'+g.id+'"]');
-  assert.equal(get('h1').textContent,g.title);
+  assert.equal(d.querySelector('main .page-title'),null);
+  assert.equal(get('.original-info h2').textContent,g.title);
   assert.equal(get('.original-copy a[target="_blank"]').href,g.launchUrl);
   assert.equal(get('.original-hero source').getAttribute('src'),g.video);
   for(const attr of ['autoplay','muted','loop','playsinline'])assert.ok(get('.original-hero').hasAttribute(attr));
@@ -201,6 +202,11 @@ test('Soft Tech originals share working hero, search and detail routes with sour
   navigate('/search?q='+encodeURIComponent(g.title));
   assert.ok(get('.game-card a[href="/play/originals/'+g.id+'"]'));
  }
+ const game=originals[0],readyURL='blob:https://playground.example.test/uno-ready';
+ w.__softTechVideoWarmup=new Map([[game.video,{url:readyURL,status:'ready'}]]);
+ navigate('/play/originals/'+game.id);
+ assert.equal(get('.original-hero source').getAttribute('src'),readyURL);
+ assert.equal(get('.original-hero source').dataset.mediaPath,game.video);
 });
 
 test('continue playing tracks launches, survives reload, resumes and persists dismissal',async t=>{
