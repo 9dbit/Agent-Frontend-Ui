@@ -1507,7 +1507,9 @@
         "hot"
       ],
       "launchUrl": "https://uno-luck-v1172-qa.onrender.com/?utm_source=64cor",
-      "description": "Arcade neon dengan naga, kombinasi kartu berwarna, dan animasi selebrasi. Game original Soft Tech."
+      "description": "Arcade neon dengan naga, kombinasi kartu berwarna, dan animasi selebrasi. Game original Soft Tech.",
+      "video": "/assets/soft-tech/video/uno-luck-v1.mp4",
+      "videoPoster": "/assets/soft-tech/video/uno-luck-v1.webp"
     },
     {
       "id": "soft-tech-mahjong-wild",
@@ -1522,7 +1524,9 @@
         "hot"
       ],
       "launchUrl": "https://mahjong-legend-web-production.up.railway.app/?utm_source=64cor",
-      "description": "Simbol mahjong klasik, ornamen jade, dan cascade tile dalam dunia oriental yang bercahaya."
+      "description": "Simbol mahjong klasik, ornamen jade, dan cascade tile dalam dunia oriental yang bercahaya.",
+      "video": "/assets/soft-tech/video/mahjong-wild-v1.mp4",
+      "videoPoster": "/assets/soft-tech/video/mahjong-wild-v1.webp"
     },
     {
       "id": "soft-tech-skygate",
@@ -1537,7 +1541,9 @@
         "hot"
       ],
       "launchUrl": "https://skygate-web-production.up.railway.app/play/?utm_source=64cor",
-      "description": "Petualangan fantasi sinematik dengan kuil emas, kekuatan langit, dan petir. Game original Soft Tech."
+      "description": "Petualangan fantasi sinematik dengan kuil emas, kekuatan langit, dan petir. Game original Soft Tech.",
+      "video": "/assets/soft-tech/video/skygate-v1.mp4",
+      "videoPoster": "/assets/soft-tech/video/skygate-v1.webp"
     }
   ],
   "banners": [

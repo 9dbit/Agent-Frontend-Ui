@@ -3,7 +3,7 @@ import { readFile, stat } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 const root = path.resolve(fileURLToPath(new URL('./public/', import.meta.url)));
-const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.gif':'image/gif','.ico':'image/x-icon','.woff2':'font/woff2','.ttf':'font/ttf'};
+const types = {'.mp4':'video/mp4','.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.gif':'image/gif','.ico':'image/x-icon','.woff2':'font/woff2','.ttf':'font/ttf'};
 export const server = http.createServer(async (req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('Referrer-Policy','same-origin');
@@ -18,7 +18,22 @@ export const server = http.createServer(async (req,res)=>{
     if(path.extname(name)||name.startsWith('/assets/')||name.startsWith('/api/')){res.writeHead(404);res.end('Not found');return;}
     target=path.join(root,'index.html');
   }
-  try { const data=await readFile(target);res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':name.startsWith('/assets/')?'public, max-age=31536000, immutable':'no-cache','Content-Length':data.length});res.end(req.method==='HEAD'?undefined:data); }
+  try {
+    const data=await readFile(target);
+    const headers={'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':name.startsWith('/assets/')?'public, max-age=31536000, immutable':'no-cache','Accept-Ranges':'bytes'};
+    const range=req.headers.range;
+    if(range){
+      const match=/^bytes=(\d*)-(\d*)$/.exec(range);
+      let start=match&&match[1]?Number(match[1]):0;
+      let end=match&&match[2]?Number(match[2]):data.length-1;
+      if(match&&!match[1]&&match[2]){start=Math.max(0,data.length-Number(match[2]));end=data.length-1;}
+      end=Math.min(end,data.length-1);
+      if(!match||(!match[1]&&!match[2])||!Number.isSafeInteger(start)||!Number.isSafeInteger(end)||start>end||start>=data.length){res.writeHead(416,{'Content-Range':`bytes */${data.length}`});res.end();return;}
+      res.writeHead(206,{...headers,'Content-Range':`bytes ${start}-${end}/${data.length}`,'Content-Length':end-start+1});
+      res.end(req.method==='HEAD'?undefined:data.subarray(start,end+1));return;
+    }
+    res.writeHead(200,{...headers,'Content-Length':data.length});res.end(req.method==='HEAD'?undefined:data);
+  }
   catch{res.writeHead(404);res.end('Not found');}
 });
 if(process.argv[1]===fileURLToPath(import.meta.url)){server.listen(Number(process.env.PORT)||3000,'0.0.0.0',()=>console.log('Frontend ready'));}

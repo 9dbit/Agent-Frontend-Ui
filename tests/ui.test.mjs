@@ -195,7 +195,9 @@ test('Soft Tech originals share working hero, search and detail routes with sour
   navigate('/');click('.soft-tech-card[href="/play/originals/'+g.id+'"]');
   assert.equal(get('h1').textContent,g.title);
   assert.equal(get('.original-copy a[target="_blank"]').href,g.launchUrl);
-  assert.equal(get('.original-hero').getAttribute('src'),g.hero);
+  assert.equal(get('.original-hero source').getAttribute('src'),g.video);
+  for(const attr of ['autoplay','muted','loop','playsinline'])assert.ok(get('.original-hero').hasAttribute(attr));
+  assert.equal(get('.original-hero').hasAttribute('controls'),false);
   navigate('/search?q='+encodeURIComponent(g.title));
   assert.ok(get('.game-card a[href="/play/originals/'+g.id+'"]'));
  }
