@@ -258,3 +258,52 @@ test('existing play history restores its last known game without overriding a di
  ui.click('[data-action="dismiss-continue"]');
  const reload=await mount(t,ui.w.localStorage.getItem('playground.frontend.v1'));assert.equal(reload.d.querySelector('.continue-card'),null);
 });
+
+test('account quick actions use eight filled red pixel icons and hide category grid on member pages',async t=>{
+ const {navigate,d,get}=await mount(t);
+ navigate('/user');
+ assert.equal(d.querySelector('main .main-nav'),null);
+ const actions=[...d.querySelectorAll('.account-quick-actions a')];
+ assert.equal(actions.length,8);
+ assert.ok(actions.every(a=>a.querySelector('svg.pixel-icon')&&!a.querySelector('svg.icon:not(.pixel-icon)')));
+ assert.equal(actions.find(a=>a.getAttribute('href')==='/user/referral/history')?.querySelectorAll('svg.pixel-icon').length,1);
+ const pinned=data.games.filter(g=>g.provider==='soft-tech');
+ assert.deepEqual([...d.querySelectorAll('[data-favorites-group="soft-tech"] .game-card .game-image')].map(a=>a.getAttribute('href')),pinned.map(g=>'/play/'+g.family+'/'+g.id));
+ assert.equal(d.querySelectorAll('[data-favorites-group="soft-tech"] .favorite.pinned').length,pinned.length);
+ assert.equal(d.querySelector('[data-favorites-group="provider"]'),null);
+ navigate('/deposit');
+ assert.equal(d.querySelector('main .main-nav'),null);
+ assert.match(get('button[type="submit"].deposit-action').textContent,/Buat deposit demo/);
+ assert.match(get('.wallet-summary .deposit-action').textContent,/Deposit/);
+ navigate('/withdraw/bank-transfer');
+ assert.equal(d.querySelector('main .main-nav'),null);
+ navigate('/user/activity');
+ assert.equal(d.querySelector('main .main-nav'),null);
+ navigate('/');
+ assert.equal(d.querySelectorAll('.main-nav .nav-item').length,12);
+ const css=read('public/liquid.css');
+ assert.match(css,/\.account-favorites-soft \.game-grid\{grid-template-columns:repeat\(3,minmax\(0,1fr\)\)/);
+ assert.match(css,/\.account-favorites-other \.game-grid\{grid-template-columns:repeat\(4,minmax\(0,1fr\)\)/);
+ assert.match(css,/\.account-favorites \.game-image,\.account-favorites \.game-card--portrait \.game-image\{[^}]*aspect-ratio:1\/1/);
+});
+
+test('Soft Tech remain pinned above other provider favorites across old local sessions',async t=>{
+ const ui=await mount(t);
+ const pins=data.games.filter(g=>g.provider==='soft-tech').map(g=>g.id);
+ assert.deepEqual(ui.state().favorites.slice(0,pins.length),pins);
+ ui.navigate('/slot/category/hot');
+ const candidate=[...ui.d.querySelectorAll('.game-card [data-action="favorite"]')].find(b=>!pins.includes(b.dataset.id));
+ assert.ok(candidate);
+ candidate.click();
+ const providerId=candidate.dataset.id;
+ ui.navigate('/user');
+ assert.deepEqual([...ui.d.querySelectorAll('[data-favorites-group="soft-tech"] .game-card')].map(n=>n.querySelector('.game-image').getAttribute('href').split('/').pop()),pins);
+ assert.equal(ui.d.querySelectorAll('[data-favorites-group="provider"] .game-card').length,1);
+ assert.ok(ui.get('.favorite-divider'));
+ assert.equal(ui.state().favorites.at(-1),providerId);
+ const previous={...ui.state(),favorites:[providerId]};
+ const reload=await mount(t,JSON.stringify(previous));
+ reload.navigate('/user');
+ assert.deepEqual(reload.state().favorites.slice(0,pins.length),pins);
+ assert.equal(reload.d.querySelectorAll('[data-favorites-group="provider"] .game-card').length,1);
+});
