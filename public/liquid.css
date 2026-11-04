@@ -212,3 +212,16 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 .continue-actions .icon{width:18px;height:18px;color:#fff}
 .has-continue-playing .footer{padding-bottom:calc(var(--dock-height) + var(--dock-bottom) + 132px)}
 @media(max-width:599px){.section-flat-icon{width:21px;height:21px}.continue-card{height:84px;grid-template-columns:52px minmax(0,1fr) auto;padding:10px;gap:8px}.continue-thumbnail{width:52px;height:52px}.continue-copy strong{font-size:12px}.continue-provider{font-size:9px}.continue-eyebrow{font-size:7px;letter-spacing:.3px}.continue-actions{gap:6px}.continue-actions .continue-play,.continue-actions .continue-close{width:32px;height:32px}.continue-actions .icon{width:16px;height:16px}.has-continue-playing .footer{padding-bottom:calc(var(--dock-height) + var(--dock-bottom) + 120px)}}
+
+/* Consistent game details and larger resume artwork. */
+.continue-card{grid-template-columns:72px minmax(0,1fr) auto;padding-block:10px}.continue-thumbnail{width:72px;height:72px;border-radius:18px}
+.original-detail .original-copy{padding:0}.original-detail .original-play{display:flex;width:100%;max-width:none;margin:12px 0 0;min-height:48px;border-radius:999px;background:linear-gradient(#ff293e,#f00020);color:#fff}
+.original-info{padding:24px}.original-info .btn{margin:10px 0 0}
+.provider-game-detail .preview-game{background:transparent;padding:0;border:0;box-shadow:none;border-radius:0}
+.provider-game-detail .preview-game>img{display:block;width:min(100%,350px);aspect-ratio:1;object-fit:cover;border-radius:24px;margin:auto}
+.related-games{padding:0 16px 16px;overflow:hidden}.related-games .section-head{padding:16px 0}
+.related-games .game-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:0}
+.related-games .game-image,.related-games .game-card--portrait .game-image{aspect-ratio:1;height:auto;border-radius:20%;overflow:hidden}
+.related-games .game-image img{width:100%;height:100%;aspect-ratio:1;object-fit:cover;border-radius:inherit}
+.related-games .game-name{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:599px){.continue-card{grid-template-columns:64px minmax(0,1fr) auto;padding-block:9px}.continue-thumbnail{width:64px;height:64px;border-radius:16px}.original-info{padding:18px}.original-detail .original-play{min-height:46px;margin:10px 0 0}.provider-game-detail .preview-game>img{border-radius:22px}.related-games{padding:0 12px 12px}.related-games .game-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.related-games .game-name{font-size:10px}.related-games .favorite{width:22px;height:22px}}
