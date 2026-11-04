@@ -254,3 +254,160 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
  .account-favorites .game-name{font-size:10px;margin-top:5px}
  .account-favorites .favorite-divider{margin:20px 0 12px;font-size:10px}
 }
+
+/* 64COR account hub v2: circular pixel quick actions and anchored member sections. */
+.account-layout{align-items:start}
+.account-sidebar{position:sticky;top:92px;z-index:5}
+.account-sidebar .account-quick-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.account-sidebar .account-quick-actions .account-menu-item{
+ display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:9px;
+ min-height:110px;min-width:0;padding:8px 4px 12px;border:0;border-radius:22px;
+ background:transparent;color:#f5edf9;font-size:12px;line-height:1.25;
+ transition:background .22s,transform .22s;
+}
+.account-sidebar .account-quick-actions .account-menu-item:hover{transform:translateY(-2px);background:#ffffff08}
+.account-sidebar .account-quick-actions .account-menu-item.active{background:#ff19401a;color:white}
+.account-sidebar .account-quick-actions .account-menu-circle{
+ width:72px;height:72px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;
+ background:radial-gradient(circle at 32% 23%,#ffffff15,#381e4b75 55%,#21132eba);
+ box-shadow:inset 0 1px 1px #ffffff30,0 5px 16px #07021235;
+ border:1px solid #ffffff14;transition:transform .24s,background .24s,box-shadow .24s,border-color .24s;
+}
+.account-sidebar .account-quick-actions .account-menu-item:hover .account-menu-circle{transform:scale(1.04)}
+.account-sidebar .account-quick-actions .account-menu-item.active .account-menu-circle{
+ background:radial-gradient(circle at 30% 24%,#ff53634d,#ac0b365e 52%,#3a153dcf);
+ border-color:#ff3e5c6b;
+ box-shadow:inset 0 1px 2px #ffb8cc40,0 0 0 3px #ff183021,0 8px 20px #c0004336;
+}
+.account-sidebar .account-quick-actions .account-menu-circle .pixel-icon{
+ width:32px;height:32px;fill:currentColor;stroke:none;color:#ff001d;shape-rendering:crispEdges;
+}
+.account-sidebar .account-quick-actions .account-menu-label{text-align:center;overflow-wrap:anywhere;max-width:100%}
+.account-content .account-hub{display:flex;flex-direction:column;gap:16px}
+.account-hub>.account-section{min-width:0;scroll-margin-top:100px;outline:0;transition:filter .24s}
+.account-hub>.account-section>.panel:first-child{margin-top:0}
+.account-hub>.account-section-active>.panel:first-child{
+ box-shadow:inset 0 1px 0 #ffffff26,0 9px 30px #08011840,0 0 0 1px #ff194024;
+}
+.account-content .account-section>.panel{margin-bottom:16px}
+.account-content .account-section>.panel:last-child{margin-bottom:0}
+.account-section:not(.account-hub .account-section){scroll-margin-top:96px}
+
+/* Member wallet forms: same dark-glass surfaces, solid red actions, calm spacing. */
+.account-content .wallet-form-panel,.account-content .wallet-history{
+ background:linear-gradient(145deg,#291638f2,#161229f5);
+ box-shadow:inset 0 1px 0 #ffffff17,0 12px 32px #07011635;
+ padding:24px;
+}
+.wallet-form-heading{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.wallet-form-heading .wallet-form-glyph{
+ display:grid;place-items:center;flex:none;width:54px;height:54px;aspect-ratio:1;
+ border-radius:50%;background:#ed0b2928;box-shadow:inset 0 0 0 1px #f52c4633;
+}
+.wallet-form-glyph .pixel-icon{width:27px;height:27px;color:#ff001d;fill:currentColor;stroke:none}
+.wallet-form-heading h2{margin:0 0 3px;font-size:22px;line-height:1.15}
+.wallet-form-heading p{margin:0;color:#bfb4cb;font-size:12px;line-height:1.4}
+.account-content .wallet-notice{padding:13px 16px;background:#ec224611;border-left:3px solid #f00020;border-radius:10px;font-size:12px;line-height:1.6;color:#e9dce9}
+.account-content .wallet-form-panel .form-grid{gap:14px}
+.account-content .wallet-form-panel .field{margin-bottom:18px;gap:8px}
+.account-content .wallet-form-panel .field label{font-size:12px;font-weight:600;color:#e9e1f1}
+.account-content .wallet-form-panel .field input,.account-content .wallet-form-panel .field select{
+ min-height:48px;width:100%;background:#110b1ecd;border:1px solid #ffffff24;border-radius:16px;
+ color:#fff;padding:12px 16px;font-size:14px;outline:0;transition:border-color .2s,box-shadow .2s;
+}
+.account-content .wallet-form-panel .field input:focus,.account-content .wallet-form-panel .field select:focus{
+ border-color:#ff264f;box-shadow:0 0 0 3px #ff224028;
+}
+.account-content .wallet-form-panel .field input::placeholder{color:#948a9f}
+.account-content .wallet-form-panel .amount-header{font-size:12px;color:#ded3e7;font-weight:600;margin:0 0 12px}
+.account-content .wallet-form-panel .amount-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:0 0 22px}
+.account-content .wallet-form-panel .amount-options button{
+ background:#ffffff0a;border:1px solid #ffffff17;border-radius:999px;
+ min-height:40px;padding:9px 8px;font-size:12px;font-weight:600;color:#eee4f2;
+ transition:background .22s,border-color .22s;
+}
+.account-content .wallet-form-panel .amount-options button:hover,.account-content .wallet-form-panel .amount-options button.selected{
+ background:#f0002033;border-color:#ff2147;color:#fff;
+}
+.account-content .wallet-form-panel .wallet-submit{
+ display:flex;width:100%;min-height:50px;margin:4px 0 8px;border:0;border-radius:999px;
+ background:#f00020;background-image:none;box-shadow:0 8px 24px #d7002640;color:#fff;
+ font-size:14px;font-weight:750;
+}
+.account-content .wallet-form-panel .wallet-submit:hover{background:#ff183b}
+.account-content .wallet-form-panel .form-error:not(:empty){color:#ff9aa9;margin:10px 0}
+
+/* Transaction detail modal in the 64COR dark-glass design system. */
+.overlay:has(.transaction-dialog){background:#05000abb;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.dialog.transaction-dialog{
+ width:min(100%,510px);max-height:calc(100dvh - 26px);overflow:auto;
+ border:1px solid #ffffff30;border-radius:24px;
+ background:linear-gradient(145deg,#352039f7,#19172af9 66%,#14162cfa);
+ box-shadow:0 22px 85px #020007aa,inset 0 1px 0 #ffffff25;
+}
+.transaction-dialog .dialog-head{
+ padding:20px 24px;border-bottom:1px solid #ffffff0c;
+ background:#21172bd9;backdrop-filter:blur(14px);
+}
+.transaction-dialog .dialog-head h2{font-size:18px;line-height:1.3;letter-spacing:-.02em}
+.transaction-dialog .dialog-head .icon-button{border-radius:50%;width:34px;height:34px;background:#ffffff0b}
+.transaction-dialog .dialog-body{padding:22px 24px 24px}
+.transaction-summary{display:flex;align-items:center;gap:13px;margin:0 0 19px}
+.transaction-summary-icon{width:52px;height:52px;flex:none;display:grid;place-items:center;border-radius:50%;background:#ed062a24}
+.transaction-summary-icon .pixel-icon{width:28px;height:28px;color:#ff001d;fill:currentColor;stroke:none}
+.transaction-summary>div{display:flex;flex-direction:column;gap:4px;min-width:0}
+.transaction-summary-label{font-size:12px;color:#bdb0cb}
+.transaction-summary strong{font-size:23px;letter-spacing:-.04em;line-height:1.15}
+.transaction-summary>.status{margin-left:auto;white-space:nowrap}
+.transaction-dialog .notice.transaction-notice{background:#f0002010;border-left:3px solid #ff1b3c;border-radius:10px;color:#d7cbdc;line-height:1.55;padding:12px 15px;margin-bottom:16px}
+.transaction-dialog .receipt{background:#100c1cc9;border:1px solid #ffffff12;border-radius:16px;padding:18px 20px;margin:0 0 18px}
+.transaction-dialog .receipt-row{display:flex;justify-content:space-between;gap:12px;margin:12px 0;font-size:13px}
+.transaction-dialog .receipt-row:first-child{margin-top:0}
+.transaction-dialog .receipt-row:last-child{margin-bottom:0}
+.transaction-dialog .receipt-row>span:first-child{color:#b9afc4}
+.transaction-dialog .receipt-row strong{color:#f7f3fa;font-weight:700}
+.transaction-dialog .receipt-hint{font-size:12px;line-height:1.6;color:#c5bace;margin:12px 0 16px}
+.transaction-dialog .receipt-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.transaction-dialog .receipt-actions .btn{width:100%;min-height:46px;padding:12px 10px;border-radius:999px;font-size:13px;font-weight:700}
+.transaction-dialog .receipt-primary{background:#f00020;background-image:none;color:#fff}
+.transaction-dialog .receipt-primary:hover{background:#ff183b}
+.transaction-dialog .btn.secondary{background:#48414d;color:#fff}
+.transaction-dialog .btn.secondary:hover{background:#5b505f}
+
+/* Status green is reserved for completion, not primary action buttons. */
+.account-content .wallet-history .status.completed,.transaction-dialog .status.completed{background:#174c34;color:#9de6b9}
+@media(max-width:850px){
+ .account-sidebar{position:relative;top:auto}
+ .account-sidebar .account-quick-actions{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .account-sidebar .account-quick-actions .account-menu-item{min-height:106px}
+ .account-sidebar .account-quick-actions .account-menu-circle{width:64px;height:64px}
+}
+@media(max-width:599px){
+ .account-sidebar{position:relative;top:auto;padding:10px}
+ .account-sidebar .account-quick-actions{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px 2px}
+ .account-sidebar .account-quick-actions .account-menu-item{min-height:94px;padding:4px 1px 8px;gap:7px;border-radius:18px;font-size:clamp(9px,2.3vw,11px)}
+ .account-sidebar .account-quick-actions .account-menu-circle{width:clamp(50px,14vw,62px);height:auto;aspect-ratio:1;border-radius:50%}
+ .account-sidebar .account-quick-actions .account-menu-circle .pixel-icon{width:26px;height:26px}
+ .account-sidebar .account-quick-actions .account-menu-label{font-size:inherit}
+ .account-hub>.account-section{scroll-margin-top:66px}
+ .account-content .wallet-form-panel,.account-content .wallet-history{padding:16px}
+ .wallet-form-heading{gap:12px;margin-bottom:14px}
+ .wallet-form-heading .wallet-form-glyph{width:44px;height:44px}
+ .wallet-form-heading h2{font-size:18px}
+ .account-content .wallet-form-panel .amount-options{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ .account-content .wallet-form-panel .amount-options button{font-size:11px;padding:9px 6px}
+ .account-content .wallet-form-panel .form-grid{display:block}
+ .dialog.transaction-dialog{border-radius:20px}
+ .transaction-dialog .dialog-head{padding:16px 18px}
+ .transaction-dialog .dialog-head h2{font-size:16px}
+ .transaction-dialog .dialog-body{padding:18px}
+ .transaction-summary-icon{width:44px;height:44px}
+ .transaction-summary strong{font-size:20px}
+ .transaction-dialog .receipt{padding:16px}
+ .transaction-dialog .receipt-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .transaction-dialog .receipt-actions .btn{font-size:12px;padding:10px 7px}
+}
+@media(prefers-reduced-motion:reduce){
+ .account-sidebar .account-quick-actions .account-menu-item,.account-sidebar .account-quick-actions .account-menu-circle,
+ .account-hub>.account-section{transition:none}
+}
