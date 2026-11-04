@@ -378,3 +378,34 @@ test('embedded demo wallet forms keep separate values, selected amounts and red 
  assert.ok(css.includes('.transaction-dialog .receipt-primary{background:#f00020'));
  assert.ok(css.includes('.account-content .wallet-form-panel .wallet-submit{'));
 });
+
+
+test('search thumbnails keep square artwork and portrait casino covers with rounded corners',async t=>{
+ const {navigate,get,d}=await mount(t);
+ navigate('/search');
+ const panel=get('.search-results');
+ const cards=[...panel.querySelectorAll('.game-card')];
+ assert.ok(cards.length>=20,'Search page must render mixed catalog results');
+ const square=cards.filter(card=>!card.classList.contains('game-card--portrait'));
+ const portrait=cards.filter(card=>card.classList.contains('game-card--portrait'));
+ assert.ok(square.length>0,'Search needs regular square thumbnails');
+ assert.ok(portrait.length>0,'Search needs preserved portrait thumbnails');
+ assert.ok(cards.every(card=>card.querySelector('a.game-image>img')));
+ const dataById=new Map(data.games.map(game=>[game.id,game]));
+ for(const card of cards){
+   const cover=card.querySelector('a.game-image');
+   const gameId=cover.getAttribute('href').split('/').pop();
+   const game=dataById.get(gameId);
+   assert.ok(game,'Every result should have catalog metadata');
+   assert.equal(card.classList.contains('game-card--portrait'),game.family==='casino');
+ }
+ const css=read('public/liquid.css');
+ assert.match(css,/\.search-results \.game-grid \.game-image\{[^}]*aspect-ratio:1\/1[^}]*border-radius:20%/);
+ assert.match(css,/\.search-results \.game-grid \.game-card--portrait \.game-image\{[^}]*aspect-ratio:187\/303[^}]*border-radius:18px/);
+ assert.match(css,/\.search-results \.game-grid \.game-card--portrait \.game-image img\{[^}]*object-fit:contain/);
+ assert.match(css,/@media\(max-width:599px\)\{[^}]*\.search-results \.game-grid \.game-image\{border-radius:18%/);
+ navigate('/slot/category/hot');
+ assert.equal(d.querySelector('.search-results'),null,'Thumbnail ratio changes must be scoped to Search');
+ navigate('/user');
+ assert.equal(d.querySelector('.search-results'),null,'Account cards must not be changed');
+});
