@@ -298,7 +298,7 @@ async function action(button){
 document.addEventListener('click',e=>{
  const original=e.target.closest('a[data-original-play]');if(original){const g=D.games.find(x=>x.id===original.dataset.originalPlay);if(g){rememberPlayed(g);log('Buka game original: '+g.title);}return;}
  const b=e.target.closest('[data-action]');if(b){e.preventDefault();action(b).catch(error=>toast(error.message||'Aksi belum berhasil.'));return;}
- const quick=e.target.closest('.account-quick-actions a[data-account-section]');if(quick&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&e.button===0){e.preventDefault();const target=quick.dataset.accountSection;if(path()==='/user'&&focusAccountSection(target)){history.replaceState({},'', '/user#account-'+target);return;}go(quick.getAttribute('href'),{section:target});return;}
+ const quick=e.target.closest('.account-quick-actions a[data-account-section]');if(quick&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&e.button===0){e.preventDefault();const target=quick.dataset.accountSection;if(path()==='/user'&&focusAccountSection(target)){history.replaceState({},'', '/user#account-'+target);return;}go('/user#account-'+target,{section:target});return;}
   const a=e.target.closest('a[data-route]');if(a&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&e.button===0){e.preventDefault();if(swipeIgnore){swipeIgnore=false;return;}go(a.getAttribute('href'));return;}
  if(e.target.hasAttribute('data-overlay'))closeModal();
 });
