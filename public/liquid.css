@@ -376,8 +376,8 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 
 /* Status green is reserved for completion, not primary action buttons. */
 .account-content .wallet-history .status.completed,.transaction-dialog .status.completed{background:#174c34;color:#9de6b9}
-@media(max-width:1000px){
- .account-sidebar{top:80px}
+@media(max-width:850px){
+ .account-sidebar{position:relative;top:auto}
  .account-sidebar .account-quick-actions{grid-template-columns:repeat(4,minmax(0,1fr))}
  .account-sidebar .account-quick-actions .account-menu-item{min-height:106px}
  .account-sidebar .account-quick-actions .account-menu-circle{width:64px;height:64px}
