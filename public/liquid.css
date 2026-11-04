@@ -411,3 +411,44 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
  .account-sidebar .account-quick-actions .account-menu-item,.account-sidebar .account-quick-actions .account-menu-circle,
  .account-hub>.account-section{transition:none}
 }
+
+
+/* Search thumbnails follow the shared 64COR card geometry without affecting other pages.
+   Landscape/original covers are square; live-casino portrait artwork retains 187:303. */
+.search-results .game-grid .game-image{
+ display:block;
+ width:100%;
+ height:auto;
+ aspect-ratio:1/1;
+ border-radius:20%;
+ overflow:hidden;
+ isolation:isolate;
+ background:#160c22;
+ box-shadow:0 5px 16px #05010c40;
+}
+.search-results .game-grid .game-image img{
+ display:block;
+ width:100%;
+ height:100%;
+ object-fit:cover;
+}
+.search-results .game-grid .game-card--portrait .game-image{
+ aspect-ratio:187/303;
+ border-radius:18px;
+}
+.search-results .game-grid .game-card--portrait .game-image img{
+ object-fit:contain;
+}
+.search-results .game-grid .game-name{
+ margin-top:7px;
+ padding:0 2px;
+ font-size:12px;
+ line-height:1.3;
+ white-space:normal;
+ overflow-wrap:anywhere;
+}
+@media(max-width:599px){
+ .search-results .game-grid .game-image{border-radius:18%}
+ .search-results .game-grid .game-card--portrait .game-image{border-radius:14px}
+ .search-results .game-grid .game-name{font-size:10px;margin-top:5px}
+}
