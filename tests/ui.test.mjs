@@ -339,7 +339,8 @@ test('account hub has eight circular quick actions with anchored sections and sh
  assert.ok(ui.get('[data-account-section="deposit"]').classList.contains('active'));
  assert.equal(ui.d.querySelectorAll('.account-hub>.account-section').length,0,'Standalone deposit route remains available');
  ui.click('[data-account-section="bonus"]');
- assert.equal(ui.w.location.pathname,'/user/bonuses');
+ assert.equal(ui.w.location.pathname,'/user');
+ assert.equal(ui.w.location.hash,'#account-bonus');
  assert.ok(ui.get('[data-account-panel="bonus"]').classList.contains('account-section-active'));
 });
 
