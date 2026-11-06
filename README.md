@@ -2,7 +2,7 @@
 
 Active working frontend based on **[OXPLAY Template v1.0.0](https://github.com/9dbit/OXPLAY-Template)**. The reusable template and visual asset archive live in that separate repository. This repository is used for project UI changes and future integration with [Playground](https://github.com/9dbit/Playground), and retains its existing Railway deployment. See `template-origin.json` and [the integration guide](docs/OXPLAY_TEMPLATE_GUIDE.md).
 
-Responsive GOBI88 reference template for Playground, with 238 copied local images and browser-local demo workflows. No live payment, betting session, authentication backend, source-site API, tracker or third-party chat is connected.
+Responsive GOBI88 reference template for Playground, with 238 copied local images and browser-local demo workflows. No live payment, betting session, authentication backend, or source-site API is connected. Customer support uses the 64COR Chatvice widget (merchant m_ac01b0d69cb4d237).
 
 ## Run
 

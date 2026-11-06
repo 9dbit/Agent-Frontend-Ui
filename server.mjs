@@ -7,7 +7,7 @@ const types = {'.mp4':'video/mp4','.html':'text/html; charset=utf-8','.css':'tex
 export const server = http.createServer(async (req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('Referrer-Policy','same-origin');
-  res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' data:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'");
+  res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' data: https://chatvice.app; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; script-src 'self' https://chatvice.app; font-src 'self'; connect-src 'self' https://chatvice.app wss://chatvice.app; frame-src 'self' https://chatvice.app; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'");
   if(req.method!=='GET'&&req.method!=='HEAD'){ res.writeHead(405,{'Allow':'GET, HEAD'});res.end('Read-only frontend');return; }
   let name;
   try{name=decodeURIComponent(new URL(req.url,'http://local').pathname);}catch{res.writeHead(400);res.end();return;}
