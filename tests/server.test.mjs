@@ -18,7 +18,7 @@ test('UNO v3 streams exact MP4 bytes and allows warmed blob media under CSP',asy
  assert.equal(partial.headers.get('content-range'),`bytes 0-1023/${expected.length}`);
  assert.deepEqual(Buffer.from(await partial.arrayBuffer()),expected.subarray(0,1024));
  const home=await fetch(base+'/');
- assert.match(home.headers.get('content-security-policy'),/media-src 'self' blob:;/);
+ assert.match(home.headers.get('content-security-policy'),/media-src 'self' blob: https:\/\/chatvice\.app;/);
  const html=await home.text();
  assert.ok(html.indexOf('src="/video-warmup.js"')<html.indexOf('src="/app.js"'));
 });
@@ -38,4 +38,9 @@ test('64COR support script is allowed by the narrowly scoped CSP',async()=>{
   assert.match(csp,/script-src 'self' https:\/\/chatvice\.app;/);
   assert.match(csp,/connect-src 'self' https:\/\/chatvice\.app wss:\/\/chatvice\.app;/);
   assert.match(await response.text(),/<script async referrerpolicy="origin" src="https:\/\/chatvice\.app\/api\/widget\/chatvice\.js\?merchant=m_ac01b0d69cb4d237"><\/script>/);
+});
+
+test('Chatvice promo media is allowed by the host CSP', async () => {
+  const csp = (await fetch(base)).headers.get('content-security-policy');
+  assert.match(csp, /media-src 'self' blob: https:\/\/chatvice\.app;/);
 });
