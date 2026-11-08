@@ -6,6 +6,13 @@ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 const base='http://127.0.0.1:'+server.address().port;
 test.after(()=>new Promise(resolve=>server.close(resolve)));
 test('health reports Playground connection mode',async()=>{const r=await fetch(base+'/health');assert.equal(r.status,200);assert.equal((await r.json()).mode,'playground-connected');});
+test('old standalone demo URLs redirect to the main website',async()=>{
+ for(const path of ['/client-demo','/client-demo/','/client-demo/index.html']){
+  const response=await fetch(base+path,{redirect:'manual'});assert.equal(response.status,302);assert.equal(response.headers.get('location'),'/');
+ }
+ assert.equal((await fetch(base+'/client-demo/demo.js')).status,404);
+ const home=await fetch(base+'/');assert.match(await home.text(),/href="\/client-preview.css"/);
+});
 test('UNO v3 streams exact MP4 bytes and allows warmed blob media under CSP',async()=>{
  const path='/assets/soft-tech/video/uno-luck-v3.mp4';
  const expected=readFileSync('public'+path);

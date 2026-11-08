@@ -16,6 +16,7 @@ export const server = http.createServer(async (req,res)=>{
   if(await serveDiscovery(req,res))return;
   let name;
   try{name=decodeURIComponent(new URL(req.url,'http://local').pathname);}catch{res.writeHead(400);res.end();return;}
+  if(['/client-demo','/client-demo/','/client-demo/index.html'].includes(name)){res.writeHead(302,{'Location':'/','Cache-Control':'no-store'});res.end();return;}
   if(name==='/health'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({status:'ok',mode:'playground-connected',version:'1.0.0'}));return;}
   let target=path.resolve(root,'.'+name);
   if(!target.startsWith(root+path.sep)&&target!==root){res.writeHead(403);res.end();return;}
