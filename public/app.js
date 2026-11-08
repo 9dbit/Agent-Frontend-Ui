@@ -1,3 +1,4 @@
+import './chatvice.js';
 import * as PG from './playground.js';
 import {pixelIcon,glassIcon} from './pixel-icons.js';
 import {config} from './config.js';
@@ -7,6 +8,9 @@ let site;
 let D;
 try{const response=await fetch('/data.json');if(!response.ok)throw new Error();D=await response.json();}catch{document.querySelector('#app').textContent='Katalog belum berhasil dimuat. Silakan muat ulang halaman.';throw new Error('Catalog unavailable');}
 if(connected){try{site=await PG.connect(D);config.announcement=site.home.description||config.announcement;}catch(e){document.querySelector('#app').textContent='64COR sedang menghubungkan Playground. Silakan muat ulang.';throw e;}}
+const widgetHome = site?.home;
+const widgetMerchant = widgetHome?.chatvice_configured ? (widgetHome.chatvice_enabled ? widgetHome.chatvice_merchant : null) : 'm_ac01b0d69cb4d237';
+dispatchEvent(new CustomEvent('agency:help-context', {detail: widgetMerchant ? {origin:'https://chatvice.app',merchant:widgetMerchant} : null}));
 const app=document.querySelector('#app'), overlays=document.querySelector('#overlay-root');
 let S;try{S=hydrateState(JSON.parse(localStorage.getItem(KEY)));}catch{S=initialState();}
 if(connected){const locale=S.locale;S={...initialState(),...await PG.accountState(),locale,lastPlayed:null,claimed:[]};}

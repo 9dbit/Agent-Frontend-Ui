@@ -37,7 +37,7 @@ test('64COR support script is allowed by the narrowly scoped CSP',async()=>{
   const csp=response.headers.get('content-security-policy');
   assert.match(csp,/script-src 'self' https:\/\/chatvice\.app;/);
   assert.match(csp,/connect-src 'self' https:\/\/chatvice\.app wss:\/\/chatvice\.app;/);
-  assert.match(await response.text(),/<script async referrerpolicy="origin" src="https:\/\/chatvice\.app\/api\/widget\/chatvice\.js\?merchant=m_ac01b0d69cb4d237"><\/script>/);
+  assert.doesNotMatch(await response.text(), /<script[^>]+merchant=/); const loader=await fetch(base+'/chatvice.js'); assert.equal(loader.status,200); assert.match(await loader.text(),/agency:help-context/);
 });
 
 test('Chatvice promo media is allowed by the host CSP', async () => {
