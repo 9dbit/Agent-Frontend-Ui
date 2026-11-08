@@ -1,0 +1,3 @@
+import {injectSEO} from '../storefront-seo.mjs';
+import test from 'node:test';import assert from 'node:assert/strict';
+test('published CMS metadata is rendered and escaped in initial HTML',()=>{const out=injectSEO('<html><head><title>old</title><meta name="description" content="old"></head></html>',{tenant:{environment:'sandbox'},pages:[{slug:'home',title:'64COR <new>',description:'" test',canonical:'https://example.test/'}]},'https://example.test/');assert.match(out,/<title>64COR &lt;new&gt;<\/title>/);assert.match(out,/noindex, nofollow/);assert.match(out,/content="&quot; test"/);assert.equal((out.match(/name="description"/g)||[]).length,1);});

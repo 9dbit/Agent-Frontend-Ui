@@ -1,4 +1,6 @@
 import http from 'node:http';
+import {homeSEO} from './storefront-seo.mjs';
+import {proxy} from './storefront-proxy.mjs';
 import { readFile, stat } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -7,11 +9,12 @@ const types = {'.mp4':'video/mp4','.html':'text/html; charset=utf-8','.css':'tex
 export const server = http.createServer(async (req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('Referrer-Policy','same-origin');
-  res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' data: https://chatvice.app; media-src 'self' blob: https://chatvice.app; style-src 'self' 'unsafe-inline'; script-src 'self' https://chatvice.app; font-src 'self'; connect-src 'self' https://chatvice.app wss://chatvice.app; frame-src 'self' https://chatvice.app; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'");
+  res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' data: https:; media-src 'self' blob: https://chatvice.app; style-src 'self' 'unsafe-inline'; script-src 'self' https://chatvice.app; font-src 'self'; connect-src 'self' https://chatvice.app wss://chatvice.app; frame-src 'self' https://chatvice.app; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'");
+  if(await proxy(req,res))return;
   if(req.method!=='GET'&&req.method!=='HEAD'){ res.writeHead(405,{'Allow':'GET, HEAD'});res.end('Read-only frontend');return; }
   let name;
   try{name=decodeURIComponent(new URL(req.url,'http://local').pathname);}catch{res.writeHead(400);res.end();return;}
-  if(name==='/health'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({status:'ok',mode:'frontend-demo',version:'1.0.0'}));return;}
+  if(name==='/health'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({status:'ok',mode:'playground-connected',version:'1.0.0'}));return;}
   let target=path.resolve(root,'.'+name);
   if(!target.startsWith(root+path.sep)&&target!==root){res.writeHead(403);res.end();return;}
   try{if((await stat(target)).isDirectory())target=path.join(target,'index.html');await stat(target);}catch{
@@ -19,7 +22,8 @@ export const server = http.createServer(async (req,res)=>{
     target=path.join(root,'index.html');
   }
   try {
-    const data=await readFile(target);
+    let data=await readFile(target);
+    if(name==='/'||name==='/en')data=await homeSEO(data,req);
     const headers={'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':name.startsWith('/assets/')?'public, max-age=31536000, immutable':'no-cache','Accept-Ranges':'bytes'};
     const range=req.headers.range;
     if(range){

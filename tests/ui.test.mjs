@@ -5,7 +5,7 @@ import {JSDOM, VirtualConsole} from 'jsdom';
 
 const read=p=>readFileSync(p,'utf8');
 const data=JSON.parse(read('public/data.json'));
-const script=['public/config.js','public/state.js','public/pixel-icons.js','public/app.js'].map(p=>read(p).replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
+const script=['public/config.js','public/state.js','public/pixel-icons.js','public/app.js'].map(p=>read(p).replace("mode:'connected'","mode:'demo'").replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
 async function mount(t,initial){
   const errors=[];
   const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
