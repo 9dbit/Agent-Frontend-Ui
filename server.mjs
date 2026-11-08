@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {serveDiscovery} from './storefront-discovery.mjs';
 import {homeSEO} from './storefront-seo.mjs';
 import {proxy} from './storefront-proxy.mjs';
 import { readFile, stat } from 'node:fs/promises';
@@ -12,6 +13,7 @@ export const server = http.createServer(async (req,res)=>{
   res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' data: https:; media-src 'self' blob: https://chatvice.app; style-src 'self' 'unsafe-inline'; script-src 'self' https://chatvice.app; font-src 'self'; connect-src 'self' https://chatvice.app wss://chatvice.app; frame-src 'self' https://chatvice.app; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'");
   if(await proxy(req,res))return;
   if(req.method!=='GET'&&req.method!=='HEAD'){ res.writeHead(405,{'Allow':'GET, HEAD'});res.end('Read-only frontend');return; }
+  if(await serveDiscovery(req,res))return;
   let name;
   try{name=decodeURIComponent(new URL(req.url,'http://local').pathname);}catch{res.writeHead(400);res.end();return;}
   if(name==='/health'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({status:'ok',mode:'playground-connected',version:'1.0.0'}));return;}

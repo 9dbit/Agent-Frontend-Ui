@@ -24,9 +24,9 @@ export async function connect(data){
  return {home,manifest};
 }
 export async function accountState(){
- const a=await session();if(!a)return {signedIn:false,balance:0,user:{name:'',email:''},transactions:[],messages:[],activity:[],favorites:[],rounds:[]};
- const [w,rounds,tickets]=await Promise.all([api('/wallet'),api('/rounds'),api('/tickets')]);
- return {signedIn:true,balance:w.balances.find(x=>x.code.endsWith(':available'))?.amount||'0',reserved:w.balances.find(x=>x.code.endsWith(':reserved'))?.amount||'0',user:{name:a.display_name,email:a.profile?.email||''},favorites:a.profile?.favorites||[],
+ const a=await session();if(!a)return {signedIn:false,balance:0,user:{name:'',email:''},transactions:[],messages:[],activity:[],favorites:[],rounds:[],rewards:[],referral:null,leaderboard:null};
+ const [w,rounds,tickets,inbox,activity,rewards,referral,leaderboard]=await Promise.all([api('/wallet'),api('/rounds'),api('/tickets'),api('/inbox'),api('/activity'),api('/rewards'),manifest.capabilities.referral?api('/referral'):null,manifest.capabilities.leaderboard?api('/leaderboard'):null]);
+ return {signedIn:true,balance:w.balances.find(x=>x.code.endsWith(':available'))?.amount||'0',reserved:w.balances.find(x=>x.code.endsWith(':reserved'))?.amount||'0',user:{name:a.display_name,email:a.profile?.email||'',email_verified:!!a.profile?.email_verified},favorites:a.profile?.favorites||[],
  transactions:w.transactions.map(t=>({...t,type:t.kind,status:['credited','paid'].includes(t.state)?'completed':['cancelled','failed','expired'].includes(t.state)?'cancelled':'pending',createdAt:t.created_at})),
- messages:tickets.items.map(t=>({id:t.id,title:t.subject,text:t.messages.map(m=>m.body).join('\n\n'),read:(a.profile?.read_messages||[]).includes(t.id)})),activity:[],rounds:rounds.items};
+ messages:[...inbox.items.map(m=>({id:m.id,title:m.title,text:m.body,read:!!m.read_at,source:'inbox'})),...tickets.items.map(t=>({id:t.id,title:t.subject,text:t.messages.map(m=>m.body).join('\n\n'),read:(a.profile?.read_messages||[]).includes(t.id)}))],activity:activity.items.map(a=>({id:a.id,text:({'player.registered':'Registrasi akun','auth.login':'Masuk akun','player.profile_updated':'Profil diperbarui','player.password_changed':'Password diperbarui','account.password_recovered':'Password dipulihkan','reward.claimed':'Bonus diklaim'})[a.action]||a.action,time:a.created_at})),rounds:rounds.items,rewards:rewards.items,referral,leaderboard};
 }

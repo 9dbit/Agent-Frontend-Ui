@@ -1,11 +1,11 @@
 const DEFAULT_UPSTREAM='https://playground-agent-sandbox-production.up.railway.app';
-const playerRoutes=new Set(['GET /me','GET /wallet','GET /rounds','GET /tickets','GET /games','POST /auth/login','POST /auth/register','POST /auth/logout','POST /auth/password','POST /deposits','POST /withdrawals','POST /tickets','POST /launch','PUT /profile','PUT /preferences']);
+const playerRoutes=new Set(['POST /email/request','GET /inbox','GET /activity','GET /rewards','GET /referral','GET /leaderboard','POST /rewards/claim','POST /auth/recovery','GET /me','GET /wallet','GET /rounds','GET /tickets','GET /games','POST /auth/login','POST /auth/register','POST /auth/logout','POST /auth/password','POST /deposits','POST /withdrawals','POST /tickets','POST /launch','PUT /profile','PUT /preferences']);
 export async function proxy(req,res) {
  const path=new URL(req.url,'http://local').pathname;
  const media=/^\/media\/agency\/[a-f0-9-]{36}\/[a-f0-9-]{36}\.webp$/.test(path);
  if(!path.startsWith('/api/')&&!media)return false;
  const route=path.replace(/^\/api\/player/,'');
- const allowed=path==='/api/storefront'&&req.method==='GET'||media&&req.method==='GET'||path.startsWith('/api/player/')&&(playerRoutes.has(req.method+' '+route)||req.method==='POST'&&/^\/withdrawals\/[a-f0-9-]{36}\/cancel$/.test(route));
+ const allowed=path==='/api/storefront'&&req.method==='GET'||media&&req.method==='GET'||path.startsWith('/api/player/')&&(playerRoutes.has(req.method+' '+route)||req.method==='POST'&&/^\/inbox\/[a-f0-9-]{36}\/read$/.test(route)||req.method==='POST'&&/^\/withdrawals\/[a-f0-9-]{36}\/cancel$/.test(route));
  const json=(status,error)=>{res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store'});res.end(JSON.stringify({error}));};
  if(!allowed){json(404,'Endpoint tidak tersedia');return true;}
  if(!['GET','HEAD'].includes(req.method)) {
@@ -24,7 +24,7 @@ export async function proxy(req,res) {
    if(!['GET','HEAD'].includes(req.method)) {
      let size=0;const chunks=[];for await (const c of req){size+=c.length;if(size>32000){json(413,'Request terlalu besar');return true;}chunks.push(c);}
      const p=JSON.parse(Buffer.concat(chunks).toString());
-     if(route==='/auth/login'||route==='/auth/register')p.tenant='64cor';
+     if(route==='/auth/login'||route==='/auth/register'||route==='/auth/recovery')p.tenant='64cor';
      body=JSON.stringify(p);headers['Content-Type']='application/json';
    }
    const r=await fetch(target,{method:req.method,headers,body,redirect:'manual',signal:AbortSignal.timeout(15000)});
