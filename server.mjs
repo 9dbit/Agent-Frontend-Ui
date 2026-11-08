@@ -23,7 +23,7 @@ export const server = http.createServer(async (req,res)=>{
   }
   try {
     let data=await readFile(target);
-    if(name==='/'||name==='/en')data=await homeSEO(data,req);
+    if(target===path.join(root,'index.html'))data=await homeSEO(data,req);
     const headers={'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':name.startsWith('/assets/')?'public, max-age=31536000, immutable':'no-cache','Accept-Ranges':'bytes'};
     const range=req.headers.range;
     if(range){
