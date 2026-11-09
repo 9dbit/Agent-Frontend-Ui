@@ -114,3 +114,5 @@ textarea,.field textarea{border-radius:24px;padding:14px 18px}
 @media (max-width: 767px) {
   #chatvice-widget-button { bottom: calc(92px + env(safe-area-inset-bottom, 0px)) !important; }
 }
+
+.agency-brand-logo{max-height:44px;max-width:170px;object-fit:contain}

@@ -452,3 +452,6 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
  .search-results .game-grid .game-card--portrait .game-image{border-radius:14px}
  .search-results .game-grid .game-name{font-size:10px;margin-top:5px}
 }
+
+/* Keep contact at the right edge when unavailable categories are omitted. */
+.main-nav > .nav-item[href="/contact"] { grid-column: -2 / -1; }
