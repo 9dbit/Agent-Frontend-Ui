@@ -9,3 +9,7 @@ test('draft, disabled, expired, other language and unsafe link not rendered; unp
 test('proxy uses configured tenant, no credentials; upstream mismatch rejected',async()=>{
  process.env.GENESIS_CONTENT_ORIGIN='https://genesis.example.test';process.env.GENESIS_CONTENT_TENANT='64cor';let called;const feed=await fetchGenesisContent(async(url,opts)=>{called={url,opts};return {ok:true,text:async()=>JSON.stringify({tenant_id:'64cor',items:[]})};});assert.equal(feed.tenant_id,'64cor');assert.equal(called.url.pathname,'/api/public/content/64cor');assert.equal(called.opts.headers,undefined);await assert.rejects(()=>fetchGenesisContent(async()=>({ok:true,text:async()=>JSON.stringify({tenant_id:'wrong',items:[]})})));delete process.env.GENESIS_CONTENT_ORIGIN;delete process.env.GENESIS_CONTENT_TENANT;
 });
+
+test('page and SEO conflict keeps page body and SEO metadata independently of UUID order',()=>{
+ for(const ids of [['aaa','zzz'],['zzz','aaa']]){const page=item('pages',{path:'/guide',title:'Page heading',body:'Page content'},ids[0]),seo=item('seo',{path:'/guide',title:'SEO title',description:'SEO description'},ids[1]);for(const items of [[page,seo],[seo,page]]){const merged=mergeGenesisContent(base,data,{items});const result=publishedPage(merged.manifest,'/guide');assert.equal(result.body,'Page content');assert.equal(result.title,'SEO title');assert.equal(result.description,'SEO description');assert.equal(result.genesis_page,true);assert.match(injectSEO('<head><title>Old</title></head>',merged.manifest,'https://example.test/guide'),/<title>SEO title/);}}
+});
