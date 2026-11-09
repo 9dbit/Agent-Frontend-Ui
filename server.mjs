@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {genesisContentProxy} from './genesis-content-proxy.mjs';
 import {serveDiscovery} from './storefront-discovery.mjs';
 import {homeSEO} from './storefront-seo.mjs';
 import {proxy} from './storefront-proxy.mjs';
@@ -11,6 +12,7 @@ export const server = http.createServer(async (req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('Referrer-Policy','same-origin');
   res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' data: https:; media-src 'self' blob: https://chatvice.app; style-src 'self' 'unsafe-inline'; script-src 'self' https://chatvice.app; font-src 'self'; connect-src 'self' https://chatvice.app wss://chatvice.app; frame-src 'self' https://chatvice.app; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'");
+  if(await genesisContentProxy(req,res))return;
   if(await proxy(req,res))return;
   if(req.method!=='GET'&&req.method!=='HEAD'){ res.writeHead(405,{'Allow':'GET, HEAD'});res.end('Read-only frontend');return; }
   if(await serveDiscovery(req,res))return;
@@ -44,3 +46,4 @@ export const server = http.createServer(async (req,res)=>{
   catch{res.writeHead(404);res.end('Not found');}
 });
 if(process.argv[1]===fileURLToPath(import.meta.url)){server.listen(Number(process.env.PORT)||3000,'0.0.0.0',()=>console.log('Frontend ready'));}
+

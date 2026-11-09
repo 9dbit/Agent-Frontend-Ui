@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {JSDOM,VirtualConsole} from 'jsdom';
 const read=p=>readFileSync(p,'utf8');
-const script=['public/config.js','public/state.js','public/pixel-icons.js','public/content-routes.js','public/client-preview.js','public/app.js'].map(p=>read(p).replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
+const script=['public/config.js','public/state.js','public/pixel-icons.js','public/content-routes.js','public/genesis-content.js','public/client-preview.js','public/app.js'].map(p=>read(p).replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
 async function mount(t){
  const errors=[],vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
  const dom=new JSDOM(read('public/index.html'),{url:'https://demo.example/',runScripts:'outside-only',virtualConsole:vc}),w=dom.window,d=w.document;
  w.scrollTo=()=>{};w.matchMedia=()=>({matches:true});
  w.fetch=async url=>{assert.equal(url,'/data.json');return {ok:true,json:async()=>JSON.parse(read('public/data.json'))};};
- w.PG={connect:async data=>{data.games=data.games.filter(g=>g.provider==='soft-tech');return {home:{chatvice_configured:true,chatvice_enabled:false},manifest:{capabilities:{},settings:{},pages:[]}};},accountState:async()=>({signedIn:false,referral:null})};
+ w.PG={applyGenesisLocale:()=>{},connect:async data=>{data.games=data.games.filter(g=>g.provider==='soft-tech');return {home:{chatvice_configured:true,chatvice_enabled:false},manifest:{capabilities:{},settings:{},pages:[]}};},accountState:async()=>({signedIn:false,referral:null})};
  w.PG.api=()=>{throw Error('Preview must not use an operational API');};
  t.after(()=>{w.close();assert.deepEqual(errors,[]);});
  await w.eval('(async()=>{const PG=window.PG;'+script+'\n})()');
