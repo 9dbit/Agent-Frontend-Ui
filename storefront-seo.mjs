@@ -1,3 +1,5 @@
+import {fetchGenesisContent} from './genesis-content-proxy.mjs';
+import {mergeGenesisContent} from './public/genesis-content.js';
 import {publishedPage} from './public/content-routes.js';
 const esc=v=>String(v||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function injectSEO(html,manifest,url){
@@ -12,6 +14,8 @@ export async function homeSEO(data,req){
  try{
   const origin=process.env.PLAYGROUND_API_ORIGIN||'https://playground-agent-sandbox-production.up.railway.app';
   const r=await fetch(new URL('/api/storefront/64cor',origin),{signal:AbortSignal.timeout(5000)});if(!r.ok)return data;
-  return Buffer.from(injectSEO(data.toString(),await r.json(),new URL(req.url,'https://playground-agent-frontend-production.up.railway.app').href));
+  let manifest=await r.json();try{manifest=mergeGenesisContent(manifest,{banners:[],promotions:[]},await fetchGenesisContent(),new URL(req.url,'https://local').pathname==='/en'?'en':'id').manifest;}catch{}
+  return Buffer.from(injectSEO(data.toString(),manifest,new URL(req.url,'https://playground-agent-frontend-production.up.railway.app').href));
  }catch{return data;}
 }
+
