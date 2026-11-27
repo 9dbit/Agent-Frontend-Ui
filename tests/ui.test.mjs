@@ -418,3 +418,25 @@ test('search thumbnails keep square artwork and portrait casino covers with roun
  navigate('/user');
  assert.equal(d.querySelector('.search-results'),null,'Account cards must not be changed');
 });
+
+test('Atlantis homepage shows artwork without Coming Soon overlay and detail uses a spaced square hero',async t=>{
+ const {get,navigate,d}=await mount(t);
+ const id='xdplay-empire-of-atlantis';
+ const game=data.games.find(g=>g.id===id);
+ const tile=get('.soft-tech-card[href="/play/originals/'+id+'"]');
+ assert.equal(tile.querySelector('.soft-tech-soon-badge'),null);
+ assert.doesNotMatch(tile.textContent,/coming soon|game concept/i);
+ assert.equal(tile.querySelector('img').getAttribute('src'),game.image);
+ assert.equal(tile.querySelector('.soft-tech-label').textContent,'XD PLAY PREVIEW');
+ navigate('/play/originals/'+id);
+ const detail=get('.original-detail--square');
+ assert.equal(detail.querySelector('.original-static-hero img').getAttribute('src'),game.hero);
+ assert.equal(detail.querySelector('.original-static-image--wide'),null);
+ assert.equal(d.querySelector('.original-copy a[data-original-play]'),null,'Nonlaunchable concept stays nonlaunchable');
+ const styles=read('public/liquid.css');
+ assert.match(styles,/--header-height:69\.7px/);
+ assert.match(styles,/--header-height:59\.5px/);
+ assert.match(styles,/original-game-page #main\{padding-top/);
+ assert.match(styles,/original-detail--square \.original-static-hero\{/);
+ assert.doesNotMatch(styles,/\.soft-tech-card--coming-soon \.soft-tech-art img\{/);
+});

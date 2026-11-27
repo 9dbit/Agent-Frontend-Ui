@@ -459,13 +459,41 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 /* XD Play: 3-by-2 square original game thumbnails and accessible preview state. */
 .soft-tech-art{position:relative}
 .soft-tech-art img{display:block;object-fit:cover}
-.soft-tech-soon-badge{position:absolute;left:50%;bottom:7%;transform:translateX(-50%) rotate(-4deg);max-width:92%;white-space:nowrap;border:1px solid #ffeeb8;border-radius:999px;padding:5px 9px;background:linear-gradient(145deg,#a68127,#f1cc60);box-shadow:0 3px 12px #0305199c;color:#221038;font-size:9px;letter-spacing:.8px;font-weight:900;pointer-events:none}
-.soft-tech-card--coming-soon .soft-tech-art img{filter:saturate(.88)}
 .original-static-hero{display:flex;justify-content:center;align-items:center;background:radial-gradient(ellipse at center,#07356c 0%,#1c092c 70%,#0d061c 100%);overflow:hidden}
 .original-static-hero .original-static-image{display:block;width:auto;max-width:100%;height:100%;aspect-ratio:1;object-fit:cover;border-radius:0}
 .original-play.is-disabled{cursor:not-allowed;opacity:.68;pointer-events:none}
-@media(max-width:599px){.soft-tech-soon-badge{padding:3px 5px;font-size:7px;letter-spacing:.2px}}
 /* Atlantis product page: show the complete 3:1 artwork without a square crop. */
 .original-static-hero .original-static-image--wide{
  display:block;width:100%;max-width:100%;height:100%;aspect-ratio:3/1;object-fit:cover;
+}
+
+/* 64COR compact fixed header: exactly 15% lower than 82px desktop / 70px mobile. */
+:root{--header-height:69.7px}
+@media(max-width:599px){:root{--header-height:59.5px}}
+
+/* Original game detail needs breathing room beneath the fixed global header. */
+.original-game-page #main{padding-top:clamp(18px,2.5vw,28px)}
+
+/* Square Atlantis detail artwork, centered and uncropped, without affecting 3:1 homepage banners. */
+.original-detail--square .original-static-hero{
+ display:block;
+ width:min(100%,720px);
+ aspect-ratio:1/1;
+ height:auto;
+ margin-inline:auto;
+ border-radius:22px;
+ background:#05131c;
+ overflow:hidden;
+}
+.original-detail--square .original-static-hero .original-static-image{
+ display:block;
+ width:100%;
+ height:100%;
+ max-width:none;
+ aspect-ratio:1/1;
+ object-fit:cover;
+}
+@media(max-width:599px){
+ .original-game-page #main{padding-top:18px}
+ .original-detail--square .original-static-hero{border-radius:18px}
 }

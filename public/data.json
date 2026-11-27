@@ -1583,14 +1583,14 @@
       "provider": "soft-tech",
       "providerName": "XD Play",
       "image": "/assets/xd-play/empire-of-atlantis-gold-border.webp",
-      "hero": "/assets/xd-play/empire-of-atlantis-hero-3x1.webp",
+      "hero": "/assets/xd-play/empire-of-atlantis-detail-square-lofi.webp",
       "tags": [
         "original",
         "concept"
       ],
       "description": "Konsep visual kerajaan bawah laut Atlantis. Game belum dirilis dan belum dapat dimainkan.",
       "comingSoon": true,
-      "heroAspect": "wide"
+      "heroAspect": "square"
     }
   ],
   "banners": [

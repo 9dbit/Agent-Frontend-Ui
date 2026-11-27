@@ -33,8 +33,8 @@ test('connected 64COR retains six XD Play cards even when storefront registers o
  assert.equal(after.length,6);
  const atlantis=after.find(g=>g.title==='Empire of Atlantis');
  assert.equal(atlantis.image,'/assets/xd-play/empire-of-atlantis-gold-border.webp');
- assert.equal(atlantis.hero,'/assets/xd-play/empire-of-atlantis-hero-3x1.webp');
- assert.equal(atlantis.heroAspect,'wide');
+ assert.equal(atlantis.hero,'/assets/xd-play/empire-of-atlantis-detail-square-lofi.webp');
+ assert.equal(atlantis.heroAspect,'square');
  assert.equal(data.banners[0].id,'soft-tech-empire-of-atlantis');
  assert.equal(data.banners[0].image,'/assets/xd-play/empire-of-atlantis-hero-3x1.webp');
  for(const g of after.slice(0,3))assert.ok(g.backendId);
