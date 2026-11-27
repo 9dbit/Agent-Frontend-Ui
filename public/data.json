@@ -378,103 +378,6 @@
   ],
   "games": [
     {
-      "id": "soft-tech-uno-luck",
-      "title": "Uno Luck",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/soft-tech/uno-luck-red-dragon-v3.webp",
-      "hero": "/assets/soft-tech/uno-luck-hero-v1.webp",
-      "tags": [
-        "original",
-        "hot"
-      ],
-      "launchUrl": "https://uno-luck-v1172-qa.onrender.com/?utm_source=64cor",
-      "description": "Arcade neon dengan naga, kombinasi kartu berwarna, dan animasi selebrasi. Game original XD Play.",
-      "video": "/assets/soft-tech/video/uno-luck-v3.mp4",
-      "videoPoster": "/assets/soft-tech/video/uno-luck-v3.webp"
-    },
-    {
-      "id": "soft-tech-mahjong-wild",
-      "title": "Mahjong Wild",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/soft-tech/mahjong-wild-touch-gold-20261026.webp",
-      "hero": "/assets/soft-tech/mahjong-wild-hero-v1.webp",
-      "tags": [
-        "original",
-        "hot"
-      ],
-      "launchUrl": "https://mahjong-legend-web-production.up.railway.app/?utm_source=64cor",
-      "description": "Simbol mahjong klasik, ornamen jade, dan cascade tile dalam dunia oriental yang bercahaya.",
-      "video": "/assets/soft-tech/video/mahjong-wild-v1.mp4",
-      "videoPoster": "/assets/soft-tech/video/mahjong-wild-v1.webp"
-    },
-    {
-      "id": "soft-tech-skygate",
-      "title": "Skygate 5000",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/soft-tech/skygate-icon.png",
-      "hero": "/assets/soft-tech/skygate-hero-v1.webp",
-      "tags": [
-        "original",
-        "hot"
-      ],
-      "launchUrl": "https://skygate-web-production.up.railway.app/play/?utm_source=64cor",
-      "description": "Petualangan fantasi sinematik dengan kuil emas, kekuatan langit, dan petir. Game original XD Play.",
-      "video": "/assets/soft-tech/video/skygate-v1.mp4",
-      "videoPoster": "/assets/soft-tech/video/skygate-v1.webp"
-    },
-    {
-      "id": "xdplay-legend-ball-x1000",
-      "title": "Legend Ball X1000",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/xd-play/legend-ball-x1000.png",
-      "hero": "/assets/xd-play/legend-ball-x1000.png",
-      "tags": [
-        "original",
-        "new"
-      ],
-      "launchUrl": "https://legendballx.xd-play.com/play/",
-      "description": "Legenda bola dan dunia fantasi kosmik. Akses demo produksi XD Play dengan kredit virtual."
-    },
-    {
-      "id": "xdplay-gachamon",
-      "title": "Gachamon",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/xd-play/gachamon.png",
-      "hero": "/assets/xd-play/gachamon.png",
-      "tags": [
-        "original",
-        "new"
-      ],
-      "launchUrl": "https://staging-gachamon.xd-play.com/",
-      "description": "Koleksi kapsul kosmik dengan hadiah digital dan poin simulasi. Versi demo staging XD Play.",
-      "staging": true
-    },
-    {
-      "id": "xdplay-empire-of-atlantis",
-      "title": "Empire of Atlantis",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/xd-play/empire-of-atlantis.svg",
-      "hero": "/assets/xd-play/empire-of-atlantis.svg",
-      "tags": [
-        "original",
-        "concept"
-      ],
-      "description": "Konsep visual kerajaan bawah laut Atlantis. Game belum dirilis dan belum dapat dimainkan.",
-      "comingSoon": true
-    },
-    {
       "id": "18288",
       "title": "Mahjong Ways I",
       "family": "slot",
@@ -1590,6 +1493,103 @@
         "megaways"
       ],
       "sourceIndex": 237
+    },
+    {
+      "id": "soft-tech-uno-luck",
+      "title": "Uno Luck",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/soft-tech/uno-luck-red-dragon-v3.webp",
+      "hero": "/assets/soft-tech/uno-luck-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://uno-luck-v1172-qa.onrender.com/?utm_source=64cor",
+      "description": "Arcade neon dengan naga, kombinasi kartu berwarna, dan animasi selebrasi. Game original XD Play.",
+      "video": "/assets/soft-tech/video/uno-luck-v3.mp4",
+      "videoPoster": "/assets/soft-tech/video/uno-luck-v3.webp"
+    },
+    {
+      "id": "soft-tech-mahjong-wild",
+      "title": "Mahjong Wild",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/soft-tech/mahjong-wild-touch-gold-20261026.webp",
+      "hero": "/assets/soft-tech/mahjong-wild-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://mahjong-legend-web-production.up.railway.app/?utm_source=64cor",
+      "description": "Simbol mahjong klasik, ornamen jade, dan cascade tile dalam dunia oriental yang bercahaya.",
+      "video": "/assets/soft-tech/video/mahjong-wild-v1.mp4",
+      "videoPoster": "/assets/soft-tech/video/mahjong-wild-v1.webp"
+    },
+    {
+      "id": "soft-tech-skygate",
+      "title": "Skygate 5000",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/soft-tech/skygate-icon.png",
+      "hero": "/assets/soft-tech/skygate-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://skygate-web-production.up.railway.app/play/?utm_source=64cor",
+      "description": "Petualangan fantasi sinematik dengan kuil emas, kekuatan langit, dan petir. Game original XD Play.",
+      "video": "/assets/soft-tech/video/skygate-v1.mp4",
+      "videoPoster": "/assets/soft-tech/video/skygate-v1.webp"
+    },
+    {
+      "id": "xdplay-legend-ball-x1000",
+      "title": "Legend Ball X1000",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/xd-play/legend-ball-x1000.png",
+      "hero": "/assets/xd-play/legend-ball-x1000.png",
+      "tags": [
+        "original",
+        "new"
+      ],
+      "launchUrl": "https://legendballx.xd-play.com/play/",
+      "description": "Legenda bola dan dunia fantasi kosmik. Akses demo produksi XD Play dengan kredit virtual."
+    },
+    {
+      "id": "xdplay-gachamon",
+      "title": "Gachamon",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/xd-play/gachamon.png",
+      "hero": "/assets/xd-play/gachamon.png",
+      "tags": [
+        "original",
+        "new"
+      ],
+      "launchUrl": "https://staging-gachamon.xd-play.com/",
+      "description": "Koleksi kapsul kosmik dengan hadiah digital dan poin simulasi. Versi demo staging XD Play.",
+      "staging": true
+    },
+    {
+      "id": "xdplay-empire-of-atlantis",
+      "title": "Empire of Atlantis",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/xd-play/empire-of-atlantis.svg",
+      "hero": "/assets/xd-play/empire-of-atlantis.svg",
+      "tags": [
+        "original",
+        "concept"
+      ],
+      "description": "Konsep visual kerajaan bawah laut Atlantis. Game belum dirilis dan belum dapat dimainkan.",
+      "comingSoon": true
     }
   ],
   "banners": [
