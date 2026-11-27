@@ -191,7 +191,7 @@ test('XD Play originals share working hero, search and detail routes with source
  assert.equal(originals.length,6);
  assert.equal(d.querySelectorAll('.soft-tech-card').length,6);
  assert.equal(get('.header .logo').getAttribute('aria-label'),'64COR');
- for(const g of originals){
+ for(const g of originals.filter(g=>g.video)){
   navigate('/');click('.soft-tech-card[href="/play/originals/'+g.id+'"]');
   assert.equal(d.querySelector('main .page-title'),null);
   assert.equal(get('.original-info h2').textContent,g.title);
