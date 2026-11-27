@@ -117,7 +117,7 @@ body::before{background:radial-gradient(ellipse at 0% 38%,#a0004599,transparent 
 /* Keep the reference header notification visible at narrow breakpoints. */
 .header-account>.inbox-button{display:inline-grid}
 
-/* 64COR / Soft Tech: consistent rounded surfaces across every destination. */
+/* 64COR / XD Play: consistent rounded surfaces across every destination. */
 @font-face{font-family:CorPixel;src:url('/fonts/64cor-pixel.woff2') format('woff2');font-display:swap}
 :root{--radius:24px}
 .header .logo img{aspect-ratio:29/7;width:100%;max-height:42px}
@@ -455,3 +455,13 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 
 /* Keep contact at the right edge when unavailable categories are omitted. */
 .main-nav > .nav-item[href="/contact"] { grid-column: -2 / -1; }
+
+/* XD Play: 3-by-2 square original game thumbnails and accessible preview state. */
+.soft-tech-art{position:relative}
+.soft-tech-art img{display:block;object-fit:cover}
+.soft-tech-soon-badge{position:absolute;left:50%;bottom:7%;transform:translateX(-50%) rotate(-4deg);max-width:92%;white-space:nowrap;border:1px solid #ffeeb8;border-radius:999px;padding:5px 9px;background:linear-gradient(145deg,#a68127,#f1cc60);box-shadow:0 3px 12px #0305199c;color:#221038;font-size:9px;letter-spacing:.8px;font-weight:900;pointer-events:none}
+.soft-tech-card--coming-soon .soft-tech-art img{filter:saturate(.88)}
+.original-static-hero{display:flex;justify-content:center;align-items:center;background:radial-gradient(ellipse at center,#07356c 0%,#1c092c 70%,#0d061c 100%);overflow:hidden}
+.original-static-hero .original-static-image{display:block;width:auto;max-width:100%;height:100%;aspect-ratio:1;object-fit:cover;border-radius:0}
+.original-play.is-disabled{cursor:not-allowed;opacity:.68;pointer-events:none}
+@media(max-width:599px){.soft-tech-soon-badge{padding:3px 5px;font-size:7px;letter-spacing:.2px}}
