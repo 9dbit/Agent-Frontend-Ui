@@ -13,11 +13,27 @@ export async function connect(data){
  const r=await fetch('/api/storefront',{cache:'no-store'});if(!r.ok)throw Error('Konfigurasi Playground belum tersedia');
  manifest=await r.json();const pages=manifest.pages,home=pages.find(x=>x.slug==='home')||{};
  data.banners=pages.filter(x=>x.slug==='home'||x.slug.startsWith('banner-')).sort((a,b)=>a.slug==='home'?-1:b.slug==='home'?1:a.slug.localeCompare(b.slug)).filter(x=>x.banner_url).map(x=>({id:(x.banner_url.includes('/soft-tech/')?'soft-tech-':'')+x.slug,image:assetURL(x.banner_url),title:x.title,path:x.link_url||'/'}));
+ // The storefront describes registered, launchable games; it is not the full XD Play
+ // presentation catalogue. Keep local original-game cards (including concepts and
+ // staging previews) even when they are not registered with Playground.
  const templates=data.games.filter(x=>x.provider==='soft-tech');
- data.games=manifest.games.map(g=>{
-   const t=templates.find(t=>t.title.toLowerCase()===g.name.toLowerCase());
-   return {...t,id:t?.id||g.slug,title:g.name,provider:'soft-tech',providerName:'Soft Tech',family:t?.family||'slot',image:t?.image||'/assets/soft-tech/soft-tech-originals-hero-v1.webp',backendId:g.id,readiness:g.readiness,status:g.status};
+ const storefrontGames=Array.isArray(manifest.games)?manifest.games:[];
+ const key=value=>String(value||'').toLocaleLowerCase('en').replace(/[^a-z0-9]/g,'');
+ const registrations=new Map(storefrontGames.map(g=>[key(g.name),g]));
+ const matchedIds=new Set();
+ const originals=templates.map(t=>{
+   const g=registrations.get(key(t.title));
+   if(!g)return t;
+   matchedIds.add(g.id);
+   return {...t,backendId:g.id,readiness:g.readiness,status:g.status};
  });
+ // Retain backend-published games that do not have a local XD Play artwork template.
+ const registered=storefrontGames.filter(g=>!matchedIds.has(g.id)).map(g=>({
+   id:g.slug,title:g.name,provider:'soft-tech',providerName:'XD Play',
+   family:'slot',image:'/assets/soft-tech/soft-tech-originals-hero-v1.webp',
+   backendId:g.id,readiness:g.readiness,status:g.status
+ }));
+ data.games=[...originals,...registered];
  data.providers=data.providers.filter(p=>data.games.some(g=>g.provider===p.id));
  data.promotions=pages.filter(p=>p.slug.startsWith('promo-')).map(p=>({id:p.slug,title:p.title,image:assetURL(p.banner_url),coverImage:assetURL(p.banner_url),banner:assetURL(p.banner_url),category:'all',period:'Informasi agen',summary:p.description,terms:(p.body||'').split('\n')}));
  data.sports=[];data.exclusive=[];
