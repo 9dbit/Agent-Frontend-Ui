@@ -378,6 +378,57 @@
   ],
   "games": [
     {
+      "id": "soft-tech-uno-luck",
+      "title": "Uno Luck",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/soft-tech/uno-luck-red-dragon-v3.webp",
+      "hero": "/assets/soft-tech/uno-luck-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://uno-luck-v1172-qa.onrender.com/?utm_source=64cor",
+      "description": "Arcade neon dengan naga, kombinasi kartu berwarna, dan animasi selebrasi. Game original XD Play.",
+      "video": "/assets/soft-tech/video/uno-luck-v3.mp4",
+      "videoPoster": "/assets/soft-tech/video/uno-luck-v3.webp"
+    },
+    {
+      "id": "soft-tech-mahjong-wild",
+      "title": "Mahjong Wild",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/soft-tech/mahjong-wild-touch-gold-20261026.webp",
+      "hero": "/assets/soft-tech/mahjong-wild-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://mahjong-legend-web-production.up.railway.app/?utm_source=64cor",
+      "description": "Simbol mahjong klasik, ornamen jade, dan cascade tile dalam dunia oriental yang bercahaya.",
+      "video": "/assets/soft-tech/video/mahjong-wild-v1.mp4",
+      "videoPoster": "/assets/soft-tech/video/mahjong-wild-v1.webp"
+    },
+    {
+      "id": "soft-tech-skygate",
+      "title": "Skygate 5000",
+      "family": "originals",
+      "provider": "soft-tech",
+      "providerName": "XD Play",
+      "image": "/assets/soft-tech/skygate-icon.png",
+      "hero": "/assets/soft-tech/skygate-hero-v1.webp",
+      "tags": [
+        "original",
+        "hot"
+      ],
+      "launchUrl": "https://skygate-web-production.up.railway.app/play/?utm_source=64cor",
+      "description": "Petualangan fantasi sinematik dengan kuil emas, kekuatan langit, dan petir. Game original XD Play.",
+      "video": "/assets/soft-tech/video/skygate-v1.mp4",
+      "videoPoster": "/assets/soft-tech/video/skygate-v1.webp"
+    },
+    {
       "id": "xdplay-legend-ball-x1000",
       "title": "Legend Ball X1000",
       "family": "originals",
@@ -1539,57 +1590,6 @@
         "megaways"
       ],
       "sourceIndex": 237
-    },
-    {
-      "id": "soft-tech-uno-luck",
-      "title": "Uno Luck",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/soft-tech/uno-luck-red-dragon-v3.webp",
-      "hero": "/assets/soft-tech/uno-luck-hero-v1.webp",
-      "tags": [
-        "original",
-        "hot"
-      ],
-      "launchUrl": "https://uno-luck-v1172-qa.onrender.com/?utm_source=64cor",
-      "description": "Arcade neon dengan naga, kombinasi kartu berwarna, dan animasi selebrasi. Game original XD Play.",
-      "video": "/assets/soft-tech/video/uno-luck-v3.mp4",
-      "videoPoster": "/assets/soft-tech/video/uno-luck-v3.webp"
-    },
-    {
-      "id": "soft-tech-mahjong-wild",
-      "title": "Mahjong Wild",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/soft-tech/mahjong-wild-touch-gold-20261026.webp",
-      "hero": "/assets/soft-tech/mahjong-wild-hero-v1.webp",
-      "tags": [
-        "original",
-        "hot"
-      ],
-      "launchUrl": "https://mahjong-legend-web-production.up.railway.app/?utm_source=64cor",
-      "description": "Simbol mahjong klasik, ornamen jade, dan cascade tile dalam dunia oriental yang bercahaya.",
-      "video": "/assets/soft-tech/video/mahjong-wild-v1.mp4",
-      "videoPoster": "/assets/soft-tech/video/mahjong-wild-v1.webp"
-    },
-    {
-      "id": "soft-tech-skygate",
-      "title": "Skygate 5000",
-      "family": "originals",
-      "provider": "soft-tech",
-      "providerName": "XD Play",
-      "image": "/assets/soft-tech/skygate-icon.png",
-      "hero": "/assets/soft-tech/skygate-hero-v1.webp",
-      "tags": [
-        "original",
-        "hot"
-      ],
-      "launchUrl": "https://skygate-web-production.up.railway.app/play/?utm_source=64cor",
-      "description": "Petualangan fantasi sinematik dengan kuil emas, kekuatan langit, dan petir. Game original XD Play.",
-      "video": "/assets/soft-tech/video/skygate-v1.mp4",
-      "videoPoster": "/assets/soft-tech/video/skygate-v1.webp"
     }
   ],
   "banners": [
