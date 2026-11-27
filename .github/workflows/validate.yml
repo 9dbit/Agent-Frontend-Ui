@@ -23,6 +23,8 @@ jobs:
         run: node --test --test-name-pattern='game preview|continue playing|original game launch|unknown remembered|existing play history' tests/ui.test.mjs
       - name: Test member tools and search presentation
         run: node --test --test-name-pattern='account quick|account hub|embedded demo|search thumbnails' tests/ui.test.mjs
+      - name: Test connected XD Play storefront merge
+        run: node --test tests/storefront-merge.test.mjs
       - name: Test video warmup
         run: node --test tests/video-warmup.test.mjs
       - name: Test remaining modules
