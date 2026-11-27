@@ -17,8 +17,10 @@ jobs:
         run: node --test --test-name-pattern='XD Play originals share' tests/ui.test.mjs
       - name: Test XD Play pinned favorites
         run: node --test --test-name-pattern='XD Play originals remain' tests/ui.test.mjs
-      - name: Test remaining UI
-        run: node --test --test-skip-pattern='XD Play originals share|XD Play originals remain' tests/ui.test.mjs
+      - name: Test home, catalogue and forms UI
+        run: node --test --test-name-pattern='all 131|carousel|catalogue|slow banner|deposit|bonus|landscape|homepage|floating dock|compact footer|logout|support tickets' tests/ui.test.mjs
+      - name: Test history, member and search UI
+        run: node --test --test-name-pattern='game preview|continue playing|original game launch|unknown remembered|existing play history|account quick|account hub|embedded demo|search thumbnails' tests/ui.test.mjs
       - name: Test video warmup
         run: node --test tests/video-warmup.test.mjs
       - name: Test remaining modules
