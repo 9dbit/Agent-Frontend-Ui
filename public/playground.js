@@ -12,7 +12,14 @@ const assetURL=value=>String(value||'').replace(/^https:\/\/playground-agent-fro
 export async function connect(data){
  const r=await fetch('/api/storefront',{cache:'no-store'});if(!r.ok)throw Error('Konfigurasi Playground belum tersedia');
  manifest=await r.json();const pages=manifest.pages,home=pages.find(x=>x.slug==='home')||{};
- data.banners=pages.filter(x=>x.slug==='home'||x.slug.startsWith('banner-')).sort((a,b)=>a.slug==='home'?-1:b.slug==='home'?1:a.slug.localeCompare(b.slug)).filter(x=>x.banner_url).map(x=>({id:(x.banner_url.includes('/soft-tech/')?'soft-tech-':'')+x.slug,image:assetURL(x.banner_url),title:x.title,path:x.link_url||'/'}));
+ // Featured XD Play artwork must survive the remote storefront synchronization.
+ // Preserve the local Atlantis hero while retaining the published 64COR banners.
+ const localBanners=data.banners.filter(b=>b.id==='soft-tech-empire-of-atlantis');
+ const publishedBanners=pages.filter(x=>x.slug==='home'||x.slug.startsWith('banner-'))
+   .sort((a,b)=>a.slug==='home'?-1:b.slug==='home'?1:a.slug.localeCompare(b.slug))
+   .filter(x=>x.banner_url)
+   .map(x=>({id:(x.banner_url.includes('/soft-tech/')?'soft-tech-':'')+x.slug,image:assetURL(x.banner_url),title:x.title,path:x.link_url||'/'}));
+ data.banners=[...localBanners,...publishedBanners.filter(b=>!localBanners.some(local=>local.path===b.path||/empire of atlantis/i.test(b.title||'')))];
  // The storefront describes registered, launchable games; it is not the full XD Play
  // presentation catalogue. Keep local original-game cards (including concepts and
  // staging previews) even when they are not registered with Playground.

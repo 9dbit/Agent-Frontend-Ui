@@ -229,7 +229,7 @@ function contactPage(complaint=false){if(connected)return `<div class="page-titl
 function originalGamePage(g){
  const media=g.video
   ?`<video class="original-hero original-video" autoplay muted loop playsinline preload="auto" poster="${esc(g.videoPoster||g.hero||g.image)}" aria-label="${esc(g.title)}"><source src="${esc(window.__softTechVideoWarmup?.get(g.video)?.url||g.video)}" data-media-path="${esc(g.video)}" type="video/mp4"></video>`
-  :`<div class="original-hero original-static-hero">${image(g.hero||g.image,g.title,'original-static-image')}</div>`;
+  :`<div class="original-hero original-static-hero">${image(g.hero||g.image,g.title,'original-static-image'+(g.heroAspect==='wide'?' original-static-image--wide':''))}</div>`;
  const status=g.comingSoon?'GAME CONCEPT':g.staging?'XD PLAY STAGING':'XD PLAY ORIGINAL';
  const action=g.comingSoon
   ?`<span class="btn secondary original-play is-disabled" aria-disabled="true">Coming Soon</span>`

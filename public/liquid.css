@@ -465,3 +465,7 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
 .original-static-hero .original-static-image{display:block;width:auto;max-width:100%;height:100%;aspect-ratio:1;object-fit:cover;border-radius:0}
 .original-play.is-disabled{cursor:not-allowed;opacity:.68;pointer-events:none}
 @media(max-width:599px){.soft-tech-soon-badge{padding:3px 5px;font-size:7px;letter-spacing:.2px}}
+/* Atlantis product page: show the complete 3:1 artwork without a square crop. */
+.original-static-hero .original-static-image--wide{
+ display:block;width:100%;max-width:100%;height:100%;aspect-ratio:3/1;object-fit:cover;
+}
