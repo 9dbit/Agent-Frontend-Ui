@@ -13,8 +13,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - name: Test frontend UI
-        run: node --test tests/ui.test.mjs
+      - name: Test XD Play game routes
+        run: node --test --test-name-pattern='XD Play originals share' tests/ui.test.mjs
+      - name: Test XD Play pinned favorites
+        run: node --test --test-name-pattern='XD Play originals remain' tests/ui.test.mjs
+      - name: Test remaining UI
+        run: node --test --test-skip-pattern='XD Play originals share|XD Play originals remain' tests/ui.test.mjs
       - name: Test video warmup
         run: node --test tests/video-warmup.test.mjs
       - name: Test remaining modules
