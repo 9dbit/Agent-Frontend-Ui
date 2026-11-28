@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import http from 'node:http';
+import {server} from '../server.mjs';
+let captured;
+const upstream=http.createServer(async(req,res)=>{let body='';for await(const c of req)body+=c;captured={url:req.url,headers:req.headers,body};res.setHeader('Content-Type','application/json');if(req.url.endsWith('/login'))res.setHeader('Set-Cookie','agency_player='+'a'.repeat(43)+'; HttpOnly; Path=/; SameSite=Strict');res.end(JSON.stringify({ok:true}));});
+await new Promise(r=>upstream.listen(0,'127.0.0.1',r));process.env.PLAYGROUND_API_ORIGIN='http://127.0.0.1:'+upstream.address().port;
+await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
+test.after(async()=>{await Promise.all([new Promise(r=>server.close(r)),new Promise(r=>upstream.close(r))]);});
+test('storefront proxy pins public configuration to 64cor',async()=>{const r=await fetch(base+'/api/storefront');assert.equal(r.status,200);assert.equal(captured.url,'/api/storefront/64cor');assert.equal(captured.headers['x-playground-tenant'],'64cor');});
+test('login is bound to 64cor, strips admin cookies and forwards the player cookie',async()=>{const r=await fetch(base+'/api/player/auth/login',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:'admin_session=private; agency_player='+'b'.repeat(43)},body:JSON.stringify({tenant:'other-agent',username:'player',password:'synthetic-password'})});assert.equal(r.status,200);assert.equal(JSON.parse(captured.body).tenant,'64cor');assert.equal(captured.headers.cookie,'agency_player='+'b'.repeat(43));assert.match(r.headers.get('set-cookie'),/^agency_player=/);});
+test('cross-site and missing Origin writes are rejected',async()=>{for(const origin of ['https://evil.example',null]){const r=await fetch(base+'/api/player/deposits',{method:'POST',headers:{...(origin?{Origin:origin}:{}),'Content-Type':'application/json'},body:'{}'});assert.equal(r.status,403);}});
+test('proxy cannot expose master, agent, provider webhook or arbitrary destination',async()=>{for(const path of ['/api/admin/agency/tenants','/api/agency/content','/api/player/../admin/settings','/api/player/webhook','/api/storefront/other'])assert.equal((await fetch(base+path)).status,404);});
+test('malformed and oversized JSON fail without forwarding',async()=>{for(const [body,code]of [['bad',400],['x'.repeat(33000),413]])assert.equal((await fetch(base+'/api/player/deposits',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body})).status,code);});

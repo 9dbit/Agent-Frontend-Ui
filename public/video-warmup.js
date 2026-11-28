@@ -1,4 +1,4 @@
-/* Warm Soft Tech MP4s from the first page, before the detail route is opened. */
+/* Warm XD Play MP4s from the first page, before the detail route is opened. */
 (() => {
   const paths = [
     '/assets/soft-tech/video/uno-luck-v3.mp4',

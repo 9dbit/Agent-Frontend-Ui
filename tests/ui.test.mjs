@@ -5,7 +5,7 @@ import {JSDOM, VirtualConsole} from 'jsdom';
 
 const read=p=>readFileSync(p,'utf8');
 const data=JSON.parse(read('public/data.json'));
-const script=['public/config.js','public/state.js','public/pixel-icons.js','public/app.js'].map(p=>read(p).replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
+const script=['public/config.js','public/state.js','public/pixel-icons.js','public/client-preview.js','public/app.js'].map(p=>read(p).replace("mode:'connected'","mode:'demo'").replace(/^import .*;\n/gm,'').replace(/^export /gm,'')).join('\n');
 async function mount(t,initial){
   const errors=[];
   const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
@@ -118,7 +118,7 @@ test('landscape promotion covers preserve every listing, filter and detail desti
 test('homepage refresh retains category access and footer while removing retired home sections',async t=>{
   const {get,d,click,w,navigate}=await mount(t);
   assert.deepEqual([...get('main').children].slice(0,3).map(e=>e.className),['ticker','main-nav','section home-soft-tech']);
-  assert.deepEqual([...d.querySelectorAll('main .section-title span')].map(e=>e.textContent),['Soft Tech','Hot Slots','Promosi']);
+  assert.deepEqual([...d.querySelectorAll('main .section-title span')].map(e=>e.textContent),['XD Play','Hot Slots','Promosi']);
   const destinations=[...d.querySelectorAll('.main-nav a')].map(a=>a.getAttribute('href'));
   assert.equal(destinations.length,12);
   assert.equal(d.querySelectorAll('.main-nav .category-icon').length,12);
@@ -185,20 +185,29 @@ test('game preview records history and state survives a new document',async t=>{
 });
 
 
-test('Soft Tech originals share working hero, search and detail routes with source game links',async t=>{
+test('XD Play originals share working hero, search and detail routes with source game links',async t=>{
  const {get,d,click,navigate,w}=await mount(t);
  const originals=data.games.filter(g=>g.provider==='soft-tech');
- assert.equal(originals.length,3);
- assert.equal(d.querySelectorAll('.soft-tech-card').length,3);
+ assert.equal(originals.length,6);
+ assert.equal(d.querySelectorAll('.soft-tech-card').length,6);
  assert.equal(get('.header .logo').getAttribute('aria-label'),'64COR');
- for(const g of originals){
+ for(const g of originals.filter(g=>g.video)){
   navigate('/');click('.soft-tech-card[href="/play/originals/'+g.id+'"]');
   assert.equal(d.querySelector('main .page-title'),null);
   assert.equal(get('.original-info h2').textContent,g.title);
-  assert.equal(get('.original-copy a[target="_blank"]').href,g.launchUrl);
-  assert.equal(get('.original-hero source').getAttribute('src'),g.video);
-  for(const attr of ['autoplay','muted','loop','playsinline'])assert.ok(get('.original-hero').hasAttribute(attr));
-  assert.equal(get('.original-hero').hasAttribute('controls'),false);
+  if(g.comingSoon){
+   assert.equal(d.querySelector('.original-copy a[target="_blank"]'),null,'Concept must never launch a game');
+   assert.match(get('.original-info').textContent,/dummy visual/i);
+  }else{
+   assert.equal(get('.original-copy a[target="_blank"]').href,g.launchUrl);
+  }
+  if(g.video){
+   assert.equal(get('.original-hero source').getAttribute('src'),g.video);
+   for(const attr of ['autoplay','muted','loop','playsinline'])assert.ok(get('.original-hero').hasAttribute(attr));
+   assert.equal(get('.original-hero').hasAttribute('controls'),false);
+  }else{
+   assert.equal(get('.original-static-image').tagName,'IMG');
+  }
   navigate('/search?q='+encodeURIComponent(g.title));
   assert.ok(get('.game-card a[href="/play/originals/'+g.id+'"]'));
  }
@@ -267,7 +276,7 @@ test('account quick actions use eight filled red pixel icons and hide category g
  assert.equal(actions.length,8);
  assert.ok(actions.every(a=>a.querySelector('svg.pixel-icon')&&!a.querySelector('svg.icon:not(.pixel-icon)')));
  assert.equal(actions.find(a=>a.getAttribute('href')==='/user/referral/history')?.querySelectorAll('svg.pixel-icon').length,1);
- const pinned=data.games.filter(g=>g.provider==='soft-tech');
+ const pinned=data.games.filter(g=>g.provider==='soft-tech'&&!g.comingSoon);
  assert.deepEqual([...d.querySelectorAll('[data-favorites-group="soft-tech"] .game-card .game-image')].map(a=>a.getAttribute('href')),pinned.map(g=>'/play/'+g.family+'/'+g.id));
  assert.equal(d.querySelectorAll('[data-favorites-group="soft-tech"] .favorite.pinned').length,pinned.length);
  assert.equal(d.querySelector('[data-favorites-group="provider"]'),null);
@@ -287,9 +296,9 @@ test('account quick actions use eight filled red pixel icons and hide category g
  assert.match(css,/\.account-favorites \.game-image,\.account-favorites \.game-card--portrait \.game-image\{[^}]*aspect-ratio:1\/1/);
 });
 
-test('Soft Tech remain pinned above other provider favorites across old local sessions',async t=>{
+test('XD Play originals remain pinned above other provider favorites across old local sessions',async t=>{
  const ui=await mount(t);
- const pins=data.games.filter(g=>g.provider==='soft-tech').map(g=>g.id);
+ const pins=data.games.filter(g=>g.provider==='soft-tech'&&!g.comingSoon).map(g=>g.id);
  assert.deepEqual(ui.state().favorites.slice(0,pins.length),pins);
  ui.navigate('/slot/category/hot');
  const candidate=[...ui.d.querySelectorAll('.game-card [data-action="favorite"]')].find(b=>!pins.includes(b.dataset.id));
@@ -408,4 +417,39 @@ test('search thumbnails keep square artwork and portrait casino covers with roun
  assert.equal(d.querySelector('.search-results'),null,'Thumbnail ratio changes must be scoped to Search');
  navigate('/user');
  assert.equal(d.querySelector('.search-results'),null,'Account cards must not be changed');
+});
+
+test('Atlantis homepage shows artwork without Coming Soon overlay and detail uses a spaced square hero',async t=>{
+ const {get,navigate,d}=await mount(t);
+ const id='xdplay-empire-of-atlantis';
+ const game=data.games.find(g=>g.id===id);
+ const tile=get('.soft-tech-card[href="/play/originals/'+id+'"]');
+ assert.equal(tile.querySelector('.soft-tech-soon-badge'),null);
+ assert.doesNotMatch(tile.textContent,/coming soon|game concept/i);
+ assert.equal(tile.querySelector('img').getAttribute('src'),game.image);
+ assert.equal(tile.querySelector('.soft-tech-label').textContent,'XD PLAY PREVIEW');
+ navigate('/play/originals/'+id);
+ const detail=get('.original-detail--square');
+ assert.equal(detail.querySelector('.original-static-hero img').getAttribute('src'),game.hero);
+ assert.equal(detail.querySelector('.original-static-image--wide'),null);
+ assert.equal(d.querySelector('.original-copy a[data-original-play]'),null,'Nonlaunchable concept stays nonlaunchable');
+ const styles=read('public/liquid.css');
+ assert.match(styles,/--header-height:69\.7px/);
+ assert.match(styles,/--header-height:59\.5px/);
+ assert.match(styles,/original-game-page #main\{padding-top/);
+ assert.match(styles,/original-detail--square \.original-static-hero\{/);
+ assert.doesNotMatch(styles,/\.soft-tech-card--coming-soon \.soft-tech-art img\{/);
+});
+
+test('Legend Ball X1000 uses the newly supplied square WebP on XD Play home and game detail',async t=>{
+ const {get,navigate,d}=await mount(t);
+ const id='xdplay-legend-ball-x1000';
+ const image='/assets/xd-play/legend-ball-x1000-art-20261128.webp';
+ const card=get('.soft-tech-card[href="/play/originals/'+id+'"]');
+ assert.equal(card.querySelector('img')?.getAttribute('src'),image);
+ navigate('/play/originals/'+id);
+ const detail=get('.original-detail--square');
+ assert.equal(detail.querySelector('.original-static-hero img')?.getAttribute('src'),image);
+ assert.equal(detail.querySelector('.original-static-image--wide'),null);
+ assert.equal(d.querySelectorAll('.soft-tech-card').length,0,'Detail should render instead of home grid');
 });

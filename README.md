@@ -49,3 +49,13 @@ Reference-site native-mobile rendering and some deep states were unavailable dur
 24 automated tests cover HTTP serving, the 131 discovered route views, DOM interactions, persistence and wallet state transitions. DOM tests do not render pixels or validate responsive geometry. See docs/DEPLOYMENT_QA_2026-11-03.md and docs/RESPONSIVE_QA_2026-11-03.md for deployment checks, the observed carousel loading fix and the historical visual-verification notes. Subsequent live Chromium checks passed all eight account tabs at 360, 393, 768 and 1440 px without horizontal document overflow; Casino, Promotion and Exclusive covers render portrait. Native iPhone Safari remains untested.
 
 To restore captured assets, run `python3 scripts/restore-assets.py`. Each download must match its recorded SHA-256 hash; assets are committed to Git and served locally without runtime hotlinks.
+
+## Playground-connected 64COR
+
+The deployed app is the storefront for Playground tenant `64cor`, not a separate demo account database. `public/playground.js` loads the published CMS and selected game catalog from `/api/storefront`; player operations use `/api/player`. `storefront-proxy.mjs` pins the tenant, forwards only player sessions, enforces same-origin writes and excludes admin/provider endpoints. The default upstream is the authorized Playground agent sandbox; `PLAYGROUND_API_ORIGIN` overrides it for isolated integration tests. Do not point it at a different backend without provisioning the same tenant.
+
+Banner slides (`home`, `banner-*`), promotion pages (`promo-*`), metadata and canonical are edited and published from Playground → 64COR → Website & SEO. Images owned by this frontend stay same-origin; uploaded Playground images are served through the restricted media proxy. Home metadata is included in initial production HTML.
+
+Authentication, profile, password changes, favorites, inbox, transactions, wallet, rounds, support tickets and launch requests persist in Playground. Former local demo balances and accounts are not used or migrated. Payment processing remains sandbox simulation and requires agency coin inventory. Game sessions follow backend readiness; bonus/referral/leaderboard capabilities remain unavailable until their backend engines are enabled. Chatvice retains the existing 64COR merchant widget.
+
+`npm test` covers the proxy boundary, SEO, static assets and the preserved template UI (the legacy UI fixtures explicitly use demo mode). Full connected browser tests live in Playground: `STOREFRONT_PATH=/absolute/path/to/Agent-Frontend-Ui AGENCY_BROWSER=true npm run test:agency`.

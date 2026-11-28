@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import {JSDOM} from 'jsdom';
 
 const script=readFileSync('public/video-warmup.js','utf8');
-const originals=JSON.parse(readFileSync('public/data.json','utf8')).games.filter(g=>g.provider==='soft-tech');
+const originals=JSON.parse(readFileSync('public/data.json','utf8')).games.filter(g=>g.provider==='soft-tech'&&g.video);
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
 
 function setup(t,fetcher){

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+<title id="title">Empire of Atlantis</title><desc id="desc">Underwater empire fantasy game concept with golden trident and the title Empire of Atlantis.</desc>
+<defs>
+ <radialGradient id="sea" cx=".5" cy=".23" r=".85"><stop stop-color="#12ddf2"/><stop offset=".30" stop-color="#0870ac"/><stop offset=".7" stop-color="#06265c"/><stop offset="1" stop-color="#060e34"/></radialGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#fff9c8"/><stop offset=".24" stop-color="#ffd565"/><stop offset=".52" stop-color="#c68d20"/><stop offset=".8" stop-color="#fff0a1"/><stop offset="1" stop-color="#9e4f12"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9bffff"/><stop offset=".5" stop-color="#169bdb"/><stop offset="1" stop-color="#0c286d"/></linearGradient>
+ <linearGradient id="depth" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#00a5c9" stop-opacity=".1"/><stop offset="1" stop-color="#010b38" stop-opacity=".9"/></linearGradient>
+ <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#010620" flood-opacity=".95"/></filter>
+ <pattern id="spark" width="124" height="126" patternUnits="userSpaceOnUse"><circle cx="22" cy="18" r="3" fill="#bafcff" opacity=".65"/><circle cx="84" cy="86" r="2" fill="#bafcff" opacity=".7"/></pattern>
+</defs>
+<rect width="1024" height="1024" fill="url(#sea)"/>
+<path d="M410 0 80 720 300 740 545 0Z M610 0 1012 760 780 750 500 0Z" fill="#b4fcff" opacity=".15"/>
+<path d="M0 570q280-60 512-15t512-20v489H0Z" fill="url(#depth)"/>
+<g opacity=".46" fill="#031b50"><path d="M-50 420h170v380H-50zM140 360h70v430h-70zM800 350h80v450h-80zM900 400h160v430H900z"/><path d="m-60 425 142-130 132 130zm807-75 108-135 117 135z"/></g>
+<g filter="url(#shadow)">
+ <path d="M270 580V298h480v282Z" fill="#0a477f" stroke="#edc05b" stroke-width="17"/>
+ <path d="M242 302 510 126 780 302Z" fill="url(#gold)" stroke="#104b79" stroke-width="21" stroke-linejoin="round"/>
+ <path d="M290 296Q310 210 380 188H650Q722 210 738 296" fill="url(#glass)" stroke="#d7aa42" stroke-width="14"/>
+ <path d="M345 294Q361 223 420 203L602 203Q655 227 680 294" fill="#042b63" opacity=".7"/>
+ <path d="M505 152V88" stroke="#fbe18a" stroke-width="28" stroke-linecap="round"/><path d="m500 73 28 29-28 28-28-28Z" fill="#f9e097"/>
+ <g fill="url(#gold)" stroke="#103b62" stroke-width="9">
+ <path d="M286 320h68v248h-68zM398 320h65v248h-65zM560 320h65v248h-65zM677 320h63v248h-63z"/>
+ <path d="M269 307h97v32h-97zm112 0h95v32h-95zm164 0h94v32h-94zm116 0h96v32h-96z"/>
+ </g>
+ <path d="M474 365q34-42 75 0v214h-75Z" fill="#12c5f3" stroke="#ffefae" stroke-width="13" filter="url(#glow)"/>
+ <path d="m223 592 58-53h466l60 53v30H223Z" fill="url(#gold)" stroke="#143a70" stroke-width="13"/>
+</g>
+<g transform="translate(510 525)" filter="url(#glow)">
+ <path d="M0 150V-205" stroke="#fff2a4" stroke-width="35" stroke-linecap="round"/>
+ <path d="M-132-169v75q0 75 132 99 132-24 132-99v-75 M-132-169l-25 50m25-50 25 50M132-169l-25 50m25-50 25 50M0-207l-27 54M0-207l27 54" fill="none" stroke="url(#gold)" stroke-width="32" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="m0-80 43 43L0 6l-43-43Z" fill="#7efaff" stroke="#fff2a4" stroke-width="10"/>
+</g>
+<g fill="none" stroke="#5fe9f3" stroke-width="13" opacity=".9"><path d="M-50 670Q145 580 340 670t335 0q176-83 387 0"/><path d="M-50 715Q145 625 340 715t335 0q176-83 387 0"/></g>
+<rect x="0" y="738" width="1024" height="286" fill="#010d39" opacity=".88"/>
+<g text-anchor="middle" font-family="Trebuchet MS,Arial Black,Arial,sans-serif" font-weight="900" filter="url(#shadow)">
+ <text x="512" y="821" font-size="68" letter-spacing="9" fill="#e0f6ff" stroke="#083776" stroke-width="7" paint-order="stroke fill">EMPIRE OF</text>
+ <text x="512" y="940" font-size="112" letter-spacing="-4" fill="url(#gold)" stroke="#0b357a" stroke-width="18" paint-order="stroke fill">ATLANTIS</text>
+</g>
+<rect x="10" y="10" width="1004" height="1004" rx="40" fill="none" stroke="#ffe2a1" stroke-width="17" opacity=".8"/>
+<rect x="22" y="22" width="980" height="980" rx="32" fill="url(#spark)" opacity=".45"/>
+</svg>

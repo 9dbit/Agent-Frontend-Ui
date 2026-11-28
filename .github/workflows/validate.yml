@@ -13,4 +13,19 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - run: npm test
+      - name: Test XD Play game routes
+        run: node --test --test-name-pattern='XD Play originals share' tests/ui.test.mjs
+      - name: Test XD Play pinned favorites
+        run: node --test --test-name-pattern='XD Play originals remain' tests/ui.test.mjs
+      - name: Test home, catalogue and forms UI
+        run: node --test --test-name-pattern='all 131|carousel|catalogue|slow banner|deposit|bonus|landscape|homepage|floating dock|compact footer|logout|support tickets' tests/ui.test.mjs
+      - name: Test game resume and remembered history
+        run: node --test --test-name-pattern='game preview|continue playing|original game launch|unknown remembered|existing play history' tests/ui.test.mjs
+      - name: Test member tools and search presentation
+        run: node --test --test-name-pattern='account quick|account hub|embedded demo|search thumbnails' tests/ui.test.mjs
+      - name: Test connected XD Play storefront merge
+        run: node --test tests/storefront-merge.test.mjs
+      - name: Test video warmup
+        run: node --test tests/video-warmup.test.mjs
+      - name: Test remaining modules
+        run: node --test tests/client-demo.test.mjs tests/discovery.test.mjs tests/proxy.test.mjs tests/seo.test.mjs tests/server.test.mjs tests/state.test.mjs

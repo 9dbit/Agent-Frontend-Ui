@@ -117,7 +117,7 @@ body::before{background:radial-gradient(ellipse at 0% 38%,#a0004599,transparent 
 /* Keep the reference header notification visible at narrow breakpoints. */
 .header-account>.inbox-button{display:inline-grid}
 
-/* 64COR / Soft Tech: consistent rounded surfaces across every destination. */
+/* 64COR / XD Play: consistent rounded surfaces across every destination. */
 @font-face{font-family:CorPixel;src:url('/fonts/64cor-pixel.woff2') format('woff2');font-display:swap}
 :root{--radius:24px}
 .header .logo img{aspect-ratio:29/7;width:100%;max-height:42px}
@@ -451,4 +451,49 @@ main:not(.home-page) .promotion-list{padding:16px}.promo-detail>div{border-radiu
  .search-results .game-grid .game-image{border-radius:18%}
  .search-results .game-grid .game-card--portrait .game-image{border-radius:14px}
  .search-results .game-grid .game-name{font-size:10px;margin-top:5px}
+}
+
+/* Keep contact at the right edge when unavailable categories are omitted. */
+.main-nav > .nav-item[href="/contact"] { grid-column: -2 / -1; }
+
+/* XD Play: 3-by-2 square original game thumbnails and accessible preview state. */
+.soft-tech-art{position:relative}
+.soft-tech-art img{display:block;object-fit:cover}
+.original-static-hero{display:flex;justify-content:center;align-items:center;background:radial-gradient(ellipse at center,#07356c 0%,#1c092c 70%,#0d061c 100%);overflow:hidden}
+.original-static-hero .original-static-image{display:block;width:auto;max-width:100%;height:100%;aspect-ratio:1;object-fit:cover;border-radius:0}
+.original-play.is-disabled{cursor:not-allowed;opacity:.68;pointer-events:none}
+/* Atlantis product page: show the complete 3:1 artwork without a square crop. */
+.original-static-hero .original-static-image--wide{
+ display:block;width:100%;max-width:100%;height:100%;aspect-ratio:3/1;object-fit:cover;
+}
+
+/* 64COR compact fixed header: exactly 15% lower than 82px desktop / 70px mobile. */
+:root{--header-height:69.7px}
+@media(max-width:599px){:root{--header-height:59.5px}}
+
+/* Original game detail needs breathing room beneath the fixed global header. */
+.original-game-page #main{padding-top:clamp(18px,2.5vw,28px)}
+
+/* Square Atlantis detail artwork, centered and uncropped, without affecting 3:1 homepage banners. */
+.original-detail--square .original-static-hero{
+ display:block;
+ width:min(100%,720px);
+ aspect-ratio:1/1;
+ height:auto;
+ margin-inline:auto;
+ border-radius:22px;
+ background:#05131c;
+ overflow:hidden;
+}
+.original-detail--square .original-static-hero .original-static-image{
+ display:block;
+ width:100%;
+ height:100%;
+ max-width:none;
+ aspect-ratio:1/1;
+ object-fit:cover;
+}
+@media(max-width:599px){
+ .original-game-page #main{padding-top:18px}
+ .original-detail--square .original-static-hero{border-radius:18px}
 }
