@@ -440,3 +440,16 @@ test('Atlantis homepage shows artwork without Coming Soon overlay and detail use
  assert.match(styles,/original-detail--square \.original-static-hero\{/);
  assert.doesNotMatch(styles,/\.soft-tech-card--coming-soon \.soft-tech-art img\{/);
 });
+
+test('Legend Ball X1000 uses the newly supplied square WebP on XD Play home and game detail',async t=>{
+ const {get,navigate,d}=await mount(t);
+ const id='xdplay-legend-ball-x1000';
+ const image='/assets/xd-play/legend-ball-x1000-art-20261128.webp';
+ const card=get('.soft-tech-card[href="/play/originals/'+id+'"]');
+ assert.equal(card.querySelector('img')?.getAttribute('src'),image);
+ navigate('/play/originals/'+id);
+ const detail=get('.original-detail--square');
+ assert.equal(detail.querySelector('.original-static-hero img')?.getAttribute('src'),image);
+ assert.equal(detail.querySelector('.original-static-image--wide'),null);
+ assert.equal(d.querySelectorAll('.soft-tech-card').length,0,'Detail should render instead of home grid');
+});

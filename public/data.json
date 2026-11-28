@@ -1551,14 +1551,15 @@
       "family": "originals",
       "provider": "soft-tech",
       "providerName": "XD Play",
-      "image": "/assets/xd-play/legend-ball-x1000.png",
-      "hero": "/assets/xd-play/legend-ball-x1000.png",
+      "image": "/assets/xd-play/legend-ball-x1000-art-20261128.webp",
+      "hero": "/assets/xd-play/legend-ball-x1000-art-20261128.webp",
       "tags": [
         "original",
         "new"
       ],
       "launchUrl": "https://legendballx.xd-play.com/play/",
-      "description": "Legenda bola dan dunia fantasi kosmik. Akses demo produksi XD Play dengan kredit virtual."
+      "description": "Legenda bola dan dunia fantasi kosmik. Akses demo produksi XD Play dengan kredit virtual.",
+      "heroAspect": "square"
     },
     {
       "id": "xdplay-gachamon",
